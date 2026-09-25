@@ -36,9 +36,11 @@
       maxZoom: 18
     });
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    // CartoDB Voyager tiles (OpenStreetMap-based, reliable, avoids OSM 403 Forbidden)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
       maxZoom: 19,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      subdomains: 'abcd',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
     }).addTo(map);
 
     markersLayer = L.layerGroup().addTo(map);
@@ -46,22 +48,34 @@
 
   async function loadData() {
     try {
-      const [leaguesRes, venuesRes, matchesRes] = await Promise.all([
-        fetch('data/leagues.json').then(r => r.ok ? r.json() : {}),
-        fetch('data/venues.json').then(r => r.ok ? r.json() : {}),
-        fetch('data/matches.json').then(r => r.ok ? r.json() : [])
-      ]);
+      // 1. Check if dataset is preloaded via <script src="data/dataset.js"> (works on file:// and offline)
+      if (window.MECCS_DATA && typeof window.MECCS_DATA === 'object') {
+        leaguesData = window.MECCS_DATA.leagues || {};
+        venuesData = window.MECCS_DATA.venues || {};
+        matchesData = window.MECCS_DATA.matches || [];
+      } else {
+        // 2. Fallback to async JSON fetch
+        const [leaguesRes, venuesRes, matchesRes] = await Promise.all([
+          fetch('data/leagues.json').then(r => r.ok ? r.json() : {}),
+          fetch('data/venues.json').then(r => r.ok ? r.json() : {}),
+          fetch('data/matches.json').then(r => r.ok ? r.json() : [])
+        ]);
 
-      leaguesData = leaguesRes;
-      venuesData = venuesRes;
-      matchesData = matchesRes;
+        leaguesData = leaguesRes || {};
+        venuesData = venuesRes || {};
+        matchesData = Array.isArray(matchesRes) ? matchesRes : [];
+      }
 
       populateLeagues();
       setupInitialDates();
       renderMarkers();
     } catch (err) {
       console.error('Error loading data:', err);
-      alert('Hiba történt a meccsadatok betöltése közben.');
+      const isFileProto = window.location.protocol === 'file:';
+      const msg = isFileProto
+        ? 'A böngésző helyi fájl védelme (CORS) miatt a meccsek betöltéséhez indíts webszervert:\npython3 -m http.server 8000\nmajd nyisd meg: http://localhost:8000'
+        : 'Nem sikerült betölteni a meccsadatokat. Futtasd a scraper szkriptet:\npython scripts/scraper.py';
+      alert(msg);
     } finally {
       if (dom.loadingOverlay) {
         dom.loadingOverlay.classList.remove('active');

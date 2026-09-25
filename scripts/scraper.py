@@ -23,6 +23,7 @@ DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__
 VENUES_FILE = os.path.join(DATA_DIR, "venues.json")
 LEAGUES_FILE = os.path.join(DATA_DIR, "leagues.json")
 MATCHES_FILE = os.path.join(DATA_DIR, "matches.json")
+DATASET_JS_FILE = os.path.join(DATA_DIR, "dataset.js")
 
 # Regional center coordinates fallback for Hungarian counties / regions
 REGION_FALLBACK_COORDS = {
@@ -421,10 +422,18 @@ def scrape(args):
     with open(MATCHES_FILE, "w", encoding="utf-8") as f:
         json.dump(all_matches_list, f, ensure_ascii=False)
 
+    with open(DATASET_JS_FILE, "w", encoding="utf-8") as f:
+        f.write("window.MECCS_DATA = " + json.dumps({
+            "leagues": leagues_data,
+            "venues": geocoder.venues,
+            "matches": all_matches_list
+        }, ensure_ascii=False) + ";\n")
+
     print(f"\nDone! Saved:")
     print(f"  - {len(leagues_data)} leagues in {LEAGUES_FILE}")
     print(f"  - {len(geocoder.venues)} venues in {VENUES_FILE}")
     print(f"  - {len(all_matches_list)} matches in {MATCHES_FILE}")
+    print(f"  - Combined bundle in {DATASET_JS_FILE}")
 
 
 if __name__ == "__main__":

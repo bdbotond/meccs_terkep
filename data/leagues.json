@@ -28,5 +28,815 @@
     "name": "NB III. Észak-Nyugati csoport",
     "level": "NB III",
     "federation": "MLSZ"
+  },
+  "34056": {
+    "id": "34056",
+    "name": "NB III. Dél-Nyugati csoport",
+    "level": "NB III",
+    "federation": "MLSZ"
+  },
+  "33671": {
+    "id": "33671",
+    "name": "Vármegyei I.",
+    "level": "Megye I",
+    "federation": "Bács-Kiskun"
+  },
+  "33672": {
+    "id": "33672",
+    "name": "Vármegyei II. Dél",
+    "level": "Megye I",
+    "federation": "Bács-Kiskun"
+  },
+  "33675": {
+    "id": "33675",
+    "name": "Vármegyei II. Észak",
+    "level": "Megye I",
+    "federation": "Bács-Kiskun"
+  },
+  "33674": {
+    "id": "33674",
+    "name": "Vármegyei III. Dél",
+    "level": "Megye I",
+    "federation": "Bács-Kiskun"
+  },
+  "33676": {
+    "id": "33676",
+    "name": "Vármegyei III. Észak",
+    "level": "Megye I",
+    "federation": "Bács-Kiskun"
+  },
+  "33677": {
+    "id": "33677",
+    "name": "Vármegyei III. Közép",
+    "level": "Megye I",
+    "federation": "Bács-Kiskun"
+  },
+  "33678": {
+    "id": "33678",
+    "name": "Vármegyei III. Nyugat",
+    "level": "Megye I",
+    "federation": "Bács-Kiskun"
+  },
+  "33837": {
+    "id": "33837",
+    "name": "Baranya vármegyei I. osztályú nagypályás férfi felnőtt",
+    "level": "Megye I",
+    "federation": "Baranya"
+  },
+  "33838": {
+    "id": "33838",
+    "name": "Baranya vármegyei II. osztályú nagypályás férfi felnőtt",
+    "level": "Megye I",
+    "federation": "Baranya"
+  },
+  "34398": {
+    "id": "34398",
+    "name": "Baranya vármegyei III.o. nagypályás férfi felnőtt A csoport",
+    "level": "Megye I",
+    "federation": "Baranya"
+  },
+  "34399": {
+    "id": "34399",
+    "name": "Baranya vármegyei III.o. nagypályás férfi felnőtt B csoport",
+    "level": "Megye I",
+    "federation": "Baranya"
+  },
+  "33830": {
+    "id": "33830",
+    "name": "Vármegyei I. osztály",
+    "level": "Megye I",
+    "federation": "Békés"
+  },
+  "33831": {
+    "id": "33831",
+    "name": "Vármegyei II. osztály",
+    "level": "Megye I",
+    "federation": "Békés"
+  },
+  "33832": {
+    "id": "33832",
+    "name": "Vármegyei III. osztály Észak",
+    "level": "Megye I",
+    "federation": "Békés"
+  },
+  "34173": {
+    "id": "34173",
+    "name": "Vármegyei III. osztály Dél",
+    "level": "Megye I",
+    "federation": "Békés"
+  },
+  "33596": {
+    "id": "33596",
+    "name": "BAZ vármegyei I. osztály felnőtt",
+    "level": "Megye I",
+    "federation": "Borsod-Abaúj-Zemplén"
+  },
+  "34085": {
+    "id": "34085",
+    "name": "BAZ vármegyei II. osztály Észak felnőtt",
+    "level": "Megye I",
+    "federation": "Borsod-Abaúj-Zemplén"
+  },
+  "34086": {
+    "id": "34086",
+    "name": "BAZ vármegyei II. osztály Kelet felnőtt",
+    "level": "Megye I",
+    "federation": "Borsod-Abaúj-Zemplén"
+  },
+  "34087": {
+    "id": "34087",
+    "name": "BAZ vármegyei II. osztály Közép felnőtt",
+    "level": "Megye I",
+    "federation": "Borsod-Abaúj-Zemplén"
+  },
+  "34090": {
+    "id": "34090",
+    "name": "BAZ vármegyei III. osztály Észak felnőtt",
+    "level": "Megye I",
+    "federation": "Borsod-Abaúj-Zemplén"
+  },
+  "34089": {
+    "id": "34089",
+    "name": "BAZ vármegyei III. osztály Kelet felnőtt",
+    "level": "Megye I",
+    "federation": "Borsod-Abaúj-Zemplén"
+  },
+  "34091": {
+    "id": "34091",
+    "name": "BAZ vármegyei III. osztály Dél felnőtt",
+    "level": "Megye I",
+    "federation": "Borsod-Abaúj-Zemplén"
+  },
+  "33599": {
+    "id": "33599",
+    "name": "BAZ vármegyei U-19 I. osztály",
+    "level": "Megye I",
+    "federation": "Borsod-Abaúj-Zemplén"
+  },
+  "34092": {
+    "id": "34092",
+    "name": "BAZ vármegyei U-19 II. osztály Észak",
+    "level": "Megye II",
+    "federation": "Borsod-Abaúj-Zemplén"
+  },
+  "34093": {
+    "id": "34093",
+    "name": "BAZ vármegyei U-19 II. osztály Kelet",
+    "level": "Megye II",
+    "federation": "Borsod-Abaúj-Zemplén"
+  },
+  "34094": {
+    "id": "34094",
+    "name": "BAZ vármegyei U-19 II. osztály Közép",
+    "level": "Megye II",
+    "federation": "Borsod-Abaúj-Zemplén"
+  },
+  "33753": {
+    "id": "33753",
+    "name": "BLSZ I. OSZTÁLY",
+    "level": "Megye I",
+    "federation": "Budapest"
+  },
+  "33754": {
+    "id": "33754",
+    "name": "BLSZ II. OSZTÁLY",
+    "level": "Megye I",
+    "federation": "Budapest"
+  },
+  "33755": {
+    "id": "33755",
+    "name": "BLSZ III. OSZTÁLY 1. CSOPORT",
+    "level": "Megye I",
+    "federation": "Budapest"
+  },
+  "34211": {
+    "id": "34211",
+    "name": "BLSZ III. OSZTÁLY 2. CSOPORT",
+    "level": "Megye I",
+    "federation": "Budapest"
+  },
+  "34212": {
+    "id": "34212",
+    "name": "BLSZ III. OSZTÁLY 3. CSOPORT",
+    "level": "Megye I",
+    "federation": "Budapest"
+  },
+  "34214": {
+    "id": "34214",
+    "name": "BLSZ IV. OSZTÁLY 1. CSOPORT",
+    "level": "Megye I",
+    "federation": "Budapest"
+  },
+  "34213": {
+    "id": "34213",
+    "name": "BLSZ IV. OSZTÁLY 2. CSOPORT",
+    "level": "Megye I",
+    "federation": "Budapest"
+  },
+  "33756": {
+    "id": "33756",
+    "name": "BLSZ IV. OSZTÁLY 3. CSOPORT",
+    "level": "Megye I",
+    "federation": "Budapest"
+  },
+  "33817": {
+    "id": "33817",
+    "name": "BLSZ IFJÚSÁGI U-19 1. CSOPORT",
+    "level": "Megye I",
+    "federation": "Budapest"
+  },
+  "34361": {
+    "id": "34361",
+    "name": "BLSZ IFJÚSÁGI U-19 2. CSOPORT",
+    "level": "Megye I",
+    "federation": "Budapest"
+  },
+  "33818": {
+    "id": "33818",
+    "name": "BLSZ IFJÚSÁGI U-17",
+    "level": "Megye I",
+    "federation": "Budapest"
+  },
+  "33819": {
+    "id": "33819",
+    "name": "BLSZ IFJÚSÁGI U-16",
+    "level": "Megye I",
+    "federation": "Budapest"
+  },
+  "33855": {
+    "id": "33855",
+    "name": "OLD BOYS I. OSZTÁLY",
+    "level": "Megye I",
+    "federation": "Budapest"
+  },
+  "33856": {
+    "id": "33856",
+    "name": "OLD BOYS II. OSZTÁLY",
+    "level": "Megye II",
+    "federation": "Budapest"
+  },
+  "34389": {
+    "id": "34389",
+    "name": "OLD BOYS III. OSZTÁLY 1. CSOPORT",
+    "level": "Megye III",
+    "federation": "Budapest"
+  },
+  "34355": {
+    "id": "34355",
+    "name": "OLD BOYS III. OSZTÁLY 2. CSOPORT",
+    "level": "Megye III",
+    "federation": "Budapest"
+  },
+  "34356": {
+    "id": "34356",
+    "name": "OLD BOYS III. OSZTÁLY 3. CSOPORT",
+    "level": "Megye III",
+    "federation": "Budapest"
+  },
+  "33870": {
+    "id": "33870",
+    "name": "Csongrád-Csanád Vármegyei I. osztály",
+    "level": "Megye I",
+    "federation": "Csongrád"
+  },
+  "33873": {
+    "id": "33873",
+    "name": "Csongrád-Csanád Vármegyei II. osztály",
+    "level": "Megye I",
+    "federation": "Csongrád"
+  },
+  "33875": {
+    "id": "33875",
+    "name": "Csongrád-Csanád Vármegyei III. osztály",
+    "level": "Megye I",
+    "federation": "Csongrád"
+  },
+  "33879": {
+    "id": "33879",
+    "name": "Csongrád-Csanád Vármegyei IV. o. Tisza-Maros csoport",
+    "level": "Megye I",
+    "federation": "Csongrád"
+  },
+  "34084": {
+    "id": "34084",
+    "name": "Csongrád-Csanád Vármegyei IV. o.Homokhát csoport",
+    "level": "Megye I",
+    "federation": "Csongrád"
+  },
+  "34106": {
+    "id": "34106",
+    "name": "Vármegyei I. osztály Felnőtt",
+    "level": "Megye I",
+    "federation": "Fejér"
+  },
+  "34109": {
+    "id": "34109",
+    "name": "Vármegyei II. osztály Észak Felnőtt",
+    "level": "Megye I",
+    "federation": "Fejér"
+  },
+  "34111": {
+    "id": "34111",
+    "name": "Vármegyei II. osztály Dél Felnőtt",
+    "level": "Megye I",
+    "federation": "Fejér"
+  },
+  "34113": {
+    "id": "34113",
+    "name": "Vármegyei III. osztály Észak Felnőtt",
+    "level": "Megye I",
+    "federation": "Fejér"
+  },
+  "34115": {
+    "id": "34115",
+    "name": "Vármegyei III. osztály Dél Felnőtt",
+    "level": "Megye I",
+    "federation": "Fejér"
+  },
+  "34116": {
+    "id": "34116",
+    "name": "Vármegyei I. osztály U-19",
+    "level": "Megye I",
+    "federation": "Fejér"
+  },
+  "34186": {
+    "id": "34186",
+    "name": "Vármegyei II. osztály U-19 Északi csoport",
+    "level": "Megye I",
+    "federation": "Fejér"
+  },
+  "34187": {
+    "id": "34187",
+    "name": "Vármegyei II. osztály U-19 Nyugati csoport",
+    "level": "Megye I",
+    "federation": "Fejér"
+  },
+  "34188": {
+    "id": "34188",
+    "name": "Vármegyei II. osztály U-19 Déli csoport",
+    "level": "Megye I",
+    "federation": "Fejér"
+  },
+  "34497": {
+    "id": "34497",
+    "name": "DLSZ Diablo III. osztály",
+    "level": "Megye III",
+    "federation": "Fejér"
+  },
+  "34498": {
+    "id": "34498",
+    "name": "DLSZ Varázskép IV. osztály",
+    "level": "Megye IV",
+    "federation": "Fejér"
+  },
+  "33888": {
+    "id": "33888",
+    "name": "Megyei I. osztály",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "33889": {
+    "id": "33889",
+    "name": "Megyei I. U21",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "33890": {
+    "id": "33890",
+    "name": "Megyei II. Keleti csoport",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "33891": {
+    "id": "33891",
+    "name": "Megyei II. Keleti csoport U21",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "34176": {
+    "id": "34176",
+    "name": "Megyei II. Északi csoport",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "34178": {
+    "id": "34178",
+    "name": "Megyei II. Északi csoport U21",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "34177": {
+    "id": "34177",
+    "name": "Megyei II. Észak-keleti csoport U21",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "34179": {
+    "id": "34179",
+    "name": "Megyei II. Nyugati csoport",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "34180": {
+    "id": "34180",
+    "name": "Megyei II. Nyugati csoport U21",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "33892": {
+    "id": "33892",
+    "name": "Megyei III. Keleti A csoport",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "33893": {
+    "id": "33893",
+    "name": "Megyei III. Kelet Tartalék",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "34181": {
+    "id": "34181",
+    "name": "Megyei III. Keleti B csoport",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "34182": {
+    "id": "34182",
+    "name": "Megyei III. Északi csoport",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "34183": {
+    "id": "34183",
+    "name": "Megyei III. Nyugati A csoport",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "34184": {
+    "id": "34184",
+    "name": "Megyei III. Nyugati A csoport Tartalék",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "34185": {
+    "id": "34185",
+    "name": "Megyei III. Nyugati B csoport",
+    "level": "Megye I",
+    "federation": "Győr-Moson-Sopron"
+  },
+  "33901": {
+    "id": "33901",
+    "name": "Vármegyei I.osztály",
+    "level": "Megye I",
+    "federation": "Hajdú-Bihar"
+  },
+  "33902": {
+    "id": "33902",
+    "name": "Vármegyei I.osztály U-21",
+    "level": "Megye I",
+    "federation": "Hajdú-Bihar"
+  },
+  "34117": {
+    "id": "34117",
+    "name": "Vármegyei II.osztály felnőtt Észak",
+    "level": "Megye I",
+    "federation": "Hajdú-Bihar"
+  },
+  "34118": {
+    "id": "34118",
+    "name": "Vármegyei II.osztály U-21 Észak",
+    "level": "Megye I",
+    "federation": "Hajdú-Bihar"
+  },
+  "34119": {
+    "id": "34119",
+    "name": "Vármegyei II.osztály felnőtt Dél",
+    "level": "Megye I",
+    "federation": "Hajdú-Bihar"
+  },
+  "34120": {
+    "id": "34120",
+    "name": "Vármegyei II.osztály U-21 Dél",
+    "level": "Megye I",
+    "federation": "Hajdú-Bihar"
+  },
+  "34121": {
+    "id": "34121",
+    "name": "Vármegyei III.osztály felnőtt Észak",
+    "level": "Megye I",
+    "federation": "Hajdú-Bihar"
+  },
+  "34122": {
+    "id": "34122",
+    "name": "Vármegyei III.osztály felnőtt Dél",
+    "level": "Megye I",
+    "federation": "Hajdú-Bihar"
+  },
+  "33860": {
+    "id": "33860",
+    "name": "Heves Vármegyei I.o.",
+    "level": "Megye I",
+    "federation": "Heves"
+  },
+  "33864": {
+    "id": "33864",
+    "name": "Heves Vármegyei II.o.",
+    "level": "Megye I",
+    "federation": "Heves"
+  },
+  "33863": {
+    "id": "33863",
+    "name": "Heves Vármegyei III.o.",
+    "level": "Megye I",
+    "federation": "Heves"
+  },
+  "33866": {
+    "id": "33866",
+    "name": "Heves Vármegyei I.o. U21",
+    "level": "Megye I",
+    "federation": "Heves"
+  },
+  "33867": {
+    "id": "33867",
+    "name": "Heves Vármegyei II.o. U21",
+    "level": "Megye I",
+    "federation": "Heves"
+  },
+  "33736": {
+    "id": "33736",
+    "name": "Vármegyei I.osztály felnőtt",
+    "level": "Megye I",
+    "federation": "Jász-Nagykun-Szolnok"
+  },
+  "33737": {
+    "id": "33737",
+    "name": "Vármegyei II.osztály felnőtt",
+    "level": "Megye I",
+    "federation": "Jász-Nagykun-Szolnok"
+  },
+  "33738": {
+    "id": "33738",
+    "name": "Vármegyei III.osztály felnőtt",
+    "level": "Megye I",
+    "federation": "Jász-Nagykun-Szolnok"
+  },
+  "33702": {
+    "id": "33702",
+    "name": "Vármegyei I. Felnőtt",
+    "level": "Megye I",
+    "federation": "Somogy"
+  },
+  "33707": {
+    "id": "33707",
+    "name": "Vármegyei I. U-19",
+    "level": "Megye I",
+    "federation": "Somogy"
+  },
+  "33708": {
+    "id": "33708",
+    "name": "Vármegyei II. Felnőtt",
+    "level": "Megye I",
+    "federation": "Somogy"
+  },
+  "33709": {
+    "id": "33709",
+    "name": "Vármegyei III. Észak",
+    "level": "Megye I",
+    "federation": "Somogy"
+  },
+  "34170": {
+    "id": "34170",
+    "name": "Vármegyei III. Dél",
+    "level": "Megye I",
+    "federation": "Somogy"
+  },
+  "33710": {
+    "id": "33710",
+    "name": "Vármegyei IV. Észak",
+    "level": "Megye I",
+    "federation": "Somogy"
+  },
+  "34107": {
+    "id": "34107",
+    "name": "Vármegyei IV. Dél",
+    "level": "Megye I",
+    "federation": "Somogy"
+  },
+  "33711": {
+    "id": "33711",
+    "name": "Vármegyei II-III. osztályú összevont U-19 Észak",
+    "level": "Megye I",
+    "federation": "Somogy"
+  },
+  "34108": {
+    "id": "34108",
+    "name": "Vármegyei II-III. osztályú összevont U-19 Dél",
+    "level": "Megye I",
+    "federation": "Somogy"
+  },
+  "33809": {
+    "id": "33809",
+    "name": "Sz-Sz-B. Vármegyei I. osztály Felnőtt",
+    "level": "Megye I",
+    "federation": "Szabolcs-Szatmár-Bereg"
+  },
+  "33811": {
+    "id": "33811",
+    "name": "Sz-Sz-B. Vármegyei II. osztály 1. sz. csoport Felnőtt",
+    "level": "Megye I",
+    "federation": "Szabolcs-Szatmár-Bereg"
+  },
+  "34157": {
+    "id": "34157",
+    "name": "Sz-Sz-B. Vármegyei II. osztály 2. sz. csoport Felnőtt",
+    "level": "Megye I",
+    "federation": "Szabolcs-Szatmár-Bereg"
+  },
+  "33814": {
+    "id": "33814",
+    "name": "Sz-Sz-B. Vármegyei III. osztály Nyugat csoport",
+    "level": "Megye I",
+    "federation": "Szabolcs-Szatmár-Bereg"
+  },
+  "34163": {
+    "id": "34163",
+    "name": "Sz-Sz-B. Vármegyei III. osztály Közép csoport",
+    "level": "Megye I",
+    "federation": "Szabolcs-Szatmár-Bereg"
+  },
+  "34164": {
+    "id": "34164",
+    "name": "Sz-Sz-B. Vármegyei III. osztály Kelet csoport",
+    "level": "Megye I",
+    "federation": "Szabolcs-Szatmár-Bereg"
+  },
+  "33955": {
+    "id": "33955",
+    "name": "Tolna Vármegyei I-II. o Kvalifikáció",
+    "level": "Megye I",
+    "federation": "Tolna"
+  },
+  "33957": {
+    "id": "33957",
+    "name": "Tolna Vármegyei III. osztály Kelet",
+    "level": "Megye I",
+    "federation": "Tolna"
+  },
+  "34465": {
+    "id": "34465",
+    "name": "Tolna Vármegyei III. osztály Nyugat",
+    "level": "Megye I",
+    "federation": "Tolna"
+  },
+  "34394": {
+    "id": "34394",
+    "name": "Vas Vármegyei I.o.",
+    "level": "Megye I",
+    "federation": "Vas"
+  },
+  "33768": {
+    "id": "33768",
+    "name": "Vas Vármegyei I.o. U-21",
+    "level": "Megye I",
+    "federation": "Vas"
+  },
+  "34047": {
+    "id": "34047",
+    "name": "Vas Vármegyei II. o. \"Szombathely\"",
+    "level": "Megye I",
+    "federation": "Vas"
+  },
+  "34048": {
+    "id": "34048",
+    "name": "Vas Vármegyei II. o. U-21 \"Szombathely\"",
+    "level": "Megye I",
+    "federation": "Vas"
+  },
+  "34043": {
+    "id": "34043",
+    "name": "Vas Vármegyei II. o. \"Körmend\"",
+    "level": "Megye I",
+    "federation": "Vas"
+  },
+  "34044": {
+    "id": "34044",
+    "name": "Vas Vármegyei II. o. U-21 \"Körmend\"",
+    "level": "Megye I",
+    "federation": "Vas"
+  },
+  "34046": {
+    "id": "34046",
+    "name": "Vas Vármegyei II. o. \"Sárvár\"",
+    "level": "Megye I",
+    "federation": "Vas"
+  },
+  "34045": {
+    "id": "34045",
+    "name": "Vas Vármegyei II. o. U-21 \"Sárvár\"",
+    "level": "Megye I",
+    "federation": "Vas"
+  },
+  "33771": {
+    "id": "33771",
+    "name": "Vas Vármegyei III.o. \"Szombathely\"",
+    "level": "Megye I",
+    "federation": "Vas"
+  },
+  "34049": {
+    "id": "34049",
+    "name": "Vas Vármegyei III.o. \"Körmend\"",
+    "level": "Megye I",
+    "federation": "Vas"
+  },
+  "34050": {
+    "id": "34050",
+    "name": "Vas Vármegyei III.o. \"Sárvár\"",
+    "level": "Megye I",
+    "federation": "Vas"
+  },
+  "34160": {
+    "id": "34160",
+    "name": "Vármegyei I. osztály felnőtt",
+    "level": "Megye I",
+    "federation": "Veszprém"
+  },
+  "33719": {
+    "id": "33719",
+    "name": "Vármegyei II. osztály felnőtt",
+    "level": "Megye I",
+    "federation": "Veszprém"
+  },
+  "33720": {
+    "id": "33720",
+    "name": "Vármegyei II. osztály U21",
+    "level": "Megye I",
+    "federation": "Veszprém"
+  },
+  "34241": {
+    "id": "34241",
+    "name": "Vármegyei III. osztály Észak Alapszakasz",
+    "level": "Megye I",
+    "federation": "Veszprém"
+  },
+  "34242": {
+    "id": "34242",
+    "name": "Vármegyei III. osztály Kelet Alapszakasz",
+    "level": "Megye I",
+    "federation": "Veszprém"
+  },
+  "34243": {
+    "id": "34243",
+    "name": "Vármegyei III. osztály Nyugat Alapszakasz",
+    "level": "Megye I",
+    "federation": "Veszprém"
+  },
+  "34246": {
+    "id": "34246",
+    "name": "Vármegyei III. osztály Dél Alapszakasz",
+    "level": "Megye I",
+    "federation": "Veszprém"
+  },
+  "33915": {
+    "id": "33915",
+    "name": "Zala Vármegyei I. osztály",
+    "level": "Megye I",
+    "federation": "Zala"
+  },
+  "33916": {
+    "id": "33916",
+    "name": "Zala Vármegyei II. osztály",
+    "level": "Megye I",
+    "federation": "Zala"
+  },
+  "33917": {
+    "id": "33917",
+    "name": "Zala Vármegyei III. osztály Északi csoport",
+    "level": "Megye I",
+    "federation": "Zala"
+  },
+  "33918": {
+    "id": "33918",
+    "name": "Zala Vármegyei III. osztály Déli csoport",
+    "level": "Megye I",
+    "federation": "Zala"
+  },
+  "33919": {
+    "id": "33919",
+    "name": "Zala Vármegyei III. osztály Keleti csoport",
+    "level": "Megye I",
+    "federation": "Zala"
+  },
+  "33920": {
+    "id": "33920",
+    "name": "Zala Vármegyei III. osztály Nyugati csoport",
+    "level": "Megye I",
+    "federation": "Zala"
+  },
+  "34240": {
+    "id": "34240",
+    "name": "Zala Vármegyei III. osztály Közép csoport",
+    "level": "Megye I",
+    "federation": "Zala"
   }
 }

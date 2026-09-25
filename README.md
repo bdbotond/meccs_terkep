@@ -8,15 +8,18 @@ Adatforrás: [MLSZ Adatbank](https://adatbank.mlsz.hu)
 
 ## Fő funkciók
 
-- **Interaktív Leaflet térkép**: Magyarország térképén megjelenő meccshelyszínek és stadionok.
-- **Bajnokság választó**: Kereshető legördülő lista a ligák szűréséhez (pl. OTP Bank Liga, Merkantil Bank Liga, NB III csoportok, BLSZ és vármegyei osztályok).
+- **Interaktív Leaflet térkép**: Magyarország térképén megjelenő meccshelyszínek és stadionok (előre letöltött offline vektoros térkép + opcionális Esri utcatérkép).
+- **Szint szerinti szűrés**: Külön választó az osztályokhoz: NB I, NB II, NB III, Megye I / BLSZ I, Megye II, Megye III, Megye IV.
+- **Bajnokság választó**: Dinamikus legördülő lista az adott szinthez tartozó bajnokságok szűréséhez.
+- **Azonnali globális keresés**: Valós idejű keresőmező csapatok, stadionok, települések és ligák szerint.
 - **Dátum intervallum szűrő**: Natív HTML5 `Kezdő dátum` és `Záró dátum` mezők a kívánt időszak kiválasztásához.
 - **Részletes meccskártyák**:
-  - Bajnokság megnevezése
+  - Osztály és bajnokság jelvény
   - Dátum és kezdési időpont
   - Csapatok (Hazai vs Vendég)
   - Eredmény (befejezett mérkőzés esetén) vagy vs jelzés
   - Egy kattintásos Google Térkép útvonaltervezés a helyszínhez
+- **Inkrementális adatbázis-frissítés**: Csak a megváltozott értékeket írja felül (időpont, pálya, eredmény), nem törli a meglévő meccseket.
 - **Heti automatikus frissítés**: GitHub Actions munkafolyamat minden hétfőn 04:00-kor lefut, ellenőrzi a menetrend változásait és szükség esetén automatikusan elmenti a frissítéseket a repóba.
 
 ---
@@ -75,3 +78,11 @@ python scripts/scraper.py --full
 2. **GitHub Actions írási jog**:
    - Menj a **Settings** -> **Actions** -> **General** -> **Workflow permissions** menüpontba.
    - Válaszd ki: **Read and write permissions** (hogy a hétfői cron commitolni tudja a megváltozott meccsadatokat).
+
+---
+
+## TODO
+
+- [ ] Online elérhetőség
+- [ ] Naptár import készítése
+- [ ] Más magyar spotokat is hozzáadni

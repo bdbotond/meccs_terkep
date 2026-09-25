@@ -20,13 +20,29 @@
       </div>
 
       <div class="filter-group">
+        <label for="global-search">Keresés:</label>
+        <input type="text" id="global-search" placeholder="Csapat, stadion, város..." autocomplete="off">
+      </div>
+
+      <div class="filter-group">
+        <label for="level-select">Szint:</label>
+        <select id="level-select">
+          <option value="ALL">Összes szint</option>
+          <option value="NB I">NB I</option>
+          <option value="NB II">NB II</option>
+          <option value="NB III">NB III</option>
+          <option value="Megye I">Megye I / BLSZ I</option>
+          <option value="Megye II">Megye II / BLSZ II</option>
+          <option value="Megye III">Megye III / BLSZ III</option>
+          <option value="Megye IV">Megye IV / BLSZ IV</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
         <label for="league-select">Bajnokság:</label>
-        <div class="select-wrapper">
-          <input type="text" id="league-search" placeholder="Bajnokság keresése..." autocomplete="off">
-          <select id="league-select">
-            <option value="ALL">Összes bajnokság</option>
-          </select>
-        </div>
+        <select id="league-select">
+          <option value="ALL">Összes bajnokság</option>
+        </select>
       </div>
 
       <div class="filter-group">

@@ -9,7 +9,8 @@
   let matchesData = [];
 
   const dom = {
-    leagueSearch: document.getElementById('league-search'),
+    globalSearch: document.getElementById('global-search'),
+    levelSelect: document.getElementById('level-select'),
     leagueSelect: document.getElementById('league-select'),
     dateFrom: document.getElementById('date-from'),
     dateTo: document.getElementById('date-to'),
@@ -118,41 +119,39 @@
   }
 
   function populateLeagues() {
-    const leaguesArray = Object.values(leaguesData);
-    // Sort leagues by name
-    leaguesArray.sort((a, b) => a.name.localeCompare(b.name, 'hu'));
+    updateLeagueDropdown();
 
-    renderLeagueOptions(leaguesArray);
+    // Event: level selection change
+    dom.levelSelect.addEventListener('change', () => {
+      updateLeagueDropdown();
+      applyFilters();
+    });
 
-    // Live search filter for leagues dropdown
-    dom.leagueSearch.addEventListener('input', () => {
-      const query = dom.leagueSearch.value.trim().toLowerCase();
-      const filtered = leaguesArray.filter(l =>
-        l.name.toLowerCase().includes(query) ||
-        (l.federation && l.federation.toLowerCase().includes(query)) ||
-        (l.level && l.level.toLowerCase().includes(query))
-      );
-      renderLeagueOptions(filtered);
+    // Event: live search typing
+    dom.globalSearch.addEventListener('input', () => {
       applyFilters();
     });
   }
 
-  function renderLeagueOptions(leagues) {
-    const currentVal = dom.leagueSelect.value;
+  function updateLeagueDropdown() {
+    const selectedLevel = dom.levelSelect.value;
+    const leaguesArray = Object.values(leaguesData);
+    leaguesArray.sort((a, b) => a.name.localeCompare(b.name, 'hu'));
+
+    const filtered = selectedLevel === 'ALL'
+      ? leaguesArray
+      : leaguesArray.filter(l => l.level === selectedLevel);
+
     dom.leagueSelect.innerHTML = '<option value="ALL">Összes bajnokság</option>';
 
-    leagues.forEach(l => {
+    filtered.forEach(l => {
       const opt = document.createElement('option');
       opt.value = l.id;
       opt.textContent = `${l.name} (${l.federation})`;
       dom.leagueSelect.appendChild(opt);
     });
 
-    if (leagues.some(l => String(l.id) === String(currentVal))) {
-      dom.leagueSelect.value = currentVal;
-    } else {
-      dom.leagueSelect.value = 'ALL';
-    }
+    dom.leagueSelect.value = 'ALL';
   }
 
   function setupInitialDates() {
@@ -170,19 +169,9 @@
     dom.dateTo.min = minDate;
     dom.dateTo.max = maxDate;
 
-    // Set initial date filter: today -> +14 days
-    const today = new Date().toISOString().slice(0, 10);
-
-    // If today is within dataset range, use [today, today+14]
-    // Otherwise cover full dataset range
-    if (today >= minDate && today <= maxDate) {
-      dom.dateFrom.value = today;
-      const plus14 = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
-      dom.dateTo.value = plus14 <= maxDate ? plus14 : maxDate;
-    } else {
-      dom.dateFrom.value = minDate;
-      dom.dateTo.value = maxDate;
-    }
+    // Default: full current season so all scraped matches are visible
+    dom.dateFrom.value = minDate;
+    dom.dateTo.value = maxDate;
   }
 
   function applyFilters() {
@@ -192,7 +181,9 @@
   function renderMarkers() {
     markersLayer.clearLayers();
 
+    const selectedLevel = dom.levelSelect.value;
     const selectedLeague = dom.leagueSelect.value;
+    const searchQuery = dom.globalSearch.value.trim().toLowerCase();
     const fromDate = dom.dateFrom.value;
     const toDate = dom.dateTo.value;
 
@@ -200,17 +191,43 @@
     const venueMatchesMap = new Map();
 
     matchesData.forEach(match => {
-      // League filter
+      const league = leaguesData[match.lid];
+      const leagueLevel = league ? league.level : '';
+      const leagueName = league ? league.name : '';
+
+      // 1. Level filter (NB I, NB II, NB III, Megye I-IV)
+      if (selectedLevel !== 'ALL' && leagueLevel !== selectedLevel) {
+        return;
+      }
+
+      // 2. Specific league filter
       if (selectedLeague !== 'ALL' && String(match.lid) !== String(selectedLeague)) {
         return;
       }
 
-      // Date range filter
+      // 3. Date range filter
       if (fromDate && match.d && match.d < fromDate) {
         return;
       }
       if (toDate && match.d && match.d > toDate) {
         return;
+      }
+
+      // 4. Global search filter (teams, arena, town, league)
+      if (searchQuery) {
+        const venueInfo = venuesData[match.vid] || {};
+        const haystack = (
+          (match.h || '') + ' ' +
+          (match.a || '') + ' ' +
+          (match.vid || '') + ' ' +
+          (venueInfo.address || '') + ' ' +
+          leagueName + ' ' +
+          leagueLevel
+        ).toLowerCase();
+
+        if (!haystack.includes(searchQuery)) {
+          return;
+        }
       }
 
       const venueKey = match.vid;
@@ -238,7 +255,7 @@
     venueMatchesMap.forEach(({ venue, matches }) => {
       const marker = L.marker([venue.lat, venue.lng], { icon: pitchIcon });
       const popupHtml = buildPopupContent(venue, matches);
-      marker.bindPopup(popupHtml, { maxWidth: 320 });
+      marker.bindPopup(popupHtml, { maxWidth: 330 });
       markersLayer.addLayer(marker);
     });
   }
@@ -254,13 +271,17 @@
     const matchesListHtml = matches.map(m => {
       const league = leaguesData[m.lid];
       const leagueName = league ? league.name : 'Bajnokság';
+      const leagueLevel = league && league.level ? league.level : '';
       const scoreHtml = m.s
-        ? `<span class="match-score">${m.s}</span>`
+        ? `<span class="match-score">${escapeHtml(m.s)}</span>`
         : `<span class="match-vs">vs</span>`;
 
       return `
         <div class="match-item">
-          <div class="match-league-tag">${escapeHtml(leagueName)}</div>
+          <div class="match-league-row">
+            ${leagueLevel ? `<span class="match-level-badge">${escapeHtml(leagueLevel)}</span>` : ''}
+            <span class="match-league-tag">${escapeHtml(leagueName)}</span>
+          </div>
           <div class="match-time-row">
             <span>📅 ${m.d || 'Időpont nélkül'}</span>
             <span>⏰ ${m.t ? m.t : 'TBD'}</span>
@@ -303,11 +324,9 @@
   }
 
   function resetFilters() {
-    dom.leagueSearch.value = '';
-    const leaguesArray = Object.values(leaguesData);
-    leaguesArray.sort((a, b) => a.name.localeCompare(b.name, 'hu'));
-    renderLeagueOptions(leaguesArray);
-    dom.leagueSelect.value = 'ALL';
+    dom.globalSearch.value = '';
+    dom.levelSelect.value = 'ALL';
+    updateLeagueDropdown();
     setupInitialDates();
     renderMarkers();
   }

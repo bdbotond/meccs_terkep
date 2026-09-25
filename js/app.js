@@ -1,0 +1,276 @@
+// Hungarian Football Matches Map Application
+(function () {
+  'use strict';
+
+  let map;
+  let markersLayer;
+  let leaguesData = {};
+  let venuesData = {};
+  let matchesData = [];
+
+  const dom = {
+    leagueSearch: document.getElementById('league-search'),
+    leagueSelect: document.getElementById('league-select'),
+    dateFrom: document.getElementById('date-from'),
+    dateTo: document.getElementById('date-to'),
+    resetBtn: document.getElementById('reset-filters-btn'),
+    matchCount: document.getElementById('match-count'),
+    loadingOverlay: document.getElementById('loading-overlay')
+  };
+
+  // Football pin icon
+  const pitchIcon = L.divIcon({
+    className: 'custom-pitch-pin',
+    html: '⚽',
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -14]
+  });
+
+  function initMap() {
+    // Hungary center
+    map = L.map('map', {
+      center: [47.1625, 19.5033],
+      zoom: 7.5,
+      minZoom: 6,
+      maxZoom: 18
+    });
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    markersLayer = L.layerGroup().addTo(map);
+  }
+
+  async function loadData() {
+    try {
+      const [leaguesRes, venuesRes, matchesRes] = await Promise.all([
+        fetch('data/leagues.json').then(r => r.ok ? r.json() : {}),
+        fetch('data/venues.json').then(r => r.ok ? r.json() : {}),
+        fetch('data/matches.json').then(r => r.ok ? r.json() : [])
+      ]);
+
+      leaguesData = leaguesRes;
+      venuesData = venuesRes;
+      matchesData = matchesRes;
+
+      populateLeagues();
+      setupInitialDates();
+      renderMarkers();
+    } catch (err) {
+      console.error('Error loading data:', err);
+      alert('Hiba történt a meccsadatok betöltése közben.');
+    } finally {
+      if (dom.loadingOverlay) {
+        dom.loadingOverlay.classList.remove('active');
+      }
+    }
+  }
+
+  function populateLeagues() {
+    const leaguesArray = Object.values(leaguesData);
+    // Sort leagues by name
+    leaguesArray.sort((a, b) => a.name.localeCompare(b.name, 'hu'));
+
+    renderLeagueOptions(leaguesArray);
+
+    // Live search filter for leagues dropdown
+    dom.leagueSearch.addEventListener('input', () => {
+      const query = dom.leagueSearch.value.trim().toLowerCase();
+      const filtered = leaguesArray.filter(l =>
+        l.name.toLowerCase().includes(query) ||
+        (l.federation && l.federation.toLowerCase().includes(query)) ||
+        (l.level && l.level.toLowerCase().includes(query))
+      );
+      renderLeagueOptions(filtered);
+      applyFilters();
+    });
+  }
+
+  function renderLeagueOptions(leagues) {
+    const currentVal = dom.leagueSelect.value;
+    dom.leagueSelect.innerHTML = '<option value="ALL">Összes bajnokság</option>';
+
+    leagues.forEach(l => {
+      const opt = document.createElement('option');
+      opt.value = l.id;
+      opt.textContent = `${l.name} (${l.federation})`;
+      dom.leagueSelect.appendChild(opt);
+    });
+
+    if (leagues.some(l => String(l.id) === String(currentVal))) {
+      dom.leagueSelect.value = currentVal;
+    } else {
+      dom.leagueSelect.value = 'ALL';
+    }
+  }
+
+  function setupInitialDates() {
+    if (!matchesData || matchesData.length === 0) return;
+
+    // Determine min/max available dates
+    const dates = matchesData.map(m => m.d).filter(Boolean).sort();
+    if (dates.length === 0) return;
+
+    const minDate = dates[0];
+    const maxDate = dates[dates.length - 1];
+
+    dom.dateFrom.min = minDate;
+    dom.dateFrom.max = maxDate;
+    dom.dateTo.min = minDate;
+    dom.dateTo.max = maxDate;
+
+    // Set initial date filter: today -> +14 days
+    const today = new Date().toISOString().slice(0, 10);
+
+    // If today is within dataset range, use [today, today+14]
+    // Otherwise cover full dataset range
+    if (today >= minDate && today <= maxDate) {
+      dom.dateFrom.value = today;
+      const plus14 = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+      dom.dateTo.value = plus14 <= maxDate ? plus14 : maxDate;
+    } else {
+      dom.dateFrom.value = minDate;
+      dom.dateTo.value = maxDate;
+    }
+  }
+
+  function applyFilters() {
+    renderMarkers();
+  }
+
+  function renderMarkers() {
+    markersLayer.clearLayers();
+
+    const selectedLeague = dom.leagueSelect.value;
+    const fromDate = dom.dateFrom.value;
+    const toDate = dom.dateTo.value;
+
+    let visibleMatchCount = 0;
+    const venueMatchesMap = new Map();
+
+    matchesData.forEach(match => {
+      // League filter
+      if (selectedLeague !== 'ALL' && String(match.lid) !== String(selectedLeague)) {
+        return;
+      }
+
+      // Date range filter
+      if (fromDate && match.d && match.d < fromDate) {
+        return;
+      }
+      if (toDate && match.d && match.d > toDate) {
+        return;
+      }
+
+      const venueKey = match.vid;
+      if (!venueKey) return;
+
+      const venueInfo = venuesData[venueKey];
+      if (!venueInfo || typeof venueInfo.lat !== 'number' || typeof venueInfo.lng !== 'number') {
+        return;
+      }
+
+      visibleMatchCount++;
+
+      if (!venueMatchesMap.has(venueKey)) {
+        venueMatchesMap.set(venueKey, {
+          venue: venueInfo,
+          matches: []
+        });
+      }
+      venueMatchesMap.get(venueKey).matches.push(match);
+    });
+
+    dom.matchCount.textContent = visibleMatchCount;
+
+    // Plot markers
+    venueMatchesMap.forEach(({ venue, matches }) => {
+      const marker = L.marker([venue.lat, venue.lng], { icon: pitchIcon });
+      const popupHtml = buildPopupContent(venue, matches);
+      marker.bindPopup(popupHtml, { maxWidth: 320 });
+      markersLayer.addLayer(marker);
+    });
+  }
+
+  function buildPopupContent(venue, matches) {
+    // Sort matches chronologically
+    matches.sort((a, b) => {
+      const da = (a.d || '') + (a.t || '');
+      const db = (b.d || '') + (b.t || '');
+      return da.localeCompare(db);
+    });
+
+    const matchesListHtml = matches.map(m => {
+      const league = leaguesData[m.lid];
+      const leagueName = league ? league.name : 'Bajnokság';
+      const scoreHtml = m.s
+        ? `<span class="match-score">${m.s}</span>`
+        : `<span class="match-vs">vs</span>`;
+
+      return `
+        <div class="match-item">
+          <div class="match-league-tag">${escapeHtml(leagueName)}</div>
+          <div class="match-time-row">
+            <span>📅 ${m.d || 'Időpont nélkül'}</span>
+            <span>⏰ ${m.t ? m.t : 'TBD'}</span>
+          </div>
+          <div class="match-teams-row">
+            <span class="match-team home">${escapeHtml(m.h)}</span>
+            ${scoreHtml}
+            <span class="match-team away">${escapeHtml(m.a)}</span>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${venue.lat},${venue.lng}`;
+
+    return `
+      <div class="popup-card">
+        <div class="popup-header">
+          <div class="popup-venue-name">${escapeHtml(venue.name)}</div>
+          <div class="popup-venue-address">${escapeHtml(venue.address || '')}</div>
+        </div>
+        <div class="popup-matches-list">
+          ${matchesListHtml}
+        </div>
+        <div class="popup-footer">
+          <a href="${mapsUrl}" target="_blank" rel="noopener noreferrer" class="directions-link">📍 Útvonaltervezés Google Térképen &rarr;</a>
+        </div>
+      </div>
+    `;
+  }
+
+  function escapeHtml(str) {
+    if (!str) return '';
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  function resetFilters() {
+    dom.leagueSearch.value = '';
+    const leaguesArray = Object.values(leaguesData);
+    leaguesArray.sort((a, b) => a.name.localeCompare(b.name, 'hu'));
+    renderLeagueOptions(leaguesArray);
+    dom.leagueSelect.value = 'ALL';
+    setupInitialDates();
+    renderMarkers();
+  }
+
+  // Event Listeners
+  dom.leagueSelect.addEventListener('change', applyFilters);
+  dom.dateFrom.addEventListener('change', applyFilters);
+  dom.dateTo.addEventListener('change', applyFilters);
+  dom.resetBtn.addEventListener('click', resetFilters);
+
+  // Initialize
+  initMap();
+  loadData();
+})();

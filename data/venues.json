@@ -1,0 +1,260 @@
+{
+  "Nyíregyháza Városi Stadion": {
+    "name": "Nyíregyháza Városi Stadion",
+    "lat": 47.97045,
+    "lng": 21.71228,
+    "address": "Nyíregyháza Városi Stadion"
+  },
+  "Kisvárdai Várkerti Stadion": {
+    "name": "Kisvárdai Várkerti Stadion",
+    "lat": 48.23321,
+    "lng": 22.07358,
+    "address": "Várkerti Stadion"
+  },
+  "Illovszky Rudolf Stadion": {
+    "name": "Illovszky Rudolf Stadion",
+    "lat": 47.53664,
+    "lng": 19.08016,
+    "address": "Illovszky Rudolf Stadion"
+  },
+  "Debreceni Nagyerdei Stadion": {
+    "name": "Debreceni Nagyerdei Stadion",
+    "lat": 47.55399,
+    "lng": 21.63291,
+    "address": "Nagyerdei Stadion"
+  },
+  "Paksi FC Stadion": {
+    "name": "Paksi FC Stadion",
+    "lat": 46.63374,
+    "lng": 18.85247,
+    "address": "Fehérvári úti Stadion"
+  },
+  "Új Hidegkuti Nándor Stadion": {
+    "name": "Új Hidegkuti Nándor Stadion",
+    "lat": 47.49082,
+    "lng": 19.10675,
+    "address": "Hidegkuti Nándor Stadion"
+  },
+  "Puskás Akadémia Pancho Aréna": {
+    "name": "Puskás Akadémia Pancho Aréna",
+    "lat": 47.46396,
+    "lng": 18.58662,
+    "address": "Pancho Aréna, Felcsút"
+  },
+  "Bozsik Aréna": {
+    "name": "Bozsik Aréna",
+    "lat": 47.44253,
+    "lng": 19.15555,
+    "address": "Bozsik Aréna"
+  },
+  "Szusza Ferenc Stadion": {
+    "name": "Szusza Ferenc Stadion",
+    "lat": 47.57487,
+    "lng": 19.08349,
+    "address": "Szusza Ferenc Stadion"
+  },
+  "Groupama Aréna": {
+    "name": "Groupama Aréna",
+    "lat": 47.4754,
+    "lng": 19.09521,
+    "address": "Groupama Aréna"
+  },
+  "ETO Stadion": {
+    "name": "ETO Stadion",
+    "lat": 47.4643,
+    "lng": 19.02062,
+    "address": "Budapest-Kelenföld"
+  },
+  "ZTE Aréna": {
+    "name": "ZTE Aréna",
+    "lat": 46.84871,
+    "lng": 16.84853,
+    "address": "ZTE Aréna"
+  },
+  "Nagykanizsai Olajbányász Stadion": {
+    "name": "Nagykanizsai Olajbányász Stadion",
+    "lat": 46.45096,
+    "lng": 16.98455,
+    "address": "Olajbányász sporttelep"
+  },
+  "Székesfehérvári Sóstói Stadion": {
+    "name": "Székesfehérvári Sóstói Stadion",
+    "lat": 47.17365,
+    "lng": 18.41431,
+    "address": "MOL Aréna Sóstó"
+  },
+  "BVSC-Zugló Stadion": {
+    "name": "BVSC-Zugló Stadion",
+    "lat": 47.52277,
+    "lng": 19.09053,
+    "address": "BVSC-Zugló"
+  },
+  "Tiszakécske Városi Sportcentrum": {
+    "name": "Tiszakécske Városi Sportcentrum",
+    "lat": 46.93512,
+    "lng": 20.10552,
+    "address": "Városi Stadion"
+  },
+  "Ajkai Városi Sportcentrum": {
+    "name": "Ajkai Városi Sportcentrum",
+    "lat": 45.86198,
+    "lng": 18.28896,
+    "address": "Mehring Lajos Városi Sportcentrum"
+  },
+  "Szentlőrinc SE Sporttelep": {
+    "name": "Szentlőrinc SE Sporttelep",
+    "lat": 45.95876,
+    "lng": 18.09317,
+    "address": "Szentlőrinc-Ormánság Takarékszövetkezet Baksai Fiók"
+  },
+  "ALCUFER Stadion": {
+    "name": "ALCUFER Stadion",
+    "lat": 47.63288,
+    "lng": 17.59277,
+    "address": "Ménfői úti Stadion"
+  },
+  "Szamosi Mihály Sporttelep": {
+    "name": "Szamosi Mihály Sporttelep",
+    "lat": 47.3902,
+    "lng": 19.11244,
+    "address": "Szamosi Mihály Sporttelep"
+  },
+  "Kecskeméti Széktói Stadion": {
+    "name": "Kecskeméti Széktói Stadion",
+    "lat": 46.90155,
+    "lng": 19.66988,
+    "address": "Széktói Stadion"
+  },
+  "Kolorcity Aréna": {
+    "name": "Kolorcity Aréna",
+    "lat": 48.24369,
+    "lng": 20.61036,
+    "address": "Kolorcity Aréna"
+  },
+  "Karcag Liget úti Sportcentrum": {
+    "name": "Karcag Liget úti Sportcentrum",
+    "lat": 47.31937,
+    "lng": 20.90281,
+    "address": "Ligeti úti sporttelep"
+  },
+  "Tersztyánszky Ödön Sportközpont": {
+    "name": "Tersztyánszky Ödön Sportközpont",
+    "lat": 47.391,
+    "lng": 18.46452,
+    "address": "Tersztyánszky Ödön"
+  },
+  "DVTK Stadion": {
+    "name": "DVTK Stadion",
+    "lat": 48.09986,
+    "lng": 20.71756,
+    "address": "DVTK Stadion"
+  },
+  "Mezőkövesd Városi Stadion": {
+    "name": "Mezőkövesd Városi Stadion",
+    "lat": 47.80216,
+    "lng": 20.56731,
+    "address": "Városi stadion"
+  },
+  "Szent Gellért Fórum": {
+    "name": "Szent Gellért Fórum",
+    "lat": 46.26238,
+    "lng": 20.11885,
+    "address": "Szent Gellért Fórum"
+  },
+  "Feleki Attila Sportközpont": {
+    "name": "Feleki Attila Sportközpont",
+    "lat": 47.65259,
+    "lng": 17.52293,
+    "address": "Rábcatorok Kulturális és Sportközpont"
+  },
+  "Nyíregyháza Örökösföld Sporttelep": {
+    "name": "Nyíregyháza Örökösföld Sporttelep",
+    "lat": 47.96334,
+    "lng": 21.74502,
+    "address": "Örökösföldi Sporttelep"
+  },
+  "Szűcs Lajos Sportcentrum (Gödöllő)": {
+    "name": "Szűcs Lajos Sportcentrum (Gödöllő)",
+    "lat": 47.59831,
+    "lng": 19.3348,
+    "address": "Szűcs Lajos sportcentrum"
+  },
+  "Debreceni Labdarúgó Akadémia Edzőközpont": {
+    "name": "Debreceni Labdarúgó Akadémia Edzőközpont",
+    "lat": 47.55329,
+    "lng": 21.63295,
+    "address": "Loki Bisztró Labdarúgó Akadémia"
+  },
+  "Tiszaújváros Sportcentrum": {
+    "name": "Tiszaújváros Sportcentrum",
+    "lat": 47.92948,
+    "lng": 21.05051,
+    "address": "Tiszaújvárosi Sportcentrum"
+  },
+  "Tarpa Sportcentrum": {
+    "name": "Tarpa Sportcentrum",
+    "lat": 47.45423,
+    "lng": 21.3955,
+    "address": "Mazsi Hungarospa Sportcentrum"
+  },
+  "Lipcsey Elemér Sporttelep": {
+    "name": "Lipcsey Elemér Sporttelep",
+    "lat": 47.18176,
+    "lng": 19.50609,
+    "address": "Magyarország"
+  },
+  "Cigánd Városi Stadion": {
+    "name": "Cigánd Városi Stadion",
+    "lat": 47.97045,
+    "lng": 21.71291,
+    "address": "Nyíregyháza Városi Stadion"
+  },
+  "Eger Szentmarjay Tibor Városi Stadion": {
+    "name": "Eger Szentmarjay Tibor Városi Stadion",
+    "lat": 47.18176,
+    "lng": 19.50609,
+    "address": "Magyarország"
+  },
+  "Putnoki Várady Béla Sportközpont": {
+    "name": "Putnoki Várady Béla Sportközpont",
+    "lat": 48.28758,
+    "lng": 20.43253,
+    "address": "Váradi Béla Sportközpont"
+  },
+  "Debreceni Egyetemi AC Sporttelep": {
+    "name": "Debreceni Egyetemi AC Sporttelep",
+    "lat": 47.55572,
+    "lng": 21.61512,
+    "address": "Egyetemi Sporttelep"
+  },
+  "Füzesabonyi Sporttelep": {
+    "name": "Füzesabonyi Sporttelep",
+    "lat": 47.50618,
+    "lng": 19.09478,
+    "address": "Millenáris Sporttelep"
+  },
+  "Nagy Norbert Sportközpont Hajdúnánás": {
+    "name": "Nagy Norbert Sportközpont Hajdúnánás",
+    "lat": 47.18176,
+    "lng": 19.50609,
+    "address": "Magyarország"
+  },
+  "Mátészalkai Városi Sporttelep": {
+    "name": "Mátészalkai Városi Sporttelep",
+    "lat": 47.94634,
+    "lng": 22.31504,
+    "address": "Városi sporttelep"
+  },
+  "Salgótarjáni Tó-strand Sporttelep": {
+    "name": "Salgótarjáni Tó-strand Sporttelep",
+    "lat": 47.18176,
+    "lng": 19.50609,
+    "address": "Magyarország"
+  },
+  "DVTK Edzőközpont": {
+    "name": "DVTK Edzőközpont",
+    "lat": 48.0986,
+    "lng": 20.71505,
+    "address": "DVTK Edzőközpont"
+  }
+}

@@ -256,5 +256,173 @@
     "lat": 48.0986,
     "lng": 20.71505,
     "address": "DVTK Edzőközpont"
+  },
+  "Szegedi Vasutas SE Sporttelep": {
+    "name": "Szegedi Vasutas SE Sporttelep",
+    "lat": 47.18176,
+    "lng": 19.50609,
+    "address": "Magyarország"
+  },
+  "III. ker. TVE Sporttelep": {
+    "name": "III. ker. TVE Sporttelep",
+    "lat": 47.54774,
+    "lng": 19.05488,
+    "address": "Sporttelep"
+  },
+  "Gyulai id. Christián László Városi Sporttelep": {
+    "name": "Gyulai id. Christián László Városi Sporttelep",
+    "lat": 47.18176,
+    "lng": 19.50609,
+    "address": "Magyarország"
+  },
+  "Szolnoki Tiszaligeti Stadion": {
+    "name": "Szolnoki Tiszaligeti Stadion",
+    "lat": 47.16813,
+    "lng": 20.20092,
+    "address": "Tiszaligeti Labdarúgó Stadion irodaépülete"
+  },
+  "Újpest Labdarúgó Sportcentruma": {
+    "name": "Újpest Labdarúgó Sportcentruma",
+    "lat": 47.57848,
+    "lng": 19.09024,
+    "address": "Labdarúgó utca"
+  },
+  "Honvéd MFA Utánpótlás Központ": {
+    "name": "Honvéd MFA Utánpótlás Központ",
+    "lat": 47.18176,
+    "lng": 19.50609,
+    "address": "Magyarország"
+  },
+  "ESMTK Stadion": {
+    "name": "ESMTK Stadion",
+    "lat": 47.57487,
+    "lng": 19.08349,
+    "address": "Szusza Ferenc Stadion"
+  },
+  "FC Dabas Wellis Sportpark": {
+    "name": "FC Dabas Wellis Sportpark",
+    "lat": 47.18176,
+    "lng": 19.50609,
+    "address": "Magyarország"
+  },
+  "Békéscsabai Kórház utcai Stadion": {
+    "name": "Békéscsabai Kórház utcai Stadion",
+    "lat": 46.68624,
+    "lng": 21.10544,
+    "address": "Kórház utcai stadion"
+  },
+  "Sándorfalva Sporttelep": {
+    "name": "Sándorfalva Sporttelep",
+    "lat": 46.36574,
+    "lng": 20.10422,
+    "address": "Sándorfalva"
+  },
+  "BKV Előre Stadion": {
+    "name": "BKV Előre Stadion",
+    "lat": 47.18396,
+    "lng": 18.43445,
+    "address": "MÁV Előre Stadion"
+  },
+  "Hódmezővásárhelyi Városi Stadion": {
+    "name": "Hódmezővásárhelyi Városi Stadion",
+    "lat": 46.4237,
+    "lng": 20.33144,
+    "address": "Városi Stadion"
+  },
+  "Csepel SC Stadion": {
+    "name": "Csepel SC Stadion",
+    "lat": 47.41812,
+    "lng": 19.06993,
+    "address": "Csepel SC Fitness Stúdió"
+  },
+  "Balassi Bálint utcai Stadion (Monor)": {
+    "name": "Balassi Bálint utcai Stadion (Monor)",
+    "lat": 47.35258,
+    "lng": 19.43864,
+    "address": "Balassi Bálint utca"
+  },
+  "Grosics Gyula Labdarúgó Akadémia": {
+    "name": "Grosics Gyula Labdarúgó Akadémia",
+    "lat": 47.18176,
+    "lng": 19.50609,
+    "address": "Magyarország"
+  },
+  "Bicskei TC Sporttelep": {
+    "name": "Bicskei TC Sporttelep",
+    "lat": 47.18176,
+    "lng": 19.50609,
+    "address": "Magyarország"
+  },
+  "MTE 1904 Sporttelep": {
+    "name": "MTE 1904 Sporttelep",
+    "lat": 47.52439,
+    "lng": 19.12039,
+    "address": "MTK Lantos Mihály Sporttelep"
+  },
+  "Perutz Stadion": {
+    "name": "Perutz Stadion",
+    "lat": 47.33437,
+    "lng": 17.47382,
+    "address": "Perutz Stadion"
+  },
+  "Komárom Molaji Sporttelep": {
+    "name": "Komárom Molaji Sporttelep",
+    "lat": 47.61329,
+    "lng": 18.38194,
+    "address": "Vértesszőlős, Sporttelep"
+  },
+  "Buzánszky Jenő Labdarúgó Stadion": {
+    "name": "Buzánszky Jenő Labdarúgó Stadion",
+    "lat": 47.72163,
+    "lng": 18.73818,
+    "address": "Buzánszky Jenő Stadion"
+  },
+  "Haladás Sportkomplexum": {
+    "name": "Haladás Sportkomplexum",
+    "lat": 47.23493,
+    "lng": 16.60693,
+    "address": "Haladás Sportkomplexum"
+  },
+  "Vilmos Endre Sportcentrum": {
+    "name": "Vilmos Endre Sportcentrum",
+    "lat": 47.43884,
+    "lng": 19.21874,
+    "address": "Vilmos Endre Sportcentrum"
+  },
+  "Király Sportlétesítmény": {
+    "name": "Király Sportlétesítmény",
+    "lat": 47.21105,
+    "lng": 16.60179,
+    "address": "Király Sportlétesítmény"
+  },
+  "Balatonalmádi Sportközpont": {
+    "name": "Balatonalmádi Sportközpont",
+    "lat": 47.04275,
+    "lng": 18.0183,
+    "address": "Balatonalmádi Sportközpont"
+  },
+  "Soproni Városi Stadion": {
+    "name": "Soproni Városi Stadion",
+    "lat": 47.6916,
+    "lng": 16.58382,
+    "address": "Sopron Városi Stadion"
+  },
+  "Grosics Gyula Stadion": {
+    "name": "Grosics Gyula Stadion",
+    "lat": 47.55653,
+    "lng": 18.41776,
+    "address": "Grosics Gyula stadion"
+  },
+  "Veszprémi Városi Stadion": {
+    "name": "Veszprémi Városi Stadion",
+    "lat": 47.08374,
+    "lng": 17.90276,
+    "address": "Veszprémi Városi Stadion"
+  },
+  "Sárisápi Bányász SE Sporttelep": {
+    "name": "Sárisápi Bányász SE Sporttelep",
+    "lat": 47.18176,
+    "lng": 19.50609,
+    "address": "Magyarország"
   }
 }

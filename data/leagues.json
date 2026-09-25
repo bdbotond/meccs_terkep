@@ -4,5 +4,29 @@
     "name": "OTP Bank Liga",
     "level": "NB I",
     "federation": "MLSZ"
+  },
+  "33587": {
+    "id": "33587",
+    "name": "Merkantil Bank Liga",
+    "level": "NB II",
+    "federation": "MLSZ"
+  },
+  "33588": {
+    "id": "33588",
+    "name": "NB III. Észak-Keleti csoport",
+    "level": "NB III",
+    "federation": "MLSZ"
+  },
+  "34054": {
+    "id": "34054",
+    "name": "NB III. Dél-Keleti csoport",
+    "level": "NB III",
+    "federation": "MLSZ"
+  },
+  "34055": {
+    "id": "34055",
+    "name": "NB III. Észak-Nyugati csoport",
+    "level": "NB III",
+    "federation": "MLSZ"
   }
 }

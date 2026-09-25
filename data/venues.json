@@ -424,5 +424,209 @@
     "lat": 47.18176,
     "lng": 19.50609,
     "address": "Magyarország"
+  },
+  "Kaposvári Rákóczi Stadion": {
+    "name": "Kaposvári Rákóczi Stadion",
+    "lat": 46.35655,
+    "lng": 17.80602,
+    "address": "Rákóczi Stadion"
+  },
+  "Károlyi István Sporttelep Iváncsa": {
+    "name": "Károlyi István Sporttelep Iváncsa",
+    "lat": 47.18176,
+    "lng": 19.50609,
+    "address": "Magyarország"
+  },
+  "Novák Ferenc Érdi Sportközpont": {
+    "name": "Novák Ferenc Érdi Sportközpont",
+    "lat": 47.18176,
+    "lng": 19.50609,
+    "address": "Magyarország"
+  },
+  "PMFC Stadion": {
+    "name": "PMFC Stadion",
+    "lat": 46.06876,
+    "lng": 18.19592,
+    "address": "PMFC stadion"
+  },
+  "MTK Budapest - Sándor Károly LA": {
+    "name": "MTK Budapest - Sándor Károly LA",
+    "lat": 47.57571,
+    "lng": 19.12541,
+    "address": "Károly Róbert Általános Iskola"
+  },
+  "Majosi SE Sporttelep": {
+    "name": "Majosi SE Sporttelep",
+    "lat": 47.59866,
+    "lng": 21.58482,
+    "address": "Józsa SE Sporttelep"
+  },
+  "Dunaharaszti MTK Sporttelep": {
+    "name": "Dunaharaszti MTK Sporttelep",
+    "lat": 47.52439,
+    "lng": 19.12039,
+    "address": "MTK Lantos Mihály Sporttelep"
+  },
+  "Budaörsi Városi Stadion": {
+    "name": "Budaörsi Városi Stadion",
+    "lat": 47.46172,
+    "lng": 18.93851,
+    "address": "Budaörsi Városi Bíróság"
+  },
+  "Szekszárdi Városi Sport és Szabadidőközpont": {
+    "name": "Szekszárdi Városi Sport és Szabadidőközpont",
+    "lat": 47.77814,
+    "lng": 18.9657,
+    "address": "Visegrádi Városi Sport- és Szabadidőközpont"
+  },
+  "Siófok Városi Stadion": {
+    "name": "Siófok Városi Stadion",
+    "lat": 46.90924,
+    "lng": 18.0616,
+    "address": "Siófok Városi stadion"
+  },
+  "Budafoki MTE Sporttelep": {
+    "name": "Budafoki MTE Sporttelep",
+    "lat": 47.42182,
+    "lng": 19.02802,
+    "address": "BMTE Sporttelep"
+  },
+  "Sárbogárd Sporttelep": {
+    "name": "Sárbogárd Sporttelep",
+    "lat": 46.88744,
+    "lng": 18.61962,
+    "address": "Sárbogárd"
+  },
+  "FTC-MVM Népligeti Sportközpont": {
+    "name": "FTC-MVM Népligeti Sportközpont",
+    "lat": 47.48057,
+    "lng": 19.11548,
+    "address": "FTC-MVM Népligeti Sportközpont"
+  },
+  "Soltvadkert Sporttelep": {
+    "name": "Soltvadkert Sporttelep",
+    "lat": 46.58202,
+    "lng": 19.39427,
+    "address": "Soltvadkert"
+  },
+  "Lázár Bence Lajosmizsei Labdarúgó Sportcentrum": {
+    "name": "Lázár Bence Lajosmizsei Labdarúgó Sportcentrum",
+    "lat": 47.02663,
+    "lng": 19.56699,
+    "address": "Lázár Bence Sportcentrum"
+  },
+  "Kiskunfélegyháza Honvéd Sporttelep": {
+    "name": "Kiskunfélegyháza Honvéd Sporttelep",
+    "lat": 46.70428,
+    "lng": 19.85781,
+    "address": "Honvéd Sporttelep"
+  },
+  "Csólyospálos Sporttelep": {
+    "name": "Csólyospálos Sporttelep",
+    "lat": 46.41861,
+    "lng": 19.83876,
+    "address": "Csólyospálos"
+  },
+  "Harta Sporttelep": {
+    "name": "Harta Sporttelep",
+    "lat": 46.70428,
+    "lng": 19.85781,
+    "address": "Honvéd Sporttelep"
+  },
+  "Jánoshalma Sporttelep": {
+    "name": "Jánoshalma Sporttelep",
+    "lat": 46.29723,
+    "lng": 19.32359,
+    "address": "Jánoshalma"
+  },
+  "Kalocsa Molnár Ferenc Sport- és Szabadidőközpont": {
+    "name": "Kalocsa Molnár Ferenc Sport- és Szabadidőközpont",
+    "lat": 46.58093,
+    "lng": 19.51285,
+    "address": "Bács-Kiskun vármegye"
+  },
+  "Baja Városi Sporttelep": {
+    "name": "Baja Városi Sporttelep",
+    "lat": 46.17903,
+    "lng": 18.96062,
+    "address": "Városi Sporttelep"
+  },
+  "Kecel Udvarhelyi István Sportközpont": {
+    "name": "Kecel Udvarhelyi István Sportközpont",
+    "lat": 46.53124,
+    "lng": 19.25664,
+    "address": "Dobó István utca"
+  },
+  "Kiskőrös Sporttelep": {
+    "name": "Kiskőrös Sporttelep",
+    "lat": 46.80771,
+    "lng": 19.3379,
+    "address": "Ungor Pál Sporttelep"
+  },
+  "Kunbaja Sporttelep": {
+    "name": "Kunbaja Sporttelep",
+    "lat": 46.0883,
+    "lng": 19.42408,
+    "address": "Kunbaja"
+  },
+  "Vaskút Gál Mihály Sporttelep": {
+    "name": "Vaskút Gál Mihály Sporttelep",
+    "lat": 46.11628,
+    "lng": 18.98458,
+    "address": "Táncsics Mihály utca"
+  },
+  "Tompa Sporttelep": {
+    "name": "Tompa Sporttelep",
+    "lat": 46.70428,
+    "lng": 19.85781,
+    "address": "Honvéd Sporttelep"
+  },
+  "Dusnok Murányi Lajos Sporttelep": {
+    "name": "Dusnok Murányi Lajos Sporttelep",
+    "lat": 46.58093,
+    "lng": 19.51285,
+    "address": "Bács-Kiskun vármegye"
+  },
+  "Nemesnádudvar Sporttelep": {
+    "name": "Nemesnádudvar Sporttelep",
+    "lat": 46.33921,
+    "lng": 19.05216,
+    "address": "Nemesnádudvar"
+  },
+  "Bácsborsód Sporttelep": {
+    "name": "Bácsborsód Sporttelep",
+    "lat": 46.0974,
+    "lng": 19.1584,
+    "address": "Bácsborsód"
+  },
+  "Érsekcsanád Sporttelep": {
+    "name": "Érsekcsanád Sporttelep",
+    "lat": 46.25198,
+    "lng": 18.98226,
+    "address": "Érsekcsanád"
+  },
+  "Kiskunhalas Bundzsák Dezső Városi Sportközpont": {
+    "name": "Kiskunhalas Bundzsák Dezső Városi Sportközpont",
+    "lat": 46.44024,
+    "lng": 19.47209,
+    "address": "Bundzsák Dezső Sportközpont"
+  },
+  "Mélykút Sporttelep": {
+    "name": "Mélykút Sporttelep",
+    "lat": 46.2152,
+    "lng": 19.37921,
+    "address": "Mélykút"
+  },
+  "Szeremle Sporttelep": {
+    "name": "Szeremle Sporttelep",
+    "lat": 46.1455,
+    "lng": 18.87957,
+    "address": "Szeremle"
+  },
+  "Bácsalmás Sporttelep": {
+    "name": "Bácsalmás Sporttelep",
+    "lat": 46.12849,
+    "lng": 19.33046,
+    "address": "Bács-Kiskun Megyei Kormányhivatal Bácsalmási Járási Hivatal Járási Munkaügyi Kirendeltsége"
   }
 }

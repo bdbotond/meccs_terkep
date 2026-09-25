@@ -36,12 +36,46 @@
       maxZoom: 18
     });
 
-    // CartoDB Voyager tiles (OpenStreetMap-based, reliable, avoids OSM 403 Forbidden)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    // 1. Static predownloaded Hungary vector map (100% offline, zero network requests, no API key)
+    const staticHungaryLayer = L.layerGroup();
+    if (window.HUNGARY_GEOJSON) {
+      const geoLayer = L.geoJSON(window.HUNGARY_GEOJSON, {
+        style: function () {
+          return {
+            fillColor: '#dcedc8',
+            fillOpacity: 0.85,
+            color: '#2e7d32',
+            weight: 1.5,
+            dashArray: '3, 4'
+          };
+        },
+        onEachFeature: function (feature, layer) {
+          if (feature.properties && feature.properties.name) {
+            layer.bindTooltip(feature.properties.name, {
+              sticky: true,
+              className: 'county-tooltip'
+            });
+          }
+        }
+      });
+      staticHungaryLayer.addLayer(geoLayer);
+    }
+
+    // 2. Free Esri WorldStreetMap tile layer (no API key required, public worldwide CDN)
+    const esriStreetLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
       maxZoom: 19,
-      subdomains: 'abcd',
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-    }).addTo(map);
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, METI, TomTom'
+    });
+
+    // Set static predownloaded map as active default
+    staticHungaryLayer.addTo(map);
+
+    const baseMaps = {
+      "🇭🇺 Statikus térkép (Előre letöltött, offline)": staticHungaryLayer,
+      "🗺️ Részletes utcai térkép (Esri, ingyenes)": esriStreetLayer
+    };
+
+    L.control.layers(baseMaps, null, { position: 'topright' }).addTo(map);
 
     markersLayer = L.layerGroup().addTo(map);
   }

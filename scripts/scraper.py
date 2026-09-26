@@ -15,6 +15,7 @@ import argparse
 import urllib.request
 import urllib.parse
 import urllib.error
+import concurrent.futures
 try:
     from bs4 import BeautifulSoup
 except ImportError:
@@ -87,15 +88,27 @@ def make_request(url, data=None, headers=None, timeout=15, max_retries=2):
             raise e
 
 
-def post_mlsz_api(payload):
+def post_mlsz_api(payload, retries=4):
     data = urllib.parse.urlencode(payload).encode('utf-8')
     headers = {
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
         'X-Requested-With': 'XMLHttpRequest',
         'Referer': 'https://ada1bank.mlsz.hu/league'
     }
-    raw = make_request(BASE_API_URL, data=data, headers=headers)
-    return json.loads(raw.decode('utf-8'))
+    for attempt in range(retries):
+        try:
+            raw = make_request(BASE_API_URL, data=data, headers=headers)
+            text = raw.decode('utf-8')
+            if 'SQLSTATE' in text or not text.strip():
+                if attempt < retries - 1:
+                    time.sleep(1.2 * (attempt + 1))
+                    continue
+            return json.loads(text)
+        except (json.JSONDecodeError, Exception) as e:
+            if attempt < retries - 1:
+                time.sleep(1.2 * (attempt + 1))
+                continue
+            raise e
 
 
 def detect_season():
@@ -120,34 +133,35 @@ def classify_league(name, federation_name):
     """
     upper = name.upper()
 
-    # Reject youth, veteran, futsal, women, cup, tournaments, reserves
+    # Reject youth, veteran, futsal, women, cup, tournaments, reserves, kispálya, mini football
     youth_or_non_adult_regex = (
-        r'U[-_\s]?\d+|OLD\s*BOY|ÖREGFIÚ|VETERÁN|LEÁNY|NŐI|FUTSAL|'
-        r'KUPA|SZUPERKUPA|TÉLI|STRAND|KISPÁLYÁ|TORNA|EDZŐMÉRKŐZÉS|'
-        r'UTÁNPÓTLÁS|IFJÚSÁGI|IFI|SERDÜLŐ|KÖLYÖK|TARTALÉK'
+        r"\bU[-_\s]?\d+|\bOLD\s*BOY|ÖREGFIÚ|VETERÁN|LEÁNY|NŐI|FUTSAL|"
+        r"KUP[AÁ]|SZUPERKUP[AÁ]|TÉLI|STRAND|KISPÁLY[AÁ]|TORN[AÁ]|EDZŐMÉRKŐZÉS|"
+        r"UTÁNPÓTLÁS|IFJÚSÁGI|\bIFI\b|SERDÜLŐ|KÖLYÖK|TARTALÉK|"
+        r"CSÖKK|BOZSIK|GRASSROOTS|7X7|5X5|SENIOR|HÁZI\s*BAJNOKSÁG|DLSZ"
     )
     if re.search(youth_or_non_adult_regex, upper):
         return None
 
     # National leagues (MLSZ)
-    if federation_name == "MLSZ":
-        if re.search(r'OTP\s*BANK|NB\s*I', upper):
+    if federation_name in ["MLSZ", "0"]:
+        if re.search(r"OTP\s*BANK|\bNB\s*I\b", upper):
             return "NB I"
-        if re.search(r'MERKANTIL|NB\s*II', upper):
+        if re.search(r"MERKANTIL|\bNB\s*II\b", upper):
             return "NB II"
         if "NB III" in upper:
             return "NB III"
         return None
 
-    # County leagues (BLSZ / Vármegye / Megye I-IV)
-    # Check Megye IV first down to Megye I to avoid prefix false positives
-    if re.search(r'BLSZ\s*IV|(?:VÁR)?MEGYE(?:I)?\s*IV|IV\.?\s*(?:OSZTÁLY|O|O\.)', upper):
+    # County leagues (BLSZ / Vármegye / Megye I-IV, Pest/Nógrád/Komárom-Esztergom formats)
+    # Check Megye IV down to Megye I
+    if re.search(r"BLSZ\s*IV|(?:VÁR)?MEGYEI?\s*IV\b|(?:^|\s|\.)(?:T\.)?IV\.?\s*(?:O\b|O\.|OSZTÁLY|CSOPORT)", upper):
         return "Megye IV"
-    if re.search(r'BLSZ\s*III|(?:VÁR)?MEGYE(?:I)?\s*III|III\.?\s*(?:OSZTÁLY|O|O\.)', upper):
+    if re.search(r"BLSZ\s*III|(?:VÁR)?MEGYEI?\s*III\b|(?:^|\s|\.)(?:T\.)?III\.?\s*(?:O\b|O\.|OSZTÁLY|CSOPORT)", upper):
         return "Megye III"
-    if re.search(r'BLSZ\s*II|(?:VÁR)?MEGYE(?:I)?\s*II|II\.?\s*(?:OSZTÁLY|O|O\.)', upper):
+    if re.search(r"BLSZ\s*II|(?:VÁR)?MEGYEI?\s*II\b|(?:^|\s|\.)(?:T\.)?II\.?\s*(?:O\b|O\.|OSZTÁLY|CSOPORT)", upper):
         return "Megye II"
-    if re.search(r'BLSZ\s*I|(?:VÁR)?MEGYE(?:I)?\s*I|I\.?\s*(?:OSZTÁLY|O|O\.)', upper):
+    if re.search(r"BLSZ\s*I\b|(?:VÁR)?MEGYEI?\s*I\b|(?:^|\s|\.)(?:T\.)?I\.?\s*(?:O\b|O\.|OSZTÁLY|CSOPORT)", upper):
         return "Megye I"
 
     return None
@@ -166,40 +180,40 @@ def extract_town_from_arena(arena_name, home_team=""):
     if "Nagyerdei" in cleaned:
         return "Debrecen"
 
-    # Match 'Alsópáhoki Sportpálya', 'Kemendollári Sporttelep', etc.
-    m = re.match(r'^([A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüűA-ZÁÉÍÓÖŐÚÜŰ\-]+?)(?:i|ei|ai)?\s+(?:Sportpálya|Sporttelep|Sportcentrum|Labdarúgó|Városi|Stadion|SE|FC|KSE|SK)', cleaned, re.I)
+    # Match "Alsópáhoki Sportpálya", "Kemendollári Sporttelep", etc.
+    m = re.match(r"^([A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüűA-ZÁÉÍÓÖŐÚÜŰ\-]+?)(?:i|ei|ai)?\s+(?:Sportpálya|Sporttelep|Sportcentrum|Labdarúgó|Városi|Stadion|SE|FC|KSE|SK)\b", cleaned, re.I)
     if m:
         base = m.group(1)
         if base.lower() not in NON_TOWN_PREFIXES:
-            if base.endswith('y') and cleaned.startswith(base + 'ei'):
-                return base + 'e'
-            if cleaned.startswith(base + 'ai') and not base.endswith('a'):
-                return base + 'a'
+            if base.endswith("y") and cleaned.startswith(base + "ei"):
+                return base + "e"
+            if cleaned.startswith(base + "ai") and not base.endswith("a"):
+                return base + "a"
             return base
 
-    # Match from home team name if available (e.g. 'Kemendollári LSC' -> Kemendollár, 'Bak SE' -> Bak)
+    # Match from home team name if available (e.g. "Kemendollári LSC" -> Kemendollár, "Bak SE" -> Bak)
     if home_team:
-        m2 = re.match(r'^([A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüűA-ZÁÉÍÓÖŐÚÜŰ\-]+?)(?:i|ei|ai)?\s+(?:SE|FC|TE|SC|KSE|LSC|TC|VSC|SK|VSE|BSE|DSE|KFC|MSE|KLE|LE|USE|CS|AC)', home_team.strip(), re.I)
+        m2 = re.match(r"^([A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüűA-ZÁÉÍÓÖŐÚÜŰ\-]+?)(?:i|ei|ai)?\s+(?:SE|FC|TE|SC|KSE|LSC|TC|VSC|SK|VSE|BSE|DSE|KFC|MSE|KLE|LE|USE|CS|AC)\b", home_team.strip(), re.I)
         if m2:
             base2 = m2.group(1)
             if base2.lower() not in NON_TOWN_PREFIXES:
-                if base2.endswith('y') and home_team.startswith(base2 + 'ei'):
-                    return base2 + 'e'
-                if home_team.startswith(base2 + 'ai') and not base2.endswith('a'):
-                    return base2 + 'a'
+                if base2.endswith("y") and home_team.startswith(base2 + "ei"):
+                    return base2 + "e"
+                if home_team.startswith(base2 + "ai") and not base2.endswith("a"):
+                    return base2 + "a"
                 return base2
 
     # First word with adjective stripping
     first_word = cleaned.split()[0]
     if first_word.lower() not in NON_TOWN_PREFIXES:
-        if first_word.endswith('i') and len(first_word) > 3:
+        if first_word.endswith("i") and len(first_word) > 3:
             stem = first_word[:-1]
-            if stem.endswith('á'):
-                stem = stem[:-1] + 'a'
-            elif stem.endswith('é'):
-                stem = stem[:-1] + 'e'
-            elif first_word.endswith('ai'):
-                stem += 'a'
+            if stem.endswith("á"):
+                stem = stem[:-1] + "a"
+            elif stem.endswith("é"):
+                stem = stem[:-1] + "e"
+            elif first_word.endswith("ai"):
+                stem += "a"
             if stem.lower() not in NON_TOWN_PREFIXES:
                 return stem
         return first_word
@@ -212,6 +226,15 @@ def extract_town_from_arena(arena_name, home_team=""):
     return ""
 
 
+try:
+    from scripts.fix_venues import KNOWN_ARENAS
+except ImportError:
+    try:
+        from fix_venues import KNOWN_ARENAS
+    except ImportError:
+        KNOWN_ARENAS = {}
+
+
 class Geocoder:
     def __init__(self, venues_path):
         self.venues_path = venues_path
@@ -222,6 +245,20 @@ class Geocoder:
                     self.venues = json.load(f)
             except Exception:
                 self.venues = {}
+
+        self.settlements = {}
+        settlements_file = os.path.join(DATA_DIR, "hu_settlements.json")
+        if os.path.exists(settlements_file):
+            try:
+                with open(settlements_file, "r", encoding="utf-8") as f:
+                    s_list = json.load(f)
+                    for s in s_list:
+                        c = s.get("county", "")
+                        nl = s.get("name", "").lower()
+                        self.settlements.setdefault(c, {})[nl] = s
+                        self.settlements.setdefault("ALL", {})[nl] = s
+            except Exception:
+                pass
 
     def save(self):
         os.makedirs(os.path.dirname(self.venues_path), exist_ok=True)
@@ -248,39 +285,38 @@ class Geocoder:
         if cleaned in self.venues and not self.is_bad_venue(self.venues[cleaned]):
             return self.venues[cleaned]
 
-        # Specific alias overrides for tricky arenas
-        if "Pancho" in cleaned:
+        # Check KNOWN_ARENAS registry
+        if cleaned in KNOWN_ARENAS:
+            arena = KNOWN_ARENAS[cleaned]
             venue_info = {
                 "name": cleaned,
-                "lat": 47.46396,
-                "lng": 18.58662,
-                "address": "Pancho Aréna, Felcsút"
-            }
-            self.venues[cleaned] = venue_info
-            return venue_info
-
-        if "MITE" in cleaned:
-            venue_info = {
-                "name": cleaned,
-                "lat": 47.4735,
-                "lng": 19.0558,
-                "address": "MITE Sporttelep, Budapest"
-            }
-            self.venues[cleaned] = venue_info
-            return venue_info
-
-        if "Biri" in cleaned:
-            venue_info = {
-                "name": cleaned,
-                "lat": 47.8123,
-                "lng": 21.85095,
-                "address": "Biri SE Sporttelep, Biri"
+                "lat": arena["lat"],
+                "lng": arena["lng"],
+                "address": arena["address"]
             }
             self.venues[cleaned] = venue_info
             return venue_info
 
         reg_clean = "" if region_name in ["MLSZ", "0", ""] else region_name
         town = extract_town_from_arena(cleaned, home_team)
+
+        # Check official settlements database
+        if town:
+            tl = town.lower()
+            s_match = None
+            if reg_clean and reg_clean in self.settlements:
+                s_match = self.settlements[reg_clean].get(tl)
+            if not s_match and "ALL" in self.settlements:
+                s_match = self.settlements["ALL"].get(tl)
+            if s_match:
+                venue_info = {
+                    "name": cleaned,
+                    "lat": s_match["lat"],
+                    "lng": s_match["lng"],
+                    "address": f"{cleaned} ({s_match['name']})"
+                }
+                self.venues[cleaned] = venue_info
+                return venue_info
 
         # Build candidate search queries in priority order
         queries = []
@@ -351,8 +387,6 @@ class Geocoder:
 
 
 def parse_round_matches(season, fed_id, league_id, turn_number):
-    if BeautifulSoup is None:
-        raise RuntimeError("BeautifulSoup4 is required for parsing HTML matches. Install with: pip install beautifulsoup4")
     url = f"{BASE_SITE_URL}league/{season}/{fed_id}/{league_id}/{turn_number}.html"
     try:
         html = make_request(url, timeout=12).decode('utf-8')
@@ -360,56 +394,67 @@ def parse_round_matches(season, fed_id, league_id, turn_number):
         print(f"  Error fetching round {turn_number}: {e}", file=sys.stderr)
         return []
 
-    soup = BeautifulSoup(html, 'html.parser')
-    panel = soup.find('div', class_='sorsolas_panel')
-    if not panel:
-        panel = soup
+    # Fast parser without requiring BeautifulSoup4
+    tag_re = re.compile(r'<[^>]+>')
+    p_idx = html.find('sorsolas_panel')
+    panel_html = html[p_idx:] if p_idx != -1 else html
 
     matches = []
-    for box in panel.find_all('div', class_='schedule'):
-        home_el = box.find('div', class_='home_team')
-        away_el = box.find('div', class_='away_team')
-        date_el = box.find('div', class_='team_sorsolas_date')
-        arena_el = box.find('div', class_='team_sorsolas_arena')
-        res_el = box.find('div', class_='result')
+    for block in re.split(r'<div\s+class=[\"\']schedule\s*[\"\']', panel_html)[1:]:
+        m_h = re.search(r'class=[\"\']home_team[\"\'][^>]*>(?:<a[^>]*title=[\"\']([^\"\']+)[\"\'])?', block)
+        home = m_h.group(1) if m_h and m_h.group(1) else ''
+        if not home:
+            m_h = re.search(r'class=[\"\']home_team[\"\'][^>]*>(.*?)</div>', block, re.S)
+            if m_h:
+                home = tag_re.sub('', m_h.group(1)).strip()
 
-        home_team = home_el.get_text(strip=True) if home_el else ''
-        away_team = away_el.get_text(strip=True) if away_el else ''
-        arena = arena_el.get_text(strip=True) if arena_el else ''
-        dt_raw = date_el.get_text(' ', strip=True) if date_el else ''
-        res_raw = res_el.get_text(strip=True) if res_el else ''
+        m_away = re.search(r'class=[\"\']away_team[\"\'][^>]*>(?:<a[^>]*title=[\"\']([^\"\']+)[\"\'])?', block)
+        away = m_away.group(1) if m_away and m_away.group(1) else ''
+        if not away:
+            m_a = re.search(r'class=[\"\']away_team[\"\'][^>]*>(.*?)</div>', block, re.S)
+            if m_a:
+                away = tag_re.sub('', m_a.group(1)).strip()
 
-        if not home_team or not away_team:
+        if not home or not away:
             continue
 
         # Extract MLSZ match ID
         match_id = ""
-        link = box.find('a', href=re.compile(r'/match/'))
-        if link:
-            m = re.search(r'/match/(?:[^/]+/)*(\d+)\.html', link['href'])
-            if m:
-                match_id = m.group(1)
+        m_mid = re.search(r'/match/(?:[^/]+/)*(\d+)\.html', block)
+        if m_mid:
+            match_id = m_mid.group(1)
 
         # Parse date and time
         date_str = ""
         time_str = ""
-        m_dt = re.search(r'(\d{4})[.\s-]+(\d{1,2})[.\s-]+(\d{1,2})', dt_raw)
-        if m_dt:
-            y, mth, d = m_dt.groups()
-            date_str = f"{int(y):04d}-{int(mth):02d}-{int(d):02d}"
+        m_date = re.search(r'class=[\"\']team_sorsolas_date[\"\'][^>]*>(.*?)</div>', block, re.S)
+        if m_date:
+            dt_raw = tag_re.sub(' ', m_date.group(1)).strip()
+            m_dt = re.search(r'(\d{4})[.\s-]+(\d{1,2})[.\s-]+(\d{1,2})', dt_raw)
+            if m_dt:
+                y, mth, d = m_dt.groups()
+                date_str = f"{int(y):04d}-{int(mth):02d}-{int(d):02d}"
 
-        m_time = re.search(r'(\d{1,2}):(\d{2})', dt_raw)
-        if m_time:
-            hr, mn = m_time.groups()
-            time_str = f"{int(hr):02d}:{int(mn):02d}"
+            m_time = re.search(r'(\d{1,2}):(\d{2})', dt_raw)
+            if m_time:
+                hr, mn = m_time.groups()
+                time_str = f"{int(hr):02d}:{int(mn):02d}"
 
-        # Clean score - match final scores and administrative results (e.g. "3 - 1", "0 - 0", "3 - 0 vb")
+        # Clean score
         score = ""
-        clean_res = res_raw.replace('–', '-').strip()
-        m_score = re.match(r'^\s*(\d{1,2})\s*-\s*(\d{1,2})(?:\s*(?:vb|h\.u\.|bün\.|félbeszakadt))?\s*$', clean_res, re.I)
-        if m_score:
-            extra = " vb" if "vb" in clean_res.lower() else ""
-            score = f"{m_score.group(1)} - {m_score.group(2)}{extra}"
+        m_res = re.search(r'class=[\"\']result[\"\'][^>]*>(.*?)</div>', block, re.S)
+        if m_res:
+            clean_res = tag_re.sub('', m_res.group(1)).replace('–', '-').strip()
+            m_score = re.match(r'^\s*(\d{1,2})\s*-\s*(\d{1,2})(?:\s*(?:vb|h\.u\.|bün\.|félbeszakadt))?\s*$', clean_res, re.I)
+            if m_score:
+                extra = " vb" if "vb" in clean_res.lower() else ""
+                score = f"{m_score.group(1)} - {m_score.group(2)}{extra}"
+
+        # Arena
+        arena = ""
+        m_arena = re.search(r'class=[\"\']team_sorsolas_arena[\"\'][^>]*>(.*?)</div>', block, re.S)
+        if m_arena:
+            arena = tag_re.sub('', m_arena.group(1)).strip()
 
         matches.append({
             "id": match_id or f"{league_id}_{turn_number}_{len(matches)+1}",
@@ -417,8 +462,8 @@ def parse_round_matches(season, fed_id, league_id, turn_number):
             "vid": arena,
             "d": date_str,
             "t": time_str,
-            "h": home_team,
-            "a": away_team,
+            "h": home,
+            "a": away,
             "s": score,
             "round": str(turn_number)
         })
@@ -551,13 +596,15 @@ def scrape(args):
         target_leagues.append(found_league)
         print(f"Targeting single league: {found_league['name']} ({found_league['federation']} - {found_league['level']})")
     else:
-        for fed in federations:
+        concurrency = getattr(args, 'concurrency', 8) or 8
+
+        def fetch_fed_leagues(fed):
             fed_id = str(fed['id'])
             fed_name = fed['name']
 
             # Optional federation filter
             if args.fed and str(args.fed) != fed_id and str(args.fed).lower() != fed_name.lower():
-                continue
+                return []
 
             try:
                 fed_data = post_mlsz_api({
@@ -568,26 +615,36 @@ def scrape(args):
                     'changedType': 'federation'
                 })
                 leagues = fed_data.get('leagues', [])
+                res = []
                 for l in leagues:
                     lvl = classify_league(l['name'], fed_name)
                     if lvl:
                         if args.level and lvl.lower() != args.level.lower():
                             continue
-                        target_leagues.append({
+                        res.append({
                             "id": str(l['id']),
                             "name": l['name'].strip(),
                             "level": lvl,
                             "federation": fed_name,
                             "fed_id": fed_id
                         })
+                return res
             except Exception as e:
                 print(f"Failed to fetch leagues for federation {fed_name}: {e}", file=sys.stderr)
+                return []
+
+        # Concurrently discover all leagues across federations
+        with concurrent.futures.ThreadPoolExecutor(max_workers=min(concurrency, max(1, len(federations)))) as executor:
+            for l_list in executor.map(fetch_fed_leagues, federations):
+                target_leagues.extend(l_list)
 
         print(f"Identified {len(target_leagues)} adult leagues across Hungary matching criteria.")
 
         if args.limit_leagues:
             target_leagues = target_leagues[:args.limit_leagues]
             print(f"Limited to first {len(target_leagues)} leagues.")
+
+    concurrency = getattr(args, 'concurrency', 8) or 8
 
     # Tracking counters
     new_matches_count = 0
@@ -629,46 +686,58 @@ def scrape(args):
         if not turns:
             turns = [{'turn': str(i)} for i in range(1, 31)]
 
-        for t in turns:
-            turn_no = t.get('turn')
-            matches = parse_round_matches(season, fed_id, lid, turn_no)
-            for m in matches:
-                # Geocode arena if not yet cached or if cached bad
-                arena = m['vid']
-                if arena and not args.skip_geocoding:
-                    geocoder.geocode(arena, fed_name, m['h'])
+        # Parallelize downloading all rounds of this league
+        def fetch_turn_matches(t_no):
+            return parse_round_matches(season, fed_id, lid, t_no)
 
-                # Upsert match into database
-                mid = str(m['id'])
-                fix_key = (str(m['lid']), str(m.get('round', '')), m['h'].strip(), m['a'].strip())
+        turn_numbers = [t.get('turn') for t in turns if t.get('turn')]
+        league_matches = []
+        with concurrent.futures.ThreadPoolExecutor(max_workers=min(concurrency, max(1, len(turn_numbers)))) as executor:
+            future_to_turn = {executor.submit(fetch_turn_matches, tn): tn for tn in turn_numbers}
+            for fut in concurrent.futures.as_completed(future_to_turn):
+                try:
+                    res = fut.result()
+                    if res:
+                        league_matches.extend(res)
+                except Exception as e:
+                    tn = future_to_turn[fut]
+                    print(f"  Error fetching round {tn}: {e}", file=sys.stderr)
 
-                existing = match_dict.get(mid) or fixture_dict.get(fix_key)
+        for m in league_matches:
+            # Geocode arena if not yet cached or if cached bad
+            arena = m['vid']
+            if arena and not args.skip_geocoding:
+                geocoder.geocode(arena, fed_name, m['h'])
 
-                if existing:
-                    old_id = str(existing.get('id', ''))
-                    changed = False
-                    for prop in ['d', 't', 'vid', 's', 'id', 'round']:
-                        new_val = m.get(prop)
-                        if new_val is not None and new_val != existing.get(prop):
-                            existing[prop] = new_val
-                            changed = True
+            # Upsert match into database
+            mid = str(m['id'])
+            fix_key = (str(m['lid']), str(m.get('round', '')), m['h'].strip(), m['a'].strip())
 
-                    # Re-sync match_dict if ID changed (e.g. synthetic ID -> real MLSZ ID)
-                    new_id = str(existing.get('id', ''))
-                    if old_id != new_id:
-                        match_dict.pop(old_id, None)
-                        match_dict[new_id] = existing
+            existing = match_dict.get(mid) or fixture_dict.get(fix_key)
 
-                    if changed:
-                        updated_matches_count += 1
-                    else:
-                        unchanged_matches_count += 1
+            if existing:
+                old_id = str(existing.get('id', ''))
+                changed = False
+                for prop in ['d', 't', 'vid', 's', 'id', 'round']:
+                    new_val = m.get(prop)
+                    if new_val is not None and new_val != existing.get(prop):
+                        existing[prop] = new_val
+                        changed = True
+
+                # Re-sync match_dict if ID changed (e.g. synthetic ID -> real MLSZ ID)
+                new_id = str(existing.get('id', ''))
+                if old_id != new_id:
+                    match_dict.pop(old_id, None)
+                    match_dict[new_id] = existing
+
+                if changed:
+                    updated_matches_count += 1
                 else:
-                    match_dict[mid] = m
-                    fixture_dict[fix_key] = m
-                    new_matches_count += 1
-
-            time.sleep(0.1)
+                    unchanged_matches_count += 1
+            else:
+                match_dict[mid] = m
+                fixture_dict[fix_key] = m
+                new_matches_count += 1
 
         # Save venues incrementally
         geocoder.save()
@@ -705,75 +774,15 @@ def scrape(args):
 
 
 def fix_clustered_venues(venues_file):
-    if not os.path.exists(venues_file):
-        return
-    with open(venues_file, "r", encoding="utf-8") as f:
-        venues = json.load(f)
-
-    from collections import Counter
-    coord_counts = Counter((round(v.get('lat', 0), 4), round(v.get('lng', 0), 4)) for v in venues.values())
-    clustered_coords = {coord for coord, count in coord_counts.items() if count >= 3}
-
-    fixed = 0
-    total_to_check = sum(1 for v in venues.values() if (round(v.get('lat', 0), 4), round(v.get('lng', 0), 4)) in clustered_coords or (abs(v.get('lat', 0) - BAD_ZALAAPATI_LAT) < 0.001 and abs(v.get('lng', 0) - BAD_ZALAAPATI_LNG) < 0.001) or not is_in_hungary(v.get('lat', 0), v.get('lng', 0)))
-    print(f"Checking {total_to_check} clustered or invalid venues for real town coordinates...")
-
-    for name, info in list(venues.items()):
-        coord = (round(info.get('lat', 0), 4), round(info.get('lng', 0), 4))
-        is_bad = (coord in clustered_coords) or (abs(info.get('lat', 0) - BAD_ZALAAPATI_LAT) < 0.001 and abs(info.get('lng', 0) - BAD_ZALAAPATI_LNG) < 0.001) or (not is_in_hungary(info.get('lat', 0), info.get('lng', 0)))
-
-        if is_bad:
-            town = extract_town_from_arena(name)
-            if town and len(town) >= 3 and town.lower() not in NON_TOWN_PREFIXES:
-                q = f"{town} Hungary"
-                try:
-                    url = f"https://photon.komoot.io/api/?q={urllib.parse.quote(q)}&limit=1"
-                    raw = make_request(url, timeout=8)
-                    data = json.loads(raw.decode("utf-8"))
-                    features = data.get("features", [])
-                    if features:
-                        lon, lat = features[0]["geometry"]["coordinates"]
-                        props = features[0].get("properties", {})
-                        cc = props.get("countrycode", "").upper()
-                        if cc and cc != "HU":
-                            continue
-                        if not is_in_hungary(lat, lon):
-                            continue
-                        disp = props.get("name") or town
-                        new_lat = round(lat, 5)
-                        new_lng = round(lon, 5)
-                        # Check that it's not the same cluster
-                        if (round(new_lat, 4), round(new_lng, 4)) != coord:
-                            venues[name] = {
-                                "name": name,
-                                "lat": new_lat,
-                                "lng": new_lng,
-                                "address": f"{name} ({disp})"
-                            }
-                            fixed += 1
-                except Exception:
-                    pass
-                time.sleep(0.2)
-
-    with open(venues_file, "w", encoding="utf-8") as f:
-        json.dump(venues, f, ensure_ascii=False, indent=2)
-
-    # Also update dataset.js if matches exist
-    if os.path.exists(MATCHES_FILE) and os.path.exists(LEAGUES_FILE):
+    try:
+        from scripts.fix_venues import main as run_fix
+        run_fix()
+    except ImportError:
         try:
-            with open(LEAGUES_FILE, "r", encoding="utf-8") as lf, open(MATCHES_FILE, "r", encoding="utf-8") as mf:
-                ld = json.load(lf)
-                md = json.load(mf)
-            with open(DATASET_JS_FILE, "w", encoding="utf-8") as df:
-                df.write("window.MECCS_DATA = " + json.dumps({
-                    "leagues": ld,
-                    "venues": venues,
-                    "matches": md
-                }, ensure_ascii=False) + ";\n")
+            from fix_venues import main as run_fix
+            run_fix()
         except Exception as e:
-            print(f"Warning: could not update dataset.js: {e}", file=sys.stderr)
-
-    print(f"Successfully re-geocoded and fixed {fixed} venues to authentic town coordinates.")
+            print(f"Error running fix_venues: {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":
@@ -785,6 +794,7 @@ if __name__ == "__main__":
     parser.add_argument("--season", type=str, help="Override season ID (default: 67)")
     parser.add_argument("--fresh", action="store_true", help="Discard existing matches and scrape fresh")
     parser.add_argument("--full", action="store_true", help="Perform full scrape of all adult leagues across Hungary")
+    parser.add_argument("-c", "--concurrency", type=int, default=8, help="Number of concurrent download worker threads (default: 8)")
     parser.add_argument("--skip-geocoding", action="store_true", help="Skip geocoding new venues")
     parser.add_argument("--fix-venues", action="store_true", help="Fix clustered venues using smart town geocoding")
     parser.add_argument("--prune", action="store_true", help="Clean database by purging youth and non-adult leagues/matches")

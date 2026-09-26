@@ -167,30 +167,6 @@
     "level": "Megye III",
     "federation": "Borsod-Abaúj-Zemplén"
   },
-  "33599": {
-    "id": "33599",
-    "name": "BAZ vármegyei U-19 I. osztály",
-    "level": "Megye I",
-    "federation": "Borsod-Abaúj-Zemplén"
-  },
-  "34092": {
-    "id": "34092",
-    "name": "BAZ vármegyei U-19 II. osztály Észak",
-    "level": "Megye I",
-    "federation": "Borsod-Abaúj-Zemplén"
-  },
-  "34093": {
-    "id": "34093",
-    "name": "BAZ vármegyei U-19 II. osztály Kelet",
-    "level": "Megye I",
-    "federation": "Borsod-Abaúj-Zemplén"
-  },
-  "34094": {
-    "id": "34094",
-    "name": "BAZ vármegyei U-19 II. osztály Közép",
-    "level": "Megye I",
-    "federation": "Borsod-Abaúj-Zemplén"
-  },
   "33753": {
     "id": "33753",
     "name": "BLSZ I. OSZTÁLY",
@@ -299,39 +275,9 @@
     "level": "Megye III",
     "federation": "Fejér"
   },
-  "34116": {
-    "id": "34116",
-    "name": "Vármegyei I. osztály U-19",
-    "level": "Megye I",
-    "federation": "Fejér"
-  },
-  "34186": {
-    "id": "34186",
-    "name": "Vármegyei II. osztály U-19 Északi csoport",
-    "level": "Megye II",
-    "federation": "Fejér"
-  },
-  "34187": {
-    "id": "34187",
-    "name": "Vármegyei II. osztály U-19 Nyugati csoport",
-    "level": "Megye II",
-    "federation": "Fejér"
-  },
-  "34188": {
-    "id": "34188",
-    "name": "Vármegyei II. osztály U-19 Déli csoport",
-    "level": "Megye II",
-    "federation": "Fejér"
-  },
   "33888": {
     "id": "33888",
     "name": "Megyei I. osztály",
-    "level": "Megye I",
-    "federation": "Győr-Moson-Sopron"
-  },
-  "33889": {
-    "id": "33889",
-    "name": "Megyei I. U21",
     "level": "Megye I",
     "federation": "Győr-Moson-Sopron"
   },
@@ -341,39 +287,15 @@
     "level": "Megye II",
     "federation": "Győr-Moson-Sopron"
   },
-  "33891": {
-    "id": "33891",
-    "name": "Megyei II. Keleti csoport U21",
-    "level": "Megye II",
-    "federation": "Győr-Moson-Sopron"
-  },
   "34176": {
     "id": "34176",
     "name": "Megyei II. Északi csoport",
     "level": "Megye II",
     "federation": "Győr-Moson-Sopron"
   },
-  "34178": {
-    "id": "34178",
-    "name": "Megyei II. Északi csoport U21",
-    "level": "Megye II",
-    "federation": "Győr-Moson-Sopron"
-  },
-  "34177": {
-    "id": "34177",
-    "name": "Megyei II. Észak-keleti csoport U21",
-    "level": "Megye II",
-    "federation": "Győr-Moson-Sopron"
-  },
   "34179": {
     "id": "34179",
     "name": "Megyei II. Nyugati csoport",
-    "level": "Megye II",
-    "federation": "Győr-Moson-Sopron"
-  },
-  "34180": {
-    "id": "34180",
-    "name": "Megyei II. Nyugati csoport U21",
     "level": "Megye II",
     "federation": "Győr-Moson-Sopron"
   },
@@ -413,33 +335,15 @@
     "level": "Megye I",
     "federation": "Hajdú-Bihar"
   },
-  "33902": {
-    "id": "33902",
-    "name": "Vármegyei I.osztály U-21",
-    "level": "Megye I",
-    "federation": "Hajdú-Bihar"
-  },
   "34117": {
     "id": "34117",
     "name": "Vármegyei II.osztály felnőtt Észak",
     "level": "Megye II",
     "federation": "Hajdú-Bihar"
   },
-  "34118": {
-    "id": "34118",
-    "name": "Vármegyei II.osztály U-21 Észak",
-    "level": "Megye II",
-    "federation": "Hajdú-Bihar"
-  },
   "34119": {
     "id": "34119",
     "name": "Vármegyei II.osztály felnőtt Dél",
-    "level": "Megye II",
-    "federation": "Hajdú-Bihar"
-  },
-  "34120": {
-    "id": "34120",
-    "name": "Vármegyei II.osztály U-21 Dél",
     "level": "Megye II",
     "federation": "Hajdú-Bihar"
   },
@@ -473,18 +377,6 @@
     "level": "Megye III",
     "federation": "Heves"
   },
-  "33866": {
-    "id": "33866",
-    "name": "Heves Vármegyei I.o. U21",
-    "level": "Megye I",
-    "federation": "Heves"
-  },
-  "33867": {
-    "id": "33867",
-    "name": "Heves Vármegyei II.o. U21",
-    "level": "Megye II",
-    "federation": "Heves"
-  },
   "33736": {
     "id": "33736",
     "name": "Vármegyei I.osztály felnőtt",
@@ -506,12 +398,6 @@
   "33702": {
     "id": "33702",
     "name": "Vármegyei I. Felnőtt",
-    "level": "Megye I",
-    "federation": "Somogy"
-  },
-  "33707": {
-    "id": "33707",
-    "name": "Vármegyei I. U-19",
     "level": "Megye I",
     "federation": "Somogy"
   },
@@ -543,18 +429,6 @@
     "id": "34107",
     "name": "Vármegyei IV. Dél",
     "level": "Megye IV",
-    "federation": "Somogy"
-  },
-  "33711": {
-    "id": "33711",
-    "name": "Vármegyei II-III. osztályú összevont U-19 Észak",
-    "level": "Megye II",
-    "federation": "Somogy"
-  },
-  "34108": {
-    "id": "34108",
-    "name": "Vármegyei II-III. osztályú összevont U-19 Dél",
-    "level": "Megye II",
     "federation": "Somogy"
   },
   "33809": {
@@ -617,21 +491,9 @@
     "level": "Megye I",
     "federation": "Vas"
   },
-  "33768": {
-    "id": "33768",
-    "name": "Vas Vármegyei I.o. U-21",
-    "level": "Megye I",
-    "federation": "Vas"
-  },
   "34047": {
     "id": "34047",
     "name": "Vas Vármegyei II. o. \"Szombathely\"",
-    "level": "Megye II",
-    "federation": "Vas"
-  },
-  "34048": {
-    "id": "34048",
-    "name": "Vas Vármegyei II. o. U-21 \"Szombathely\"",
     "level": "Megye II",
     "federation": "Vas"
   },
@@ -641,21 +503,9 @@
     "level": "Megye II",
     "federation": "Vas"
   },
-  "34044": {
-    "id": "34044",
-    "name": "Vas Vármegyei II. o. U-21 \"Körmend\"",
-    "level": "Megye II",
-    "federation": "Vas"
-  },
   "34046": {
     "id": "34046",
     "name": "Vas Vármegyei II. o. \"Sárvár\"",
-    "level": "Megye II",
-    "federation": "Vas"
-  },
-  "34045": {
-    "id": "34045",
-    "name": "Vas Vármegyei II. o. U-21 \"Sárvár\"",
     "level": "Megye II",
     "federation": "Vas"
   },
@@ -686,12 +536,6 @@
   "33719": {
     "id": "33719",
     "name": "Vármegyei II. osztály felnőtt",
-    "level": "Megye II",
-    "federation": "Veszprém"
-  },
-  "33720": {
-    "id": "33720",
-    "name": "Vármegyei II. osztály U21",
     "level": "Megye II",
     "federation": "Veszprém"
   },
@@ -760,5 +604,113 @@
     "name": "Zala Vármegyei III. osztály Közép csoport",
     "level": "Megye III",
     "federation": "Zala"
+  },
+  "33789": {
+    "id": "33789",
+    "name": "T.I.O. FFI FELNŐTT ALAPSZAKASZ",
+    "level": "Megye I",
+    "federation": "Komárom-Esztergom"
+  },
+  "33790": {
+    "id": "33790",
+    "name": "T.II.O. FFI FELNŐTT",
+    "level": "Megye II",
+    "federation": "Komárom-Esztergom"
+  },
+  "33791": {
+    "id": "33791",
+    "name": "T.III.O. FFI FELNŐTT DÉLI CSOPORT",
+    "level": "Megye III",
+    "federation": "Komárom-Esztergom"
+  },
+  "34204": {
+    "id": "34204",
+    "name": "T.III.O. FFI FELNŐTT ÉSZAKI CSOPORT",
+    "level": "Megye III",
+    "federation": "Komárom-Esztergom"
+  },
+  "33928": {
+    "id": "33928",
+    "name": "I. osztályú felnőttbajnokság",
+    "level": "Megye I",
+    "federation": "Nógrád"
+  },
+  "33936": {
+    "id": "33936",
+    "name": "II. osztályú felnőttbajnokság",
+    "level": "Megye II",
+    "federation": "Nógrád"
+  },
+  "33940": {
+    "id": "33940",
+    "name": "III. osztályú felnőttbajnokság - Kelet",
+    "level": "Megye III",
+    "federation": "Nógrád"
+  },
+  "34057": {
+    "id": "34057",
+    "name": "III. osztályú felnőttbajnokság - Nyugat",
+    "level": "Megye III",
+    "federation": "Nógrád"
+  },
+  "33660": {
+    "id": "33660",
+    "name": "I. osztályú felnőttbajnokság",
+    "level": "Megye I",
+    "federation": "Pest"
+  },
+  "34067": {
+    "id": "34067",
+    "name": "II. osztályú felnőttbajnokság, Északi csoport",
+    "level": "Megye II",
+    "federation": "Pest"
+  },
+  "34068": {
+    "id": "34068",
+    "name": "II. osztályú felnőttbajnokság, Déli csoport",
+    "level": "Megye II",
+    "federation": "Pest"
+  },
+  "34069": {
+    "id": "34069",
+    "name": "III. osztályú felnőttbajnokság, Északi csoport",
+    "level": "Megye III",
+    "federation": "Pest"
+  },
+  "34070": {
+    "id": "34070",
+    "name": "III. osztályú felnőttbajnokság, Déli csoport",
+    "level": "Megye III",
+    "federation": "Pest"
+  },
+  "34071": {
+    "id": "34071",
+    "name": "III. osztályú felnőttbajnokság, Keleti csoport",
+    "level": "Megye III",
+    "federation": "Pest"
+  },
+  "34072": {
+    "id": "34072",
+    "name": "IV. osztályú felnőttbajnokság, Északi csoport",
+    "level": "Megye IV",
+    "federation": "Pest"
+  },
+  "34073": {
+    "id": "34073",
+    "name": "IV. osztályú felnőttbajnokság, Délkeleti csoport",
+    "level": "Megye IV",
+    "federation": "Pest"
+  },
+  "34074": {
+    "id": "34074",
+    "name": "IV. osztályú felnőttbajnokság, Keleti csoport",
+    "level": "Megye IV",
+    "federation": "Pest"
+  },
+  "34075": {
+    "id": "34075",
+    "name": "IV. osztályú felnőttbajnokság, Nyugati csoport",
+    "level": "Megye IV",
+    "federation": "Pest"
   }
 }

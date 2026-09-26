@@ -124,11 +124,55 @@ input[type="date"]:focus {
   box-shadow: 0 0 0 2px rgba(27, 94, 32, 0.2);
 }
 
+.date-presets-group {
+  display: flex;
+  gap: 4px;
+}
+
+.preset-btn {
+  padding: 5px 9px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid var(--border-color);
+  background: #fff;
+  color: var(--text-primary);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.preset-btn:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+.preset-btn.active {
+  background: var(--primary-color);
+  color: #fff;
+  border-color: var(--primary-color);
+}
+
+#time-select {
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+#time-select:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(27, 94, 32, 0.2);
+}
+
 .action-group {
   display: flex;
   align-items: center;
   gap: 12px;
   margin-left: auto;
+  flex-wrap: wrap;
 }
 
 #reset-filters-btn {
@@ -156,6 +200,23 @@ input[type="date"]:focus {
   font-size: 0.85rem;
   font-weight: 700;
   white-space: nowrap;
+}
+
+.bmac-badge {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.bmac-badge:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.bmac-badge img {
+  height: 28px;
+  display: block;
 }
 
 #map-container {
@@ -289,6 +350,14 @@ input[type="date"]:focus {
   text-transform: uppercase;
 }
 
+.match-level-badge.badge-nbi { background: #b45309; }
+.match-level-badge.badge-nbii { background: #1d4ed8; }
+.match-level-badge.badge-nbiii { background: #047857; }
+.match-level-badge.badge-megyei { background: #6d28d9; }
+.match-level-badge.badge-megyeii { background: #0f766e; }
+.match-level-badge.badge-megyeiii { background: #ea580c; }
+.match-level-badge.badge-megyeiv { background: #be123c; }
+
 .match-league-tag {
   display: inline-block;
   font-size: 0.7rem;
@@ -384,11 +453,19 @@ input[type="date"]:focus {
   border-radius: 50%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
   cursor: pointer;
-  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
 }
 
+.custom-pitch-pin.pin-nbi { background: #b45309; }
+.custom-pitch-pin.pin-nbii { background: #1d4ed8; }
+.custom-pitch-pin.pin-nbiii { background: #047857; }
+.custom-pitch-pin.pin-megyei { background: #6d28d9; }
+.custom-pitch-pin.pin-megyeii { background: #0f766e; }
+.custom-pitch-pin.pin-megyeiii { background: #ea580c; }
+.custom-pitch-pin.pin-megyeiv { background: #be123c; }
+
 .custom-pitch-pin:hover {
-  background: #2e7d32;
+  filter: brightness(1.15);
   box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.4), 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
@@ -413,5 +490,8 @@ input[type="date"]:focus {
   #global-search, #league-select {
     min-width: 130px;
     max-width: 180px;
+  }
+  .bmac-badge img {
+    height: 24px;
   }
 }

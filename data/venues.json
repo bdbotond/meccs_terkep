@@ -3,139 +3,139 @@
     "name": "Nyíregyháza Városi Stadion",
     "lat": 47.97045,
     "lng": 21.71228,
-    "address": "Nyíregyháza Városi Stadion"
+    "address": "Városi Stadion, Sóstói út, Nyíregyháza"
   },
   "Kisvárdai Várkerti Stadion": {
     "name": "Kisvárdai Várkerti Stadion",
     "lat": 48.23321,
     "lng": 22.07358,
-    "address": "Várkerti Stadion"
+    "address": "Várkerti Stadion, Kisvárda"
   },
   "Illovszky Rudolf Stadion": {
     "name": "Illovszky Rudolf Stadion",
     "lat": 47.53664,
     "lng": 19.08016,
-    "address": "Illovszky Rudolf Stadion"
+    "address": "Illovszky Rudolf Stadion, Fáy utca, Budapest"
   },
   "Debreceni Nagyerdei Stadion": {
     "name": "Debreceni Nagyerdei Stadion",
     "lat": 47.55399,
     "lng": 21.63291,
-    "address": "Nagyerdei Stadion"
+    "address": "Nagyerdei Stadion, Debrecen"
   },
   "Paksi FC Stadion": {
     "name": "Paksi FC Stadion",
     "lat": 46.63374,
     "lng": 18.85247,
-    "address": "Fehérvári úti Stadion"
+    "address": "Fehérvári úti Stadion, Paks"
   },
   "Új Hidegkuti Nándor Stadion": {
     "name": "Új Hidegkuti Nándor Stadion",
     "lat": 47.49082,
     "lng": 19.10675,
-    "address": "Hidegkuti Nándor Stadion"
+    "address": "Hidegkuti Nándor Stadion, Salgótarjáni utca, Budapest"
   },
   "Puskás Akadémia Pancho Aréna": {
     "name": "Puskás Akadémia Pancho Aréna",
     "lat": 47.46396,
     "lng": 18.58662,
-    "address": "Pancho Aréna, Felcsút"
+    "address": "Pancho Aréna, Fő utca, Felcsút"
   },
   "Bozsik Aréna": {
     "name": "Bozsik Aréna",
     "lat": 47.44253,
     "lng": 19.15555,
-    "address": "Bozsik Aréna"
+    "address": "Bozsik Aréna, Puskás Ferenc utca, Budapest"
   },
   "Szusza Ferenc Stadion": {
     "name": "Szusza Ferenc Stadion",
-    "lat": 47.48185,
-    "lng": 19.14491,
-    "address": "Szusza Ferenc Stadion (Budapest)"
+    "lat": 47.57487,
+    "lng": 19.08349,
+    "address": "Szusza Ferenc Stadion, Megyeri út, Budapest"
   },
   "Groupama Aréna": {
     "name": "Groupama Aréna",
     "lat": 47.4754,
     "lng": 19.09521,
-    "address": "Groupama Aréna"
+    "address": "Groupama Aréna, Üllői út, Budapest"
   },
   "ETO Stadion": {
     "name": "ETO Stadion",
-    "lat": 47.4643,
-    "lng": 19.02062,
-    "address": "Budapest-Kelenföld"
+    "lat": 47.69507,
+    "lng": 17.66015,
+    "address": "ETO Park, Győr"
   },
   "ZTE Aréna": {
     "name": "ZTE Aréna",
     "lat": 46.84871,
     "lng": 16.84853,
-    "address": "ZTE Aréna"
+    "address": "ZTE Aréna, Október 6. tér, Zalaegerszeg"
   },
   "Nagykanizsai Olajbányász Stadion": {
     "name": "Nagykanizsai Olajbányász Stadion",
     "lat": 46.45096,
     "lng": 16.98455,
-    "address": "Olajbányász sporttelep"
+    "address": "Olajbányász sporttelep, Nagykanizsa"
   },
   "Székesfehérvári Sóstói Stadion": {
     "name": "Székesfehérvári Sóstói Stadion",
     "lat": 47.17365,
     "lng": 18.41431,
-    "address": "MOL Aréna Sóstó"
+    "address": "MOL Aréna Sóstó, Csíkvári út, Székesfehérvár"
   },
   "BVSC-Zugló Stadion": {
     "name": "BVSC-Zugló Stadion",
     "lat": 47.52277,
     "lng": 19.09053,
-    "address": "BVSC-Zugló"
+    "address": "BVSC-Zugló Stadion, Szőnyi út, Budapest"
   },
   "Tiszakécske Városi Sportcentrum": {
     "name": "Tiszakécske Városi Sportcentrum",
     "lat": 46.93512,
     "lng": 20.10552,
-    "address": "Városi Stadion"
+    "address": "Városi Stadion, Szabolcska Mihály utca, Tiszakécske"
   },
   "Ajkai Városi Sportcentrum": {
     "name": "Ajkai Városi Sportcentrum",
-    "lat": 45.86198,
-    "lng": 18.28896,
-    "address": "Mehring Lajos Városi Sportcentrum"
+    "lat": 47.1084,
+    "lng": 17.5501,
+    "address": "Városi Sportcentrum, Városliget, Ajka"
   },
   "Szentlőrinc SE Sporttelep": {
     "name": "Szentlőrinc SE Sporttelep",
-    "lat": 45.95876,
-    "lng": 18.09317,
-    "address": "Szentlőrinc-Ormánság Takarékszövetkezet Baksai Fiók"
+    "lat": 46.0425,
+    "lng": 17.9863,
+    "address": "Szentlőrinc SE Sporttelep, Bányász utca, Szentlőrinc"
   },
   "ALCUFER Stadion": {
     "name": "ALCUFER Stadion",
     "lat": 47.63288,
     "lng": 17.59277,
-    "address": "Ménfői úti Stadion"
+    "address": "ALCUFER Stadion, Ménfői út, Győr-Gyirmót"
   },
   "Szamosi Mihály Sporttelep": {
     "name": "Szamosi Mihály Sporttelep",
     "lat": 47.3902,
     "lng": 19.11244,
-    "address": "Szamosi Mihály Sporttelep"
+    "address": "Szamosi Mihály Sporttelep, Haraszti út, Budapest"
   },
   "Kecskeméti Széktói Stadion": {
     "name": "Kecskeméti Széktói Stadion",
     "lat": 46.90155,
     "lng": 19.66988,
-    "address": "Széktói Stadion"
+    "address": "Széktói Stadion, Csabay Géza körút, Kecskemét"
   },
   "Kolorcity Aréna": {
     "name": "Kolorcity Aréna",
     "lat": 48.24369,
     "lng": 20.61036,
-    "address": "Kolorcity Aréna"
+    "address": "Kolorcity Aréna, Kazincbarcika"
   },
   "Karcag Liget úti Sportcentrum": {
     "name": "Karcag Liget úti Sportcentrum",
     "lat": 47.31937,
     "lng": 20.90281,
-    "address": "Ligeti úti sporttelep"
+    "address": "Liget úti sporttelep, Karcag"
   },
   "Tersztyánszky Ödön Sportközpont": {
     "name": "Tersztyánszky Ödön Sportközpont",
@@ -147,145 +147,145 @@
     "name": "DVTK Stadion",
     "lat": 48.09986,
     "lng": 20.71756,
-    "address": "DVTK Stadion"
+    "address": "DVTK Stadion, Andrássy Gyula utca, Miskolc"
   },
   "Mezőkövesd Városi Stadion": {
     "name": "Mezőkövesd Városi Stadion",
     "lat": 47.80216,
     "lng": 20.56731,
-    "address": "Városi stadion"
+    "address": "Városi Stadion, Széchenyi utca, Mezőkövesd"
   },
   "Szent Gellért Fórum": {
     "name": "Szent Gellért Fórum",
     "lat": 46.26238,
     "lng": 20.11885,
-    "address": "Szent Gellért Fórum"
+    "address": "Szent Gellért Fórum, Dorozsmai út, Szeged"
   },
   "Feleki Attila Sportközpont": {
     "name": "Feleki Attila Sportközpont",
-    "lat": 47.65259,
-    "lng": 17.52293,
-    "address": "Rábcatorok Kulturális és Sportközpont"
+    "lat": 46.0297,
+    "lng": 18.2921,
+    "address": "Feleki Attila Sportközpont, Alkotmány tér, Kozármisleny"
   },
   "Nyíregyháza Örökösföld Sporttelep": {
     "name": "Nyíregyháza Örökösföld Sporttelep",
     "lat": 47.96334,
     "lng": 21.74502,
-    "address": "Örökösföldi Sporttelep"
+    "address": "Örökösföldi Sporttelep, Nyíregyháza"
   },
   "Szűcs Lajos Sportcentrum (Gödöllő)": {
     "name": "Szűcs Lajos Sportcentrum (Gödöllő)",
     "lat": 47.59831,
     "lng": 19.3348,
-    "address": "Szűcs Lajos sportcentrum"
+    "address": "Szűcs Lajos Sportcentrum, Gödöllő"
   },
   "Debreceni Labdarúgó Akadémia Edzőközpont": {
     "name": "Debreceni Labdarúgó Akadémia Edzőközpont",
     "lat": 47.55329,
     "lng": 21.63295,
-    "address": "Loki Bisztró Labdarúgó Akadémia"
+    "address": "Debreceni Labdarúgó Akadémia, Debrecen"
   },
   "Tiszaújváros Sportcentrum": {
     "name": "Tiszaújváros Sportcentrum",
     "lat": 47.92948,
     "lng": 21.05051,
-    "address": "Tiszaújvárosi Sportcentrum"
+    "address": "Tiszaújvárosi Sportcentrum, Teleki Blanka út, Tiszaújváros"
   },
   "Tarpa Sportcentrum": {
     "name": "Tarpa Sportcentrum",
-    "lat": 47.45423,
-    "lng": 21.3955,
-    "address": "Mazsi Hungarospa Sportcentrum"
+    "lat": 48.106,
+    "lng": 22.531,
+    "address": "Tarpa Sportcentrum, Tarpa"
   },
   "Lipcsey Elemér Sporttelep": {
     "name": "Lipcsey Elemér Sporttelep",
     "lat": 47.62245,
     "lng": 20.75234,
-    "address": "Lipcsey Elemér Sporttelep (Kiss Pál Múzeum)"
+    "address": "Lipcsey Elemér Sporttelep, Tiszafüred"
   },
   "Cigánd Városi Stadion": {
     "name": "Cigánd Városi Stadion",
-    "lat": 47.97045,
-    "lng": 21.71291,
-    "address": "Nyíregyháza Városi Stadion"
+    "lat": 48.258,
+    "lng": 21.8902,
+    "address": "Városi Stadion, Fő út, Cigánd"
   },
   "Eger Szentmarjay Tibor Városi Stadion": {
     "name": "Eger Szentmarjay Tibor Városi Stadion",
     "lat": 47.89899,
     "lng": 20.37437,
-    "address": "Eger Szentmarjay Tibor Városi Stadion (Eger)"
+    "address": "Szentmarjay Tibor Városi Stadion, Stadion utca, Eger"
   },
   "Putnoki Várady Béla Sportközpont": {
     "name": "Putnoki Várady Béla Sportközpont",
     "lat": 48.28758,
     "lng": 20.43253,
-    "address": "Váradi Béla Sportközpont"
+    "address": "Váradi Béla Sportközpont, Pitypalatty utca, Putnok"
   },
   "Debreceni Egyetemi AC Sporttelep": {
     "name": "Debreceni Egyetemi AC Sporttelep",
     "lat": 47.55572,
     "lng": 21.61512,
-    "address": "Egyetemi Sporttelep"
+    "address": "DEAC Sporttelep, Dóczy József utca, Debrecen"
   },
   "Füzesabonyi Sporttelep": {
     "name": "Füzesabonyi Sporttelep",
     "lat": 47.74854,
     "lng": 20.41427,
-    "address": "Füzesabonyi Sporttelep (Füzesabony)"
+    "address": "Füzesabonyi Sporttelep, Füzesabony"
   },
   "Nagy Norbert Sportközpont Hajdúnánás": {
     "name": "Nagy Norbert Sportközpont Hajdúnánás",
-    "lat": 47.23874,
-    "lng": 18.05099,
-    "address": "Nagy Norbert Sportközpont Hajdúnánás (Nagy-rét tető)"
+    "lat": 47.85,
+    "lng": 21.4333,
+    "address": "Nagy Norbert Sportközpont, Hajdúnánás"
   },
   "Mátészalkai Városi Sporttelep": {
     "name": "Mátészalkai Városi Sporttelep",
     "lat": 47.95391,
     "lng": 22.32085,
-    "address": "Mátészalkai Városi Sporttelep (Mátészalka)"
+    "address": "Városi Sporttelep, Kölcsey utca, Mátészalka"
   },
   "Salgótarjáni Tó-strand Sporttelep": {
     "name": "Salgótarjáni Tó-strand Sporttelep",
     "lat": 48.09607,
     "lng": 19.80056,
-    "address": "Salgótarjáni Tó-strand Sporttelep (Salgótarján)"
+    "address": "Tó-strand Sporttelep, Tóstrand út, Salgótarján"
   },
   "DVTK Edzőközpont": {
     "name": "DVTK Edzőközpont",
     "lat": 48.0986,
     "lng": 20.71505,
-    "address": "DVTK Edzőközpont"
+    "address": "DVTK Edzőközpont, Miskolc"
   },
   "Szegedi Vasutas SE Sporttelep": {
     "name": "Szegedi Vasutas SE Sporttelep",
     "lat": 46.25463,
     "lng": 20.1486,
-    "address": "Szegedi Vasutas SE Sporttelep (Szeged)"
+    "address": "SZVSE Sporttelep, Kossuth Lajos sugárút, Szeged"
   },
   "III. ker. TVE Sporttelep": {
     "name": "III. ker. TVE Sporttelep",
     "lat": 47.54774,
     "lng": 19.05488,
-    "address": "Sporttelep"
+    "address": "III. ker. TVE Sporttelep, Kalap utca, Budapest"
   },
   "Gyulai id. Christián László Városi Sporttelep": {
     "name": "Gyulai id. Christián László Városi Sporttelep",
-    "lat": 48.13794,
-    "lng": 22.11173,
-    "address": "Gyulai id. Christián László Városi Sporttelep (Gyulaháza)"
+    "lat": 46.6436,
+    "lng": 21.2721,
+    "address": "Id. Christián László Városi Sporttelep, Ajtóssy Albert utca, Gyula"
   },
   "Szolnoki Tiszaligeti Stadion": {
     "name": "Szolnoki Tiszaligeti Stadion",
     "lat": 47.16813,
     "lng": 20.20092,
-    "address": "Tiszaligeti Labdarúgó Stadion irodaépülete"
+    "address": "Tiszaligeti Stadion, Tiszaliget, Szolnok"
   },
   "Újpest Labdarúgó Sportcentruma": {
     "name": "Újpest Labdarúgó Sportcentruma",
     "lat": 47.57848,
     "lng": 19.09024,
-    "address": "Labdarúgó utca"
+    "address": "Újpest Labdarúgó Sportcentrum, Tábor utca, Budapest"
   },
   "Honvéd MFA Utánpótlás Központ": {
     "name": "Honvéd MFA Utánpótlás Központ",
@@ -297,25 +297,25 @@
     "name": "ESMTK Stadion",
     "lat": 47.4319,
     "lng": 19.11235,
-    "address": "ESMTK Stadion (ESMTK)"
+    "address": "ESMTK Stadion, Zodony utca, Budapest"
   },
   "FC Dabas Wellis Sportpark": {
     "name": "FC Dabas Wellis Sportpark",
-    "lat": 47.18176,
-    "lng": 19.50609,
-    "address": "Magyarország"
+    "lat": 47.188,
+    "lng": 19.312,
+    "address": "Wellis Sportpark, Dabas"
   },
   "Békéscsabai Kórház utcai Stadion": {
     "name": "Békéscsabai Kórház utcai Stadion",
     "lat": 46.68624,
     "lng": 21.10544,
-    "address": "Kórház utcai stadion"
+    "address": "Kórház utcai Stadion, Békéscsaba"
   },
   "Sándorfalva Sporttelep": {
     "name": "Sándorfalva Sporttelep",
     "lat": 46.36574,
     "lng": 20.10422,
-    "address": "Sándorfalva"
+    "address": "Sándorfalva Sporttelep, Sándorfalva"
   },
   "BKV Előre Stadion": {
     "name": "BKV Előre Stadion",
@@ -327,181 +327,181 @@
     "name": "Hódmezővásárhelyi Városi Stadion",
     "lat": 46.4237,
     "lng": 20.33144,
-    "address": "Városi Stadion"
+    "address": "Városi Stadion, Hódmezővásárhely"
   },
   "Csepel SC Stadion": {
     "name": "Csepel SC Stadion",
     "lat": 47.41812,
     "lng": 19.06993,
-    "address": "Csepel SC Fitness Stúdió"
+    "address": "Csepel SC Stadion, Béke tér, Budapest"
   },
   "Balassi Bálint utcai Stadion (Monor)": {
     "name": "Balassi Bálint utcai Stadion (Monor)",
     "lat": 47.35258,
     "lng": 19.43864,
-    "address": "Balassi Bálint utca"
+    "address": "Balassi Bálint utcai Stadion, Monor"
   },
   "Grosics Gyula Labdarúgó Akadémia": {
     "name": "Grosics Gyula Labdarúgó Akadémia",
-    "lat": 47.31964,
-    "lng": 18.97004,
-    "address": "Grosics Gyula Labdarúgó Akadémia (Grosics Gyula köz)"
+    "lat": 46.2624,
+    "lng": 20.1189,
+    "address": "Grosics Gyula Akadémia, Dorozsmai út, Szeged"
   },
   "Bicskei TC Sporttelep": {
     "name": "Bicskei TC Sporttelep",
     "lat": 47.49071,
     "lng": 18.6358,
-    "address": "Bicskei TC Sporttelep (Bicske)"
+    "address": "Bicskei TC Sporttelep, Kisfaludy utca, Bicske"
   },
   "MTE 1904 Sporttelep": {
     "name": "MTE 1904 Sporttelep",
-    "lat": 45.99581,
-    "lng": 18.68326,
-    "address": "MTE 1904 Sporttelep (MTE)"
+    "lat": 47.8765,
+    "lng": 17.2712,
+    "address": "MTE 1904 Sporttelep, Wittmann Antal park, Mosonmagyaróvár"
   },
   "Perutz Stadion": {
     "name": "Perutz Stadion",
     "lat": 47.33437,
     "lng": 17.47382,
-    "address": "Perutz Stadion"
+    "address": "Perutz Stadion, Várkert utca, Pápa"
   },
   "Komárom Molaji Sporttelep": {
     "name": "Komárom Molaji Sporttelep",
-    "lat": 47.61329,
-    "lng": 18.38194,
-    "address": "Vértesszőlős, Sporttelep"
+    "lat": 47.741,
+    "lng": 18.118,
+    "address": "Molaji Sporttelep, Sport utca, Komárom"
   },
   "Buzánszky Jenő Labdarúgó Stadion": {
     "name": "Buzánszky Jenő Labdarúgó Stadion",
     "lat": 47.72163,
     "lng": 18.73818,
-    "address": "Buzánszky Jenő Stadion"
+    "address": "Buzánszky Jenő Stadion, Köztársaság út, Dorog"
   },
   "Haladás Sportkomplexum": {
     "name": "Haladás Sportkomplexum",
     "lat": 47.23493,
     "lng": 16.60693,
-    "address": "Haladás Sportkomplexum"
+    "address": "Haladás Sportkomplexum, Rohonci út, Szombathely"
   },
   "Vilmos Endre Sportcentrum": {
     "name": "Vilmos Endre Sportcentrum",
     "lat": 47.43884,
     "lng": 19.21874,
-    "address": "Vilmos Endre Sportcentrum"
+    "address": "Vilmos Endre Sportcentrum, Nagyenyed utca, Budapest"
   },
   "Király Sportlétesítmény": {
     "name": "Király Sportlétesítmény",
-    "lat": 46.08426,
-    "lng": 18.77054,
-    "address": "Király Sportlétesítmény (Szent István király templom)"
+    "lat": 47.2185,
+    "lng": 16.5982,
+    "address": "Király Sportlétesítmény, Temesvár utca, Szombathely"
   },
   "Balatonalmádi Sportközpont": {
     "name": "Balatonalmádi Sportközpont",
-    "lat": 47.04275,
-    "lng": 18.0183,
-    "address": "Balatonalmádi Sportközpont"
+    "lat": 47.027,
+    "lng": 18.016,
+    "address": "Balatonalmádi Sportközpont, Rákóczi út, Balatonalmádi"
   },
   "Soproni Városi Stadion": {
     "name": "Soproni Városi Stadion",
     "lat": 47.6916,
     "lng": 16.58382,
-    "address": "Sopron Városi Stadion"
+    "address": "Városi Stadion, Káposztás utca, Sopron"
   },
   "Grosics Gyula Stadion": {
     "name": "Grosics Gyula Stadion",
     "lat": 47.55653,
     "lng": 18.41776,
-    "address": "Grosics Gyula stadion"
+    "address": "Grosics Gyula Stadion, Szent Borbála út, Tatabánya"
   },
   "Veszprémi Városi Stadion": {
     "name": "Veszprémi Városi Stadion",
     "lat": 47.08374,
     "lng": 17.90276,
-    "address": "Veszprémi Városi Stadion"
+    "address": "Városi Stadion, Wartha Vince utca, Veszprém"
   },
   "Sárisápi Bányász SE Sporttelep": {
     "name": "Sárisápi Bányász SE Sporttelep",
     "lat": 47.67436,
     "lng": 18.68135,
-    "address": "Sárisápi Bányász SE Sporttelep (Sárisáp)"
+    "address": "Bányász Sporttelep, Sárisáp"
   },
   "Kaposvári Rákóczi Stadion": {
     "name": "Kaposvári Rákóczi Stadion",
     "lat": 46.35655,
     "lng": 17.80602,
-    "address": "Rákóczi Stadion"
+    "address": "Rákóczi Stadion, Pécsi út, Kaposvár"
   },
   "Károlyi István Sporttelep Iváncsa": {
     "name": "Károlyi István Sporttelep Iváncsa",
-    "lat": 47.53362,
-    "lng": 18.95519,
-    "address": "Károlyi István Sporttelep Iváncsa (Kaán Károly-kilátó)"
+    "lat": 47.1558,
+    "lng": 18.821,
+    "address": "Károlyi István Sporttelep, Arany János utca, Iváncsa"
   },
   "Novák Ferenc Érdi Sportközpont": {
     "name": "Novák Ferenc Érdi Sportközpont",
-    "lat": 47.76425,
-    "lng": 18.90132,
-    "address": "Novák Ferenc Érdi Sportközpont (Novák Lajos utca)"
+    "lat": 47.382,
+    "lng": 18.918,
+    "address": "Novák Ferenc Érdi Sportközpont, Ercsi út, Érd"
   },
   "PMFC Stadion": {
     "name": "PMFC Stadion",
     "lat": 46.06876,
     "lng": 18.19592,
-    "address": "PMFC stadion"
+    "address": "PMFC Stadion, Stadion utca, Pécs"
   },
   "MTK Budapest - Sándor Károly LA": {
     "name": "MTK Budapest - Sándor Károly LA",
-    "lat": 47.57571,
-    "lng": 19.12541,
-    "address": "Károly Róbert Általános Iskola"
+    "lat": 47.4984,
+    "lng": 19.0404,
+    "address": "MTK Budapest - Sándor Károly LA (Budapest)"
   },
   "Majosi SE Sporttelep": {
     "name": "Majosi SE Sporttelep",
-    "lat": 46.29978,
-    "lng": 18.49121,
-    "address": "Majosi SE Sporttelep (Majos)"
+    "lat": 46.3072,
+    "lng": 18.5021,
+    "address": "Majosi SE Sporttelep, Bonyhád-Majos"
   },
   "Dunaharaszti MTK Sporttelep": {
     "name": "Dunaharaszti MTK Sporttelep",
     "lat": 47.35415,
     "lng": 19.09122,
-    "address": "Dunaharaszti MTK Sporttelep (Dunaharaszti)"
+    "address": "Dunaharaszti MTK Sporttelep, Mindszenty József utca, Dunaharaszti"
   },
   "Budaörsi Városi Stadion": {
     "name": "Budaörsi Városi Stadion",
     "lat": 47.46172,
     "lng": 18.93851,
-    "address": "Budaörsi Városi Bíróság"
+    "address": "Városi Stadion, Árok utca, Budaörs"
   },
   "Szekszárdi Városi Sport és Szabadidőközpont": {
     "name": "Szekszárdi Városi Sport és Szabadidőközpont",
-    "lat": 47.77814,
-    "lng": 18.9657,
-    "address": "Visegrádi Városi Sport- és Szabadidőközpont"
+    "lat": 46.3478,
+    "lng": 18.7183,
+    "address": "Városi Sport- és Szabadidőközpont, Keselyűsi út, Szekszárd"
   },
   "Siófok Városi Stadion": {
     "name": "Siófok Városi Stadion",
     "lat": 46.90924,
     "lng": 18.0616,
-    "address": "Siófok Városi stadion"
+    "address": "Városi Stadion, Révész Géza utca, Siófok"
   },
   "Budafoki MTE Sporttelep": {
     "name": "Budafoki MTE Sporttelep",
     "lat": 47.42182,
     "lng": 19.02802,
-    "address": "BMTE Sporttelep"
+    "address": "BMTE Sporttelep, Promontor utca, Budapest"
   },
   "Sárbogárd Sporttelep": {
     "name": "Sárbogárd Sporttelep",
     "lat": 46.88744,
     "lng": 18.61962,
-    "address": "Sárbogárd"
+    "address": "Sárbogárd Sporttelep, Prohászka utca, Sárbogárd"
   },
   "FTC-MVM Népligeti Sportközpont": {
     "name": "FTC-MVM Népligeti Sportközpont",
     "lat": 47.48057,
     "lng": 19.11548,
-    "address": "FTC-MVM Népligeti Sportközpont"
+    "address": "FTC-MVM Népligeti Sportközpont, Budapest"
   },
   "Soltvadkert Sporttelep": {
     "name": "Soltvadkert Sporttelep",
@@ -513,7 +513,7 @@
     "name": "Lázár Bence Lajosmizsei Labdarúgó Sportcentrum",
     "lat": 47.02663,
     "lng": 19.56699,
-    "address": "Lázár Bence Sportcentrum"
+    "address": "Lázár Bence Sportcentrum, Lajosmizse"
   },
   "Kiskunfélegyháza Honvéd Sporttelep": {
     "name": "Kiskunfélegyháza Honvéd Sporttelep",
@@ -559,9 +559,9 @@
   },
   "Kiskőrös Sporttelep": {
     "name": "Kiskőrös Sporttelep",
-    "lat": 46.80771,
-    "lng": 19.3379,
-    "address": "Ungor Pál Sporttelep"
+    "lat": 46.6214,
+    "lng": 19.2853,
+    "address": "Kiskőrös Sporttelep (Kiskőrös)"
   },
   "Kunbaja Sporttelep": {
     "name": "Kunbaja Sporttelep",
@@ -739,9 +739,9 @@
   },
   "Dunafalva Sporttelep": {
     "name": "Dunafalva Sporttelep",
-    "lat": 46.08385,
-    "lng": 18.77255,
-    "address": "Dunafalva"
+    "lat": 46.088,
+    "lng": 18.775,
+    "address": "Dunafalva Sporttelep, Dunafalva"
   },
   "Nagybaracska Sporttelep": {
     "name": "Nagybaracska Sporttelep",
@@ -799,9 +799,9 @@
   },
   "Tiszaug Sporttelep": {
     "name": "Tiszaug Sporttelep",
-    "lat": 46.85169,
-    "lng": 20.05794,
-    "address": "Tiszaug"
+    "lat": 46.855,
+    "lng": 20.06,
+    "address": "Tiszaug Sporttelep, Tiszaug"
   },
   "Kiskunfélegyháza Miskolczy István Sportpálya Molnár telep": {
     "name": "Kiskunfélegyháza Miskolczy István Sportpálya Molnár telep",
@@ -943,9 +943,9 @@
   },
   "Harkány Város Sporttelep": {
     "name": "Harkány Város Sporttelep",
-    "lat": 46.7579,
-    "lng": 17.2498,
-    "address": "Városi sporttelep"
+    "lat": 45.85,
+    "lng": 18.2367,
+    "address": "Harkány Város Sporttelep (Harkány)"
   },
   "Bólyi SE Park utcai Sporttelep": {
     "name": "Bólyi SE Park utcai Sporttelep",
@@ -985,9 +985,9 @@
   },
   "Szederkényi SE Sporttelepe": {
     "name": "Szederkényi SE Sporttelepe",
-    "lat": 46.06592,
-    "lng": 18.23624,
-    "address": "Pécs Elektromos SE Sporttelepe"
+    "lat": 46.0007,
+    "lng": 18.4484,
+    "address": "Szederkényi SE Sporttelepe (Szederkény)"
   },
   "Kétújfalu": {
     "name": "Kétújfalu",
@@ -1027,9 +1027,9 @@
   },
   "Dr. Kófiás Mihály Városi Sporttelep": {
     "name": "Dr. Kófiás Mihály Városi Sporttelep",
-    "lat": 46.66285,
-    "lng": 20.25324,
-    "address": "Dr. Kófiás Mihály Városi Sporttelep (Dr. Bugyi István Kórház)"
+    "lat": 46.16,
+    "lng": 18.42,
+    "address": "Dr. Kófiás Mihály Városi Sporttelep, Pécsvárad"
   },
   "Ócsárd SE Sporttelep": {
     "name": "Ócsárd SE Sporttelep",
@@ -1087,9 +1087,9 @@
   },
   "Sásd Városi sportpálya": {
     "name": "Sásd Városi sportpálya",
-    "lat": 46.72702,
-    "lng": 18.03316,
-    "address": "Városi Sportpálya"
+    "lat": 46.255,
+    "lng": 18.109,
+    "address": "Városi sportpálya, Sásd"
   },
   "Újpetre sportpálya": {
     "name": "Újpetre sportpálya",
@@ -1129,9 +1129,9 @@
   },
   "Kaposszekcső-Csikostöttös KSE Sporttelepe": {
     "name": "Kaposszekcső-Csikostöttös KSE Sporttelepe",
-    "lat": 46.40884,
-    "lng": 18.1581,
-    "address": "Kaposszekcső-Csikostöttös KSE Sporttelepe (Dombóvár–Kaposszekcső–Csikóstőttős Társult Evangélikus Egyházközség)"
+    "lat": 46.34,
+    "lng": 18.13,
+    "address": "KSE Sporttelepe, Csikóstőttős / Mágocs"
   },
   "Palotabozsok": {
     "name": "Palotabozsok",
@@ -1159,15 +1159,15 @@
   },
   "Báta KSE Labdarúgó pálya": {
     "name": "Báta KSE Labdarúgó pálya",
-    "lat": 47.59646,
-    "lng": 21.64757,
-    "address": "DVSC Labdarugó Akadémia"
+    "lat": 46.1286,
+    "lng": 18.7703,
+    "address": "Báta KSE Labdarúgó pálya, Báta"
   },
   "Hidas SE": {
     "name": "Hidas SE",
-    "lat": 46.25953,
-    "lng": 18.49775,
-    "address": "Hidas"
+    "lat": 46.2595,
+    "lng": 18.4977,
+    "address": "Hidas SE Sporttelep, Hidas"
   },
   "Hosszúhetény SE": {
     "name": "Hosszúhetény SE",
@@ -1267,9 +1267,9 @@
   },
   "Gyomaendrőd Sporttelep": {
     "name": "Gyomaendrőd Sporttelep",
-    "lat": 47.03292,
-    "lng": 20.94371,
-    "address": "Seres István Sporttelep"
+    "lat": 46.9333,
+    "lng": 20.8333,
+    "address": "Gyomaendrőd Sporttelep (Gyomaendrőd)"
   },
   "Békéscsaba Jamina Sporttelep": {
     "name": "Békéscsaba Jamina Sporttelep",
@@ -1285,9 +1285,9 @@
   },
   "Egyéb Létesítmény / Csarnok": {
     "name": "Egyéb Létesítmény / Csarnok",
-    "lat": 47.69517,
-    "lng": 17.62585,
-    "address": "Egyetemi Csarnok, Mobilis"
+    "lat": 46.1667,
+    "lng": 20.6167,
+    "address": "Egyéb Létesítmény / Csarnok (Magyarcsanád)"
   },
   "Csabacsűdi Gyermek Labdarúgó Sportegyesület": {
     "name": "Csabacsűdi Gyermek Labdarúgó Sportegyesület",
@@ -1357,15 +1357,15 @@
   },
   "Békésszentandrási Sportpálya": {
     "name": "Békésszentandrási Sportpálya",
-    "lat": 46.89087,
-    "lng": 20.50044,
-    "address": "Békésszentandrási duzzasztó"
+    "lat": 46.877,
+    "lng": 20.485,
+    "address": "Békésszentandrási Sportpálya, Békésszentandrás"
   },
   "Lázár Gyula Városi Sporttelep": {
     "name": "Lázár Gyula Városi Sporttelep",
-    "lat": 47.56965,
-    "lng": 18.46026,
-    "address": "Lázár Gyula Városi Sporttelep (Lázár-hegy)"
+    "lat": 47.085,
+    "lng": 21.215,
+    "address": "Lázár Gyula Városi Sporttelep, Füzesgyarmat"
   },
   "Sári Ferenc Sportközpont": {
     "name": "Sári Ferenc Sportközpont",
@@ -1405,9 +1405,9 @@
   },
   "Ismeretlen": {
     "name": "Ismeretlen",
-    "lat": 47.47063,
-    "lng": 19.21903,
-    "address": "Ismeretlen magyar katona sírja"
+    "lat": 46.8833,
+    "lng": 21.5833,
+    "address": "Ismeretlen (Geszt)"
   },
   "Békéscsaba MÁV Sportpálya": {
     "name": "Békéscsaba MÁV Sportpálya",
@@ -1429,9 +1429,9 @@
   },
   "Szebelley Ferenc Sporttelep - Bucsa": {
     "name": "Szebelley Ferenc Sporttelep - Bucsa",
-    "lat": 47.6808,
-    "lng": 16.58778,
-    "address": "Szebelley Ferenc Sporttelep - Bucsa (Szebellédy)"
+    "lat": 47.2,
+    "lng": 21.0,
+    "address": "Szebelley Ferenc Sporttelep, Bucsa"
   },
   "Kamut Sportpálya": {
     "name": "Kamut Sportpálya",
@@ -1507,15 +1507,15 @@
   },
   "Sátoraljaújhelyi Sportpálya": {
     "name": "Sátoraljaújhelyi Sportpálya",
-    "lat": 48.53298,
-    "lng": 21.40958,
-    "address": "Sportpálya"
+    "lat": 48.3949,
+    "lng": 21.6587,
+    "address": "Sátoraljaújhelyi Sportpálya (Sátoraljaújhely)"
   },
   "Edelény Városi Sporttelep": {
     "name": "Edelény Városi Sporttelep",
-    "lat": 48.38815,
-    "lng": 21.66071,
-    "address": "Városi sporttelep"
+    "lat": 48.3,
+    "lng": 20.7333,
+    "address": "Edelény Városi Sporttelep (Edelény)"
   },
   "MVSC Sporttelep": {
     "name": "MVSC Sporttelep",
@@ -1525,9 +1525,9 @@
   },
   "Tóth-Zele József Sportközpont Gesztely": {
     "name": "Tóth-Zele József Sportközpont Gesztely",
-    "lat": 47.49866,
-    "lng": 19.03601,
-    "address": "Tóth-Zele József Sportközpont Gesztely (Tóth Árpád sétány)"
+    "lat": 48.1,
+    "lng": 20.9667,
+    "address": "Tóth-Zele József Sportközpont, Gesztely"
   },
   "Alsózsolcai Sporttelep": {
     "name": "Alsózsolcai Sporttelep",
@@ -1573,9 +1573,9 @@
   },
   "Gulyás István Sport és Szabadidőközpont Parasznya": {
     "name": "Gulyás István Sport és Szabadidőközpont Parasznya",
-    "lat": 47.3682,
-    "lng": 18.4492,
-    "address": "Gulyás István Sport és Szabadidőközpont Parasznya (Gulyás-kút)"
+    "lat": 48.17,
+    "lng": 20.66,
+    "address": "Gulyás István Sportközpont, Parasznya"
   },
   "Borostyán Mihály Sportközpont Sajóbábony": {
     "name": "Borostyán Mihály Sportközpont Sajóbábony",
@@ -1651,9 +1651,9 @@
   },
   "Szendrő Sportpálya": {
     "name": "Szendrő Sportpálya",
-    "lat": 48.33896,
-    "lng": 20.74414,
-    "address": "Szendrőlád, sportpálya"
+    "lat": 48.4,
+    "lng": 20.7333,
+    "address": "Szendrő Sportpálya (Szendrő)"
   },
   "Taktaszada Községi Sportegyesület  Sportpálya": {
     "name": "Taktaszada Községi Sportegyesület  Sportpálya",
@@ -1729,9 +1729,9 @@
   },
   "Dr Puskás László Sporttelep Gönc": {
     "name": "Dr Puskás László Sporttelep Gönc",
-    "lat": 48.23979,
-    "lng": 21.13535,
-    "address": "Borsod-Abaúj-Zemplén vármegye"
+    "lat": 48.4667,
+    "lng": 21.2833,
+    "address": "Dr Puskás László Sporttelep Gönc (Gönc)"
   },
   "Hejőpapi Sportpálya": {
     "name": "Hejőpapi Sportpálya",
@@ -1801,9 +1801,9 @@
   },
   "Ónod Sport Egyesület": {
     "name": "Ónod Sport Egyesület",
-    "lat": 48.4704,
-    "lng": 21.51251,
-    "address": "Zempléni Pisztráng Sporthorgász Közhasznú Egyesület"
+    "lat": 48.0,
+    "lng": 20.9167,
+    "address": "Ónod Sport Egyesület (Ónod)"
   },
   "Borsodivánka Sportpálya": {
     "name": "Borsodivánka Sportpálya",
@@ -1947,61 +1947,61 @@
     "name": "ASR Gázgyár Sporttelep",
     "lat": 47.56199,
     "lng": 19.05075,
-    "address": "Asr Gázgyár Sporttelep"
+    "address": "ASR Gázgyár Sporttelep, Sujtás utca, Budapest"
   },
   "Szabadkikötő Sporttelep": {
     "name": "Szabadkikötő Sporttelep",
     "lat": 47.4453,
     "lng": 19.06343,
-    "address": "Szabadkikötő"
+    "address": "Szabadkikötő Sporttelep, Weiss Manfréd út, Budapest"
   },
   "Testvériség SE Sporttelep": {
     "name": "Testvériség SE Sporttelep",
-    "lat": 46.2165,
-    "lng": 20.07682,
-    "address": "Testvériség SE Sporttelep (Testvériség köz)"
+    "lat": 47.5767,
+    "lng": 19.1358,
+    "address": "Testvériség SE Sporttelep, Szántóföld utca, Budapest"
   },
   "Kelen SC Sporttelep": {
     "name": "Kelen SC Sporttelep",
     "lat": 47.46604,
     "lng": 19.04816,
-    "address": "Gabányi László Sporttelep"
+    "address": "Kelen SC Sporttelep, Hunyadi Mátyás út, Budapest"
   },
   "Fővárosi Vízművek SK Sporttelep": {
     "name": "Fővárosi Vízművek SK Sporttelep",
     "lat": 47.57663,
     "lng": 19.08037,
-    "address": "Fővárosi Vízművek Zrt. Sporttelep"
+    "address": "Fővárosi Vízművek Sporttelep, Váci út, Budapest"
   },
   "Vasgolyó utcai Sporttelep": {
     "name": "Vasgolyó utcai Sporttelep",
     "lat": 47.53295,
     "lng": 19.13673,
-    "address": "Vasgolyó utca"
+    "address": "Vasgolyó utcai Sporttelep, Budapest"
   },
   "Dr. Koltai Jenő Sportközpont": {
     "name": "Dr. Koltai Jenő Sportközpont",
     "lat": 47.48898,
     "lng": 19.02658,
-    "address": "Dr. Koltai Jenő Sportközpont"
+    "address": "Dr. Koltai Jenő Sportközpont, Csörsz utca, Budapest"
   },
   "Budai II. László Stadion": {
     "name": "Budai II. László Stadion",
     "lat": 47.56201,
     "lng": 19.12143,
-    "address": "Budai II László Stadion"
+    "address": "Budai II László Stadion, Szántóföld utca, Budapest"
   },
   "NSÜ-BOK Fehér úti Sporttelep": {
     "name": "NSÜ-BOK Fehér úti Sporttelep",
-    "lat": 47.47136,
-    "lng": 19.05501,
-    "address": "Bogdánfy utcai Sporttelep"
+    "lat": 47.502,
+    "lng": 19.134,
+    "address": "NSÜ-BOK Fehér úti Sporttelep, Fehér út, Budapest"
   },
   "Ikarus BSE Sporttelep": {
     "name": "Ikarus BSE Sporttelep",
     "lat": 47.51799,
     "lng": 19.19796,
-    "address": "Ikarus BSE sporttelep"
+    "address": "Ikarus BSE Sporttelep, Bátony utca, Budapest"
   },
   "Csepel FC USE Sporttelep (Hollandi út)": {
     "name": "Csepel FC USE Sporttelep (Hollandi út)",
@@ -2011,81 +2011,81 @@
   },
   "NAV Pasaréti úti Sporttelep": {
     "name": "NAV Pasaréti úti Sporttelep",
-    "lat": 47.46604,
-    "lng": 19.04816,
-    "address": "Gabányi László Sporttelep"
+    "lat": 47.5186,
+    "lng": 18.995,
+    "address": "Pasaréti úti Sporttelep, Pasaréti út, Budapest"
   },
   "Panoráma Sportközpont": {
     "name": "Panoráma Sportközpont",
     "lat": 47.52479,
     "lng": 19.03386,
-    "address": "Panoráma Sportközpont"
+    "address": "Panoráma Sportközpont, Kolostor út, Budapest"
   },
   "SPORT11 Sport és Szabadidőközpont": {
     "name": "SPORT11 Sport és Szabadidőközpont",
-    "lat": 47.56384,
-    "lng": 18.95337,
-    "address": "Pokorny József Sport- és Szabadidőközpont"
+    "lat": 47.452,
+    "lng": 18.988,
+    "address": "SPORT11 Sportközpont, Kánai út, Budapest"
   },
   "Szántóföld utcai Sporttelep": {
     "name": "Szántóföld utcai Sporttelep",
     "lat": 47.57667,
     "lng": 19.1358,
-    "address": "Szántóföld utcai Sporttelep"
+    "address": "Szántóföld utcai Sporttelep, Budapest"
   },
   "SINOSZ Sportcentrum": {
     "name": "SINOSZ Sportcentrum",
     "lat": 47.47165,
     "lng": 19.08817,
-    "address": "SINOSZ Sportcentrum"
+    "address": "SINOSZ Sportcentrum, Könyves Kálmán körút, Budapest"
   },
   "RKSK Sporttelep (Sport tér)": {
     "name": "RKSK Sporttelep (Sport tér)",
-    "lat": 47.48606,
-    "lng": 18.95271,
-    "address": "KFKI Sporttelep"
+    "lat": 47.476,
+    "lng": 19.263,
+    "address": "RKSK Sporttelep, Sport tér, Budapest"
   },
   "Nagytétényi SE Sporttelep": {
     "name": "Nagytétényi SE Sporttelep",
     "lat": 47.38792,
     "lng": 18.97437,
-    "address": "Nagytétényi SE Sporttelep (Nagytétény)"
+    "address": "Nagytétényi SE Sporttelep, Angeli utca, Budapest"
   },
   "Pestszentimrei SK Sporttelep": {
     "name": "Pestszentimrei SK Sporttelep",
     "lat": 47.40671,
     "lng": 19.17488,
-    "address": "Pestszentimre SK Sporttelep"
+    "address": "Pestszentimre SK Sporttelep, Táncsics Mihály utca, Budapest"
   },
   "ROKK Sporttelep": {
     "name": "ROKK Sporttelep",
     "lat": 47.4911,
     "lng": 19.07013,
-    "address": "ROKK Sporttelep (Rökk Szilárd utca)"
+    "address": "ROKK Sporttelep, Budapest"
   },
   "Budatétény Sporttelep": {
     "name": "Budatétény Sporttelep",
     "lat": 47.41713,
     "lng": 19.01066,
-    "address": "Budatétény Sporttelep (Budatétény)"
+    "address": "Budatétény Sporttelep, Jókai Mór utca, Budapest"
   },
   "Zrínyi Miklós Laktanya és Egyetemi Campus": {
     "name": "Zrínyi Miklós Laktanya és Egyetemi Campus",
     "lat": 47.49444,
     "lng": 19.11159,
-    "address": "Zrínyi Miklós Laktanya és Egyetemi Campus"
+    "address": "Zrínyi Miklós Campus Sporttelep, Hungária körút, Budapest"
   },
   "RKSK Sporttelep (Újlak utca)": {
     "name": "RKSK Sporttelep (Újlak utca)",
     "lat": 47.48082,
     "lng": 19.24405,
-    "address": "Bakancsos utcai Sporttelep"
+    "address": "RKSK Sporttelep, Újlak utca, Budapest"
   },
   "Pénzügyőr SE Sporttelep (Kőér utca)": {
     "name": "Pénzügyőr SE Sporttelep (Kőér utca)",
     "lat": 47.46723,
     "lng": 19.12795,
-    "address": "Pénzügyőr SE"
+    "address": "Pénzügyőr SE Sporttelep, Kőér utca, Budapest"
   },
   "ESMTK Utánpótlás Sporttelep": {
     "name": "ESMTK Utánpótlás Sporttelep",
@@ -2095,111 +2095,111 @@
   },
   "Pluhár István Labdarúgópálya": {
     "name": "Pluhár István Labdarúgópálya",
-    "lat": 47.65742,
-    "lng": 18.37257,
-    "address": "Pluhár István út"
+    "lat": 47.4912,
+    "lng": 19.0235,
+    "address": "Pluhár István Labdarúgópálya, Csörsz utca, Budapest"
   },
   "Pokorny József Sport- és Szabadidőközpont": {
     "name": "Pokorny József Sport- és Szabadidőközpont",
     "lat": 47.56384,
     "lng": 18.95337,
-    "address": "Pokorny József Sport- és Szabadidőközpont"
+    "address": "Pokorny József Sportközpont, Szabadság út, Budapest"
   },
   "Csillaghegyi Strand Sporttelep": {
     "name": "Csillaghegyi Strand Sporttelep",
     "lat": 47.58592,
     "lng": 19.0421,
-    "address": "Csillaghegyi strandfürdő és uszoda"
+    "address": "Csillaghegyi MTE Sporttelep, Kalászi utca, Budapest"
   },
   "Czakó utcai Sport- és Szabadidőközpont": {
     "name": "Czakó utcai Sport- és Szabadidőközpont",
     "lat": 47.49085,
     "lng": 19.03678,
-    "address": "Czakó Utcai Sport- és Szabadidőközpont"
+    "address": "Czakó utcai Sportközpont, Czakó utca, Budapest"
   },
   "Papírgyár Sporttelep": {
     "name": "Papírgyár Sporttelep",
-    "lat": 48.11356,
-    "lng": 20.66022,
-    "address": "Papírgyár Sporttelep (Papírgyár)"
+    "lat": 47.432,
+    "lng": 19.055,
+    "address": "Papírgyár Sporttelep, Duna dűlő, Budapest"
   },
   "Deák Ferenc \"Bamba\" Sporttelep": {
     "name": "Deák Ferenc \"Bamba\" Sporttelep",
     "lat": 47.42844,
     "lng": 19.1763,
-    "address": "Deák Ferenc „a bamba”"
+    "address": "Deák Ferenc Bamba Sporttelep, Nemes utca, Budapest"
   },
   "Újpesti Haladás Sporttelep": {
     "name": "Újpesti Haladás Sporttelep",
     "lat": 47.57778,
     "lng": 19.10635,
-    "address": "Sporttelep utca"
+    "address": "Újpesti Haladás Sporttelep, Sporttelep utca, Budapest"
   },
   "Angyalföldi Sportközpont": {
     "name": "Angyalföldi Sportközpont",
     "lat": 47.54084,
     "lng": 19.07459,
-    "address": "Angyalföldi Sportközpont"
+    "address": "Angyalföldi Sportközpont, Rozsnyay utca, Budapest"
   },
   "MLTC Sporttelep": {
     "name": "MLTC Sporttelep",
     "lat": 47.5092,
     "lng": 19.20636,
-    "address": "MLTC Sporttelep (MLTC sportpálya)"
+    "address": "MLTC Sporttelep, Hunyadvár utca, Budapest"
   },
   "RAFC Sporttelep": {
     "name": "RAFC Sporttelep",
     "lat": 47.51067,
     "lng": 19.16012,
-    "address": "RAFC Sporttelep (RAFC)"
+    "address": "RAFC Sporttelep, Pirosrózsa utca, Budapest"
   },
   "Kocsis Sándor Sportközpont": {
     "name": "Kocsis Sándor Sportközpont",
     "lat": 47.4786,
     "lng": 19.12323,
-    "address": "Kocsis Sándor Sportközpont"
+    "address": "Kocsis Sándor Sportközpont, Bihari utca, Budapest"
   },
   "CsHC Sporttelep": {
     "name": "CsHC Sporttelep",
-    "lat": 47.34737,
-    "lng": 19.41768,
-    "address": "CsHC Sporttelep (CSZC Szterényi József Technikum és Szakképző Iskola)"
+    "lat": 47.4256,
+    "lng": 19.0704,
+    "address": "CsHC Sporttelep, Hollandi út, Budapest"
   },
   "Gerely utcai Sporttelep": {
     "name": "Gerely utcai Sporttelep",
-    "lat": 47.57667,
-    "lng": 19.1358,
-    "address": "Szántóföld utcai Sporttelep"
+    "lat": 47.472,
+    "lng": 19.162,
+    "address": "Gerely utcai Sporttelep, Gerely utca, Budapest"
   },
   "KISE Sporttelep": {
     "name": "KISE Sporttelep",
     "lat": 47.50124,
     "lng": 19.14961,
-    "address": "KISE Sporttelep (Kőbányai Ifjúsági Sportegyesület (KISE))"
+    "address": "KISE Sporttelep, Salgótarjáni utca, Budapest"
   },
   "UTE Bánka Kristóf Sportközpont": {
     "name": "UTE Bánka Kristóf Sportközpont",
-    "lat": 47.16176,
-    "lng": 20.2157,
-    "address": "UTE Bánka Kristóf Sportközpont (UTE-Dózsa Ház (9-es épület))"
+    "lat": 47.5815,
+    "lng": 19.109,
+    "address": "Bánka Kristóf Sportközpont, Fóti út, Budapest"
   },
   "Grund 1986 FC Sporttelep": {
     "name": "Grund 1986 FC Sporttelep",
-    "lat": 47.44671,
-    "lng": 16.90827,
-    "address": "Grund 1986 FC Sporttelep (Grund)"
+    "lat": 47.575,
+    "lng": 19.112,
+    "address": "Grund 1986 FC Sporttelep, Kalmár Völgyi út, Budapest"
   },
   "Merkapt Maraton Sportközpont": {
     "name": "Merkapt Maraton Sportközpont",
     "lat": 47.4852,
     "lng": 19.16072,
-    "address": "Merkapt Maraton Sportközpont"
+    "address": "Merkapt Sportközpont, Maglódi út, Budapest"
   },
   "MTK Utánpótlás Sportközpont": {
     "name": "MTK Utánpótlás Sportközpont",
     "lat": 47.49082,
     "lng": 19.10675,
-    "address": "MTK Utánpótlás Sportközpont (Hidegkuti Nándor Stadion)"
+    "address": "Hidegkuti Nándor Stadion, Budapest"
   },
   "BVSC Utánpótlás Labdarúgó Centrum": {
     "name": "BVSC Utánpótlás Labdarúgó Centrum",
@@ -2209,9 +2209,9 @@
   },
   "SINOSZ Sportcsarnok": {
     "name": "SINOSZ Sportcsarnok",
-    "lat": 47.47349,
-    "lng": 19.10025,
-    "address": "MVM Dome"
+    "lat": 47.47165,
+    "lng": 19.08817,
+    "address": "SINOSZ Sportcentrum, Budapest"
   },
   "Vasas Pasaréti úti Sporttelep": {
     "name": "Vasas Pasaréti úti Sporttelep",
@@ -2221,9 +2221,9 @@
   },
   "UTE Megyeri úti UP Pálya": {
     "name": "UTE Megyeri úti UP Pálya",
-    "lat": 47.16176,
-    "lng": 20.2157,
-    "address": "UTE Megyeri úti UP Pálya (UTE-Dózsa Ház (9-es épület))"
+    "lat": 47.5749,
+    "lng": 19.0835,
+    "address": "UTE Megyeri úti Utánpótlás Pálya, Megyeri út, Budapest"
   },
   "E.on Multisport Centrum": {
     "name": "E.on Multisport Centrum",
@@ -2251,9 +2251,9 @@
   },
   "Vecsés Városi Sporttelep": {
     "name": "Vecsés Városi Sporttelep",
-    "lat": 47.57411,
-    "lng": 19.07905,
-    "address": "Vízművek Sporttelep"
+    "lat": 47.407,
+    "lng": 19.2865,
+    "address": "Vecsés Városi Sporttelep (Vecsés)"
   },
   "UTE Atlétikai Stadion": {
     "name": "UTE Atlétikai Stadion",
@@ -2287,9 +2287,9 @@
   },
   "Csömöri KSK Sporttelep": {
     "name": "Csömöri KSK Sporttelep",
-    "lat": 47.56199,
-    "lng": 19.05075,
-    "address": "Asr Gázgyár Sporttelep"
+    "lat": 47.55,
+    "lng": 19.2333,
+    "address": "Csömöri KSK Sporttelep (Csömör)"
   },
   "Százhalombattai Városi Szabadidő Központ": {
     "name": "Százhalombattai Városi Szabadidő Központ",
@@ -2299,15 +2299,15 @@
   },
   "Alsónémedi sportpálya": {
     "name": "Alsónémedi sportpálya",
-    "lat": 47.3902,
-    "lng": 19.11045,
-    "address": "Sportpálya utca"
+    "lat": 47.3152,
+    "lng": 19.1584,
+    "address": "Alsónémedi sportpálya (Alsónémedi)"
   },
   "Üllő Városi Sporttelep": {
     "name": "Üllő Városi Sporttelep",
-    "lat": 47.57411,
-    "lng": 19.07905,
-    "address": "Vízművek Sporttelep"
+    "lat": 47.3877,
+    "lng": 19.3553,
+    "address": "Üllő Városi Sporttelep (Üllő)"
   },
   "Németh Ferenc Sportcentrum (Halásztelek)": {
     "name": "Németh Ferenc Sportcentrum (Halásztelek)",
@@ -2347,15 +2347,15 @@
   },
   "Újszegedi Sportpálya": {
     "name": "Újszegedi Sportpálya",
-    "lat": 46.24278,
-    "lng": 20.15555,
-    "address": "Újszegedi Szennyvízátemelő Telep"
+    "lat": 46.248,
+    "lng": 20.165,
+    "address": "Újszegedi TC sportpálya, Szeged"
   },
   "SZEOL SC Szalai \"Dzsinó\" István Sporttelep": {
     "name": "SZEOL SC Szalai \"Dzsinó\" István Sporttelep",
-    "lat": 46.07339,
-    "lng": 18.46033,
-    "address": "SZEOL SC Szalai \"Dzsinó\" István Sporttelep (Szellő)"
+    "lat": 46.253,
+    "lng": 20.1482,
+    "address": "SZEOL SC Szalai \"Dzsinó\" István Sporttelep (Szeged)"
   },
   "Makó Város Sportcentrum": {
     "name": "Makó Város Sportcentrum",
@@ -2425,9 +2425,9 @@
   },
   "Csongrád Város Sportpálya": {
     "name": "Csongrád Város Sportpálya",
-    "lat": 46.27191,
-    "lng": 20.14718,
-    "address": "Csongrádi sugárút"
+    "lat": 46.7133,
+    "lng": 20.1424,
+    "address": "Csongrád Város Sportpálya (Csongrád)"
   },
   "Forráskút Sportpálya": {
     "name": "Forráskút Sportpálya",
@@ -2485,9 +2485,9 @@
   },
   "Kisteleki Sportpálya": {
     "name": "Kisteleki Sportpálya",
-    "lat": 46.34407,
-    "lng": 20.11723,
-    "address": "Kisteleki-főcsatorna"
+    "lat": 46.4725,
+    "lng": 19.9797,
+    "address": "Kisteleki Sportpálya (Kistelek)"
   },
   "Üllés Sportpálya": {
     "name": "Üllés Sportpálya",
@@ -2515,9 +2515,9 @@
   },
   "Makó Marosparti Sportpálya": {
     "name": "Makó Marosparti Sportpálya",
-    "lat": 46.17917,
-    "lng": 20.54498,
-    "address": "A Maros-ártér elővilága 4 - magyar tarsza"
+    "lat": 46.2167,
+    "lng": 20.4833,
+    "address": "Makó Marosparti Sportpálya (Makó)"
   },
   "Tömörkény Sportpálya": {
     "name": "Tömörkény Sportpálya",
@@ -2539,9 +2539,9 @@
   },
   "Dóc Sportpálya": {
     "name": "Dóc Sportpálya",
-    "lat": 46.22188,
-    "lng": 20.08782,
-    "address": "Sportpálya utca"
+    "lat": 46.4378,
+    "lng": 20.1375,
+    "address": "Dóc Sportpálya (Dóc)"
   },
   "Eperjes Sporpálya": {
     "name": "Eperjes Sporpálya",
@@ -2593,9 +2593,9 @@
   },
   "Főnix Labdarúgó és Lovaspark": {
     "name": "Főnix Labdarúgó és Lovaspark",
-    "lat": 47.09394,
-    "lng": 18.60886,
-    "address": "Fejér vármegye"
+    "lat": 47.186,
+    "lng": 18.445,
+    "address": "Főnix Park, Gombócleső utca, Székesfehérvár"
   },
   "Horváth Ottó Sportközpont Martonvásár": {
     "name": "Horváth Ottó Sportközpont Martonvásár",
@@ -2635,9 +2635,9 @@
   },
   "Mezővári József Sporttelep": {
     "name": "Mezővári József Sporttelep",
-    "lat": 47.16344,
-    "lng": 18.40509,
-    "address": "Mezővári József Sportpálya"
+    "lat": 47.168,
+    "lng": 18.405,
+    "address": "Mezővári József Sporttelep (Ikarus-Maroshegy), Székesfehérvár"
   },
   "Mezőfalva Sporttelep": {
     "name": "Mezőfalva Sporttelep",
@@ -2833,9 +2833,9 @@
   },
   "Dinnyés Sportpálya": {
     "name": "Dinnyés Sportpálya",
-    "lat": 47.17324,
-    "lng": 18.56679,
-    "address": "Dinnyés"
+    "lat": 47.175,
+    "lng": 18.56,
+    "address": "Dinnyés Sportpálya, Gárdony-Dinnyés"
   },
   "Csabdi Sportpálya": {
     "name": "Csabdi Sportpálya",
@@ -2887,9 +2887,9 @@
   },
   "Szeip István Sportpálya": {
     "name": "Szeip István Sportpálya",
-    "lat": 47.36104,
-    "lng": 18.68016,
-    "address": "Betonos sportpálya"
+    "lat": 47.0761,
+    "lng": 18.6899,
+    "address": "Szeip István Sportpálya (Szabadegyháza)"
   },
   "Cece Sportpálya": {
     "name": "Cece Sportpálya",
@@ -2977,9 +2977,9 @@
   },
   "Bácsa FC SE Sporttelep": {
     "name": "Bácsa FC SE Sporttelep",
-    "lat": 47.72839,
-    "lng": 17.66309,
-    "address": "Bácsa FC SE Sporttelep (Bácsa)"
+    "lat": 47.72,
+    "lng": 17.655,
+    "address": "Bácsa FC Sporttelep, Bácsa, Győr"
   },
   "Győrújbarát Kiss Antal Sportpálya": {
     "name": "Győrújbarát Kiss Antal Sportpálya",
@@ -3013,9 +3013,9 @@
   },
   "Nádorvárosi Stadion": {
     "name": "Nádorvárosi Stadion",
-    "lat": 47.67629,
-    "lng": 17.64043,
-    "address": "Nádorvárosi Evangélikus Újtemplom"
+    "lat": 47.675,
+    "lng": 17.635,
+    "address": "Nádorvárosi Stadion (DAC pálya), Győr"
   },
   "Gönyű SE": {
     "name": "Gönyű SE",
@@ -3109,9 +3109,9 @@
   },
   "Győrszentiván SE Sporttelep": {
     "name": "Győrszentiván SE Sporttelep",
-    "lat": 47.68865,
-    "lng": 17.74605,
-    "address": "Győrszentiván SE Sporttelep (Győrszentiván)"
+    "lat": 47.705,
+    "lng": 17.735,
+    "address": "Győrszentiván SE Sporttelep, Győr-Győrszentiván"
   },
   "Vámosszabadi SE sportpálya": {
     "name": "Vámosszabadi SE sportpálya",
@@ -3133,15 +3133,15 @@
   },
   "ESK Ménfőcsanak Sporttelep": {
     "name": "ESK Ménfőcsanak Sporttelep",
-    "lat": 47.62915,
-    "lng": 17.60568,
-    "address": "Ménfőcsanak"
+    "lat": 47.633,
+    "lng": 17.607,
+    "address": "Ménfőcsanak Sporttelep, Győr-Ménfőcsanak"
   },
   "FC Táp sporttelep": {
     "name": "FC Táp sporttelep",
-    "lat": 47.69476,
-    "lng": 17.74741,
-    "address": "Győrszentiván-Gönyű Tsz. Sporttelep"
+    "lat": 47.52,
+    "lng": 17.8249,
+    "address": "FC Táp sporttelep (Táp)"
   },
   "Hegyeshalmi SC Sporttelep": {
     "name": "Hegyeshalmi SC Sporttelep",
@@ -3199,9 +3199,9 @@
   },
   "MITE": {
     "name": "MITE",
-    "lat": 47.4735,
-    "lng": 19.0558,
-    "address": "MITE Sporttelep, Budapest"
+    "lat": 47.868,
+    "lng": 17.27,
+    "address": "MITE Sporttelep, Mosonmagyaróvár"
   },
   "Halászi SE": {
     "name": "Halászi SE",
@@ -3271,9 +3271,9 @@
   },
   "Fertő Menti SC Hegykő Sporttelep": {
     "name": "Fertő Menti SC Hegykő Sporttelep",
-    "lat": 47.61818,
-    "lng": 16.88744,
-    "address": "Fertőd, templom"
+    "lat": 47.6187,
+    "lng": 16.797,
+    "address": "Fertő Menti SC Hegykő Sporttelep (Hegykő)"
   },
   "Szany SE": {
     "name": "Szany SE",
@@ -3307,9 +3307,9 @@
   },
   "Sokorópátkai Sporttelep": {
     "name": "Sokorópátkai Sporttelep",
-    "lat": 47.61294,
-    "lng": 17.60429,
-    "address": "Sokorópátkai út"
+    "lat": 47.4808,
+    "lng": 17.702,
+    "address": "Sokorópátkai Sporttelep (Sokorópátka)"
   },
   "Tényő SE": {
     "name": "Tényő SE",
@@ -3367,9 +3367,9 @@
   },
   "Veszprémvarsány Labdarúgó Sportegyesület sportpálya": {
     "name": "Veszprémvarsány Labdarúgó Sportegyesület sportpálya",
-    "lat": 47.42731,
-    "lng": 17.8295,
-    "address": "Veszprémvarsány Labdarúgó Sportegyesület sportpálya (Veszprémvarsány)"
+    "lat": 47.5689,
+    "lng": 17.8824,
+    "address": "Veszprémvarsány Labdarúgó Sportegyesület sportpálya (Mezőörs)"
   },
   "Nagyszentjános SC Sporttelep": {
     "name": "Nagyszentjános SC Sporttelep",
@@ -3403,9 +3403,9 @@
   },
   "Bajcs SE sportpálya": {
     "name": "Bajcs SE sportpálya",
-    "lat": 47.48707,
-    "lng": 17.69322,
-    "address": "Sokorópátka SE Sportpálya"
+    "lat": 47.712,
+    "lng": 17.685,
+    "address": "Bajcs SE sportpálya, Győr-Kisbajcs"
   },
   "Dunasziget SE": {
     "name": "Dunasziget SE",
@@ -3451,9 +3451,9 @@
   },
   "Püski SE sportpálya": {
     "name": "Püski SE sportpálya",
-    "lat": 47.48707,
-    "lng": 17.69322,
-    "address": "Sokorópátka SE Sportpálya"
+    "lat": 47.8848,
+    "lng": 17.4076,
+    "address": "Püski SE sportpálya (Püski)"
   },
   "Egyházasfalu SE": {
     "name": "Egyházasfalu SE",
@@ -3475,9 +3475,9 @@
   },
   "Mihályi Sportolók Egyesülete": {
     "name": "Mihályi Sportolók Egyesülete",
-    "lat": 47.6667,
-    "lng": 17.63885,
-    "address": "Mozgáskorlátozottak Győr-Moson-Sopron Megyei Egyesülete"
+    "lat": 47.5138,
+    "lng": 17.0951,
+    "address": "Mihályi Sportolók Egyesülete (Mihályi)"
   },
   "Fertőrákosi SE": {
     "name": "Fertőrákosi SE",
@@ -3499,9 +3499,9 @@
   },
   "Csapod Sport Club Sportpálya": {
     "name": "Csapod Sport Club Sportpálya",
-    "lat": 47.68677,
-    "lng": 16.56182,
-    "address": "SportClub Sopron"
+    "lat": 47.5191,
+    "lng": 16.9277,
+    "address": "Csapod Sport Club Sportpálya (Csapod)"
   },
   "Újkér FC": {
     "name": "Újkér FC",
@@ -3541,9 +3541,9 @@
   },
   "Balfi SE": {
     "name": "Balfi SE",
-    "lat": 47.64232,
-    "lng": 16.66413,
-    "address": "Soproni Térségi Vízellátó Rendszer Balfi Vízműtelep"
+    "lat": 47.652,
+    "lng": 16.662,
+    "address": "Sportpálya, Balf, Sopron"
   },
   "Répcementi Sportegyesület Dénesfa": {
     "name": "Répcementi Sportegyesület Dénesfa",
@@ -3583,9 +3583,9 @@
   },
   "TÖMEGSPORT KLUB ZSIRA Sportpálya": {
     "name": "TÖMEGSPORT KLUB ZSIRA Sportpálya",
-    "lat": 47.66101,
-    "lng": 17.37964,
-    "address": "Győr-Moson-Sopron vármegye"
+    "lat": 47.4576,
+    "lng": 16.6773,
+    "address": "TÖMEGSPORT KLUB ZSIRA Sportpálya (Zsira)"
   },
   "Hajdúszoboszlói Bocskai Sporttelep": {
     "name": "Hajdúszoboszlói Bocskai Sporttelep",
@@ -3613,15 +3613,15 @@
   },
   "Püspökladányi Sporttelep": {
     "name": "Püspökladányi Sporttelep",
-    "lat": 47.28163,
-    "lng": 21.21364,
-    "address": "Püspökladányi járás"
+    "lat": 47.3167,
+    "lng": 21.1167,
+    "address": "Püspökladányi Sporttelep (Püspökladány)"
   },
   "Berettyóújfalui Sportpálya": {
     "name": "Berettyóújfalui Sportpálya",
-    "lat": 47.12339,
-    "lng": 21.54609,
-    "address": "Berettyóújfalui járás"
+    "lat": 47.2167,
+    "lng": 21.55,
+    "address": "Berettyóújfalui Sportpálya (Berettyóújfalu)"
   },
   "Sárrétudvari Sporttelep": {
     "name": "Sárrétudvari Sporttelep",
@@ -3631,9 +3631,9 @@
   },
   "Létavértesi Sportcentrum": {
     "name": "Létavértesi Sportcentrum",
-    "lat": 47.45336,
-    "lng": 21.87534,
-    "address": "Létavértesi út"
+    "lat": 47.3833,
+    "lng": 21.9,
+    "address": "Létavértesi Sportcentrum (Létavértes)"
   },
   "Debreceni Egyetem Böszörményi úti Campus füves pálya": {
     "name": "Debreceni Egyetem Böszörményi úti Campus füves pálya",
@@ -3661,21 +3661,21 @@
   },
   "Józsai Sportpálya": {
     "name": "Józsai Sportpálya",
-    "lat": 47.54072,
-    "lng": 21.66872,
-    "address": "Józsai utca"
+    "lat": 47.6,
+    "lng": 21.585,
+    "address": "Józsai Sportpálya, Debrecen-Józsa"
   },
   "Bestrong Sportkomplexum": {
     "name": "Bestrong Sportkomplexum",
-    "lat": 47.23493,
-    "lng": 16.60693,
-    "address": "Haladás Sportkomplexum"
+    "lat": 47.495,
+    "lng": 21.642,
+    "address": "Bestrong Sportkomplexum, Monostorpályi út, Debrecen"
   },
   "Ebesi Sporttelep": {
     "name": "Ebesi Sporttelep",
-    "lat": 47.82996,
-    "lng": 21.41668,
-    "address": "Hajdúnánási Sporttelep"
+    "lat": 47.4667,
+    "lng": 21.5,
+    "address": "Ebesi Sporttelep (Ebes)"
   },
   "Berettyójfalui Sportpálya Morotva": {
     "name": "Berettyójfalui Sportpálya Morotva",
@@ -3703,9 +3703,9 @@
   },
   "Nyírábrányi Sportpálya": {
     "name": "Nyírábrányi Sportpálya",
-    "lat": 47.52654,
-    "lng": 21.93178,
-    "address": "Nyírábrányi út"
+    "lat": 47.5531,
+    "lng": 22.024,
+    "address": "Nyírábrányi Sportpálya (Nyírábrány)"
   },
   "Egyeki Sportpálya": {
     "name": "Egyeki Sportpálya",
@@ -3787,9 +3787,9 @@
   },
   "Derecskei Sportpálya": {
     "name": "Derecskei Sportpálya",
-    "lat": 47.44031,
-    "lng": 21.64374,
-    "address": "Mikepércsi Sportpálya"
+    "lat": 47.3167,
+    "lng": 21.6667,
+    "address": "Derecskei Sportpálya (Konyár)"
   },
   "Földesi Sportpálya": {
     "name": "Földesi Sportpálya",
@@ -3799,9 +3799,9 @@
   },
   "Nádudvari Sportpálya": {
     "name": "Nádudvari Sportpálya",
-    "lat": 47.44709,
-    "lng": 21.36966,
-    "address": "Hajdúszoboszló, Nádudvari utca 90."
+    "lat": 47.4167,
+    "lng": 21.1667,
+    "address": "Nádudvari Sportpálya (Nádudvar)"
   },
   "Komádi Sportpálya": {
     "name": "Komádi Sportpálya",
@@ -3817,15 +3817,15 @@
   },
   "Fülöpi Sportpálya": {
     "name": "Fülöpi Sportpálya",
-    "lat": 47.57091,
-    "lng": 22.03536,
-    "address": "Fülöpi utca"
+    "lat": 47.6188,
+    "lng": 22.0835,
+    "address": "Fülöpi Sportpálya (Fülöp)"
   },
   "Hortobágyi Sportpálya": {
     "name": "Hortobágyi Sportpálya",
-    "lat": 47.531,
-    "lng": 21.1188,
-    "address": "Hortobágyi Nemzeti Park"
+    "lat": 47.5828,
+    "lng": 21.1511,
+    "address": "Hortobágyi Sportpálya (Hortobágy)"
   },
   "Vámospércs Bocskai SE": {
     "name": "Vámospércs Bocskai SE",
@@ -3865,9 +3865,9 @@
   },
   "Mikepércs  Labdarúgó Pálya": {
     "name": "Mikepércs  Labdarúgó Pálya",
-    "lat": 47.59646,
-    "lng": 21.64757,
-    "address": "DVSC Labdarugó Akadémia"
+    "lat": 47.45,
+    "lng": 21.6333,
+    "address": "Mikepércs  Labdarúgó Pálya (Mikepércs)"
   },
   "Hajdúszováti Sportpálya": {
     "name": "Hajdúszováti Sportpálya",
@@ -3907,9 +3907,9 @@
   },
   "Adler Sándor Sporttelep": {
     "name": "Adler Sándor Sporttelep",
-    "lat": 47.80591,
-    "lng": 20.42064,
-    "address": "Adler Sándor Sporttelep"
+    "lat": 47.8,
+    "lng": 20.4167,
+    "address": "Adler Sándor Sporttelep (Maklár)"
   },
   "Lőrinci Sporttelep": {
     "name": "Lőrinci Sporttelep",
@@ -3925,9 +3925,9 @@
   },
   "Markó Ferenc Sporttelep": {
     "name": "Markó Ferenc Sporttelep",
-    "lat": 47.90445,
-    "lng": 20.37653,
-    "address": "Markhot Ferenc utca"
+    "lat": 47.7064,
+    "lng": 19.6331,
+    "address": "Markó Ferenc Sporttelep (Heréd)"
   },
   "Bélapátfalvai Sporttelep": {
     "name": "Bélapátfalvai Sporttelep",
@@ -3937,8 +3937,8 @@
   },
   "Varga József Sporttelep": {
     "name": "Varga József Sporttelep",
-    "lat": 46.24718,
-    "lng": 18.14497,
+    "lat": 46.2472,
+    "lng": 18.1431,
     "address": "Varga József Sporttelep (Varga)"
   },
   "Szabó Gyula Sportpálya": {
@@ -3961,9 +3961,9 @@
   },
   "Dr. Vass Géza Sporttelep": {
     "name": "Dr. Vass Géza Sporttelep",
-    "lat": 47.59575,
-    "lng": 20.28977,
-    "address": "Heves"
+    "lat": 47.7,
+    "lng": 20.4333,
+    "address": "Dr. Vass Géza Sporttelep (Besenyőtelek)"
   },
   "Hevesi LSC Sporttelep": {
     "name": "Hevesi LSC Sporttelep",
@@ -3985,9 +3985,9 @@
   },
   "Lokomotív Sporttelep": {
     "name": "Lokomotív Sporttelep",
-    "lat": 47.48917,
-    "lng": 19.1072,
-    "address": "Lokomotív Sporttelep (Lokomotív utca)"
+    "lat": 47.6667,
+    "lng": 19.6833,
+    "address": "Lokomotív Sporttelep, Népkert, Hatvan"
   },
   "Felsőtárkány SC Sporttelep": {
     "name": "Felsőtárkány SC Sporttelep",
@@ -4039,9 +4039,9 @@
   },
   "Horváth László Sporttelep": {
     "name": "Horváth László Sporttelep",
-    "lat": 47.78557,
-    "lng": 19.92402,
-    "address": "Horváth László"
+    "lat": 47.8833,
+    "lng": 20.2667,
+    "address": "Horváth László Sporttelep (Egerszólát)"
   },
   "Kompolti Sportpálya": {
     "name": "Kompolti Sportpálya",
@@ -4057,9 +4057,9 @@
   },
   "Gyöngyöstarjáni RE Sportpálya": {
     "name": "Gyöngyöstarjáni RE Sportpálya",
-    "lat": 46.20668,
-    "lng": 18.81493,
-    "address": "Sportpálya"
+    "lat": 47.8137,
+    "lng": 19.8672,
+    "address": "Sportpálya, Gyöngyöstarján"
   },
   "Váraszó Sportpálya": {
     "name": "Váraszó Sportpálya",
@@ -4117,39 +4117,39 @@
   },
   "Heves Tartalékpálya": {
     "name": "Heves Tartalékpálya",
-    "lat": 47.55724,
-    "lng": 20.35785,
-    "address": "Hevesvezekény"
+    "lat": 47.6,
+    "lng": 20.2833,
+    "address": "Heves Tartalékpálya (Heves)"
   },
   "Gyöngyöspatai Sportpálya": {
     "name": "Gyöngyöspatai Sportpálya",
-    "lat": 47.80029,
-    "lng": 19.80263,
-    "address": "Gyöngyöspatai-víztároló"
+    "lat": 47.5333,
+    "lng": 20.3833,
+    "address": "Gyöngyöspatai Sportpálya (Tarnaszentmiklós)"
   },
   "Vécs KSK Sportpálya": {
     "name": "Vécs KSK Sportpálya",
-    "lat": 47.40371,
-    "lng": 19.25347,
-    "address": "Vecsés, sportpálya"
+    "lat": 47.8167,
+    "lng": 20.1667,
+    "address": "Vécs KSK Sportpálya (Vécs)"
   },
   "Hort Sportpálya": {
     "name": "Hort Sportpálya",
-    "lat": 47.7771,
-    "lng": 20.03202,
-    "address": "Visontai sportpálya"
+    "lat": 47.6908,
+    "lng": 19.7893,
+    "address": "Hort Sportpálya (Hort)"
   },
   "Óvári Gyula Sporttelep": {
     "name": "Óvári Gyula Sporttelep",
-    "lat": 47.97558,
-    "lng": 19.95869,
-    "address": "Óvári Gyula Sporttelep (Óvár)"
+    "lat": 47.8172,
+    "lng": 19.9362,
+    "address": "Óvári Gyula Sporttelep (Gyöngyössolymos)"
   },
   "Szabó Gyula sportpálya tartalékpálya": {
     "name": "Szabó Gyula sportpálya tartalékpálya",
-    "lat": 47.59575,
-    "lng": 20.28977,
-    "address": "Heves"
+    "lat": 47.7416,
+    "lng": 19.9288,
+    "address": "Szabó Gyula sportpálya tartalékpálya (Gyöngyöshalász)"
   },
   "Kisköre Sportpálya": {
     "name": "Kisköre Sportpálya",
@@ -4171,9 +4171,9 @@
   },
   "Lurkó Focimánia": {
     "name": "Lurkó Focimánia",
-    "lat": 47.71011,
-    "lng": 18.84138,
-    "address": "Lurkó-barlang"
+    "lat": 47.1747,
+    "lng": 20.1983,
+    "address": "Lurkó Focimánia Sporttelep, Szolnok"
   },
   "Jászberényi Városi Stadion": {
     "name": "Jászberényi Városi Stadion",
@@ -4183,9 +4183,9 @@
   },
   "Fegyvernek VSE Sporttelep": {
     "name": "Fegyvernek VSE Sporttelep",
-    "lat": 47.19436,
-    "lng": 20.55753,
-    "address": "Fegyvernek-Örményes"
+    "lat": 47.2667,
+    "lng": 20.5333,
+    "address": "Fegyvernek VSE Sporttelep (Fegyvernek)"
   },
   "Rákóczifalva SE": {
     "name": "Rákóczifalva SE",
@@ -4225,9 +4225,9 @@
   },
   "Porcsalmi Lajos Sporttelep": {
     "name": "Porcsalmi Lajos Sporttelep",
-    "lat": 47.17392,
-    "lng": 20.19958,
-    "address": "Jász-Nagykun-Szolnok Vármegyei Kormányhivatal"
+    "lat": 47.2167,
+    "lng": 20.7667,
+    "address": "Porcsalmi Lajos Sporttelep (Kisújszállás)"
   },
   "Tószeg KSE": {
     "name": "Tószeg KSE",
@@ -4273,9 +4273,9 @@
   },
   "Öcsödi Sportegyesület": {
     "name": "Öcsödi Sportegyesület",
-    "lat": 47.62846,
-    "lng": 20.75034,
-    "address": "Tisza Balneum Tiszafüredi Kajak-kenu Sportegyesület"
+    "lat": 46.9,
+    "lng": 20.4,
+    "address": "Öcsödi Sportegyesület (Öcsöd)"
   },
   "Jászkisér SE": {
     "name": "Jászkisér SE",
@@ -4291,9 +4291,9 @@
   },
   "Újszászi Sporttelep": {
     "name": "Újszászi Sporttelep",
-    "lat": 47.18541,
-    "lng": 20.17622,
-    "address": "Újszászi út"
+    "lat": 47.3,
+    "lng": 20.0833,
+    "address": "Újszászi Sporttelep (Újszász)"
   },
   "Kunhegyes SE": {
     "name": "Kunhegyes SE",
@@ -4333,9 +4333,9 @@
   },
   "Kétpó Községi Sport, és Művelődési Egyesület": {
     "name": "Kétpó Községi Sport, és Művelődési Egyesület",
-    "lat": 47.3845,
-    "lng": 16.75186,
-    "address": "Büki Művelődési-, és Sport Központ, Könyvtár"
+    "lat": 47.0833,
+    "lng": 20.4667,
+    "address": "Községi Sportpálya, Kétpó"
   },
   "Tiszaszőlősi KSE": {
     "name": "Tiszaszőlősi KSE",
@@ -4345,9 +4345,9 @@
   },
   "Mozdulj Cibak SE": {
     "name": "Mozdulj Cibak SE",
-    "lat": 47.29716,
-    "lng": 20.45318,
-    "address": "Jász-Nagykun-Szolnok vármegye"
+    "lat": 46.945,
+    "lng": 20.32,
+    "address": "Sportpálya, Cibakháza"
   },
   "Jászágó Newergies Se": {
     "name": "Jászágó Newergies Se",
@@ -4387,15 +4387,15 @@
   },
   "Kenderes Bánhalma": {
     "name": "Kenderes Bánhalma",
-    "lat": 47.30628,
-    "lng": 20.61613,
-    "address": "Bánhalma"
+    "lat": 47.25,
+    "lng": 20.6833,
+    "address": "Kenderes Bánhalma (Kenderes)"
   },
   "Jászdózsai Sport Egyesület": {
     "name": "Jászdózsai Sport Egyesület",
-    "lat": 47.17402,
-    "lng": 20.19675,
-    "address": "Szolnok Városi Polgárőr Egyesület"
+    "lat": 47.5661,
+    "lng": 20.0153,
+    "address": "Jászdózsai Sport Egyesület (Jászdózsa)"
   },
   "Kőtelek FK": {
     "name": "Kőtelek FK",
@@ -4405,9 +4405,9 @@
   },
   "Jászberényi FC Műfüves pályák": {
     "name": "Jászberényi FC Műfüves pályák",
-    "lat": 47.16777,
-    "lng": 20.19766,
-    "address": "Műfüves Pálya Büfé"
+    "lat": 47.5,
+    "lng": 19.9167,
+    "address": "Jászberényi FC Műfüves pályák (Jászberény)"
   },
   "Rákócziújfalu SE": {
     "name": "Rákócziújfalu SE",
@@ -4423,15 +4423,15 @@
   },
   "Toponár SE Sporttelep": {
     "name": "Toponár SE Sporttelep",
-    "lat": 46.39356,
-    "lng": 17.8348,
-    "address": "Toponár SE Sporttelep (Toponár)"
+    "lat": 46.402,
+    "lng": 17.838,
+    "address": "Toponár SE Sporttelep, Kaposvár-Toponár"
   },
   "Kaposfüred SC Sporttelep": {
     "name": "Kaposfüred SC Sporttelep",
-    "lat": 46.41434,
-    "lng": 17.75909,
-    "address": "Kaposfüred"
+    "lat": 46.414,
+    "lng": 17.775,
+    "address": "Kaposfüred SC Sporttelep, Kaposvár-Kaposfüred"
   },
   "Nagybajomi AC Sporttelep": {
     "name": "Nagybajomi AC Sporttelep",
@@ -4447,15 +4447,15 @@
   },
   "Sportegyesület Juta": {
     "name": "Sportegyesület Juta",
-    "lat": 47.47819,
-    "lng": 19.26064,
-    "address": "Sportegyesület Juta (Rákosmenti Karate Sportegyesület)"
+    "lat": 46.4105,
+    "lng": 17.7375,
+    "address": "Sportegyesület Juta (Juta)"
   },
   "Balatoni Vasas SE Sporttelep": {
     "name": "Balatoni Vasas SE Sporttelep",
-    "lat": 47.9245,
-    "lng": 20.19304,
-    "address": "Siroki Vasas Sporttelep"
+    "lat": 46.885,
+    "lng": 18.065,
+    "address": "Balatoni Vasas Sporttelep, Siófok-Kiliti"
   },
   "Kaposmérői Sportegyesület": {
     "name": "Kaposmérői Sportegyesület",
@@ -4465,9 +4465,9 @@
   },
   "Marcali Városi FC Sporttelep": {
     "name": "Marcali Városi FC Sporttelep",
-    "lat": 47.31871,
-    "lng": 17.27484,
-    "address": "Marcali Városi FC Sporttelep (Marcal)"
+    "lat": 46.585,
+    "lng": 17.412,
+    "address": "Marcali Városi FC Sporttelep (Marcali)"
   },
   "Csurgói Torna Klub Sportegyesület Sportpálya": {
     "name": "Csurgói Torna Klub Sportegyesület Sportpálya",
@@ -4483,9 +4483,9 @@
   },
   "Futball Club Barcs Sportegyesület": {
     "name": "Futball Club Barcs Sportegyesület",
-    "lat": 46.96154,
-    "lng": 18.94704,
-    "address": "Futball Club Barcs Sportegyesület (Dunaújvárosi Utánpótlás Futball Klub Sportegyesület)"
+    "lat": 45.96,
+    "lng": 17.4586,
+    "address": "Futball Club Barcs Sportegyesület (Barcs)"
   },
   "Somogysárd SE Sporttelep": {
     "name": "Somogysárd SE Sporttelep",
@@ -4495,15 +4495,15 @@
   },
   "Babócsa SE Sportpálya": {
     "name": "Babócsa SE Sportpálya",
-    "lat": 47.506,
-    "lng": 18.03452,
-    "address": "Kisbéri Spartacus SE Sportpálya"
+    "lat": 46.0415,
+    "lng": 17.3433,
+    "address": "Babócsa SE Sportpálya (Babócsa)"
   },
   "Nagyközsági Sportegyesület Balatonszárszó": {
     "name": "Nagyközsági Sportegyesület Balatonszárszó",
-    "lat": 46.06558,
-    "lng": 18.31972,
-    "address": "Nagyközsági Sportegyesület Balatonszárszó (Nagykozár)"
+    "lat": 46.8295,
+    "lng": 17.8243,
+    "address": "Nagyközsági Sportegyesület Balatonszárszó (Balatonszárszó)"
   },
   "Balatonberényi Községi Sportegyesület": {
     "name": "Balatonberényi Községi Sportegyesület",
@@ -4513,9 +4513,9 @@
   },
   "Öreglaki MEDOSZ SE": {
     "name": "Öreglaki MEDOSZ SE",
-    "lat": 47.7426,
-    "lng": 20.52198,
-    "address": "Somogyi utca"
+    "lat": 46.601,
+    "lng": 17.6215,
+    "address": "Öreglaki Sporttelep, Öreglak"
   },
   "Osztopán Sportegyesület": {
     "name": "Osztopán Sportegyesület",
@@ -4561,9 +4561,9 @@
   },
   "Böhönye Községi Sportegyesület": {
     "name": "Böhönye Községi Sportegyesület",
-    "lat": 47.56246,
-    "lng": 17.40769,
-    "address": "Bodonhely, Községháza"
+    "lat": 46.4134,
+    "lng": 17.3804,
+    "address": "Böhönye Községi Sportegyesület (Böhönye)"
   },
   "Szabó Béla Sporttelep - Somogyvár": {
     "name": "Szabó Béla Sporttelep - Somogyvár",
@@ -4573,9 +4573,9 @@
   },
   "Fonyódi Tibor Sporttelep - Nágocs": {
     "name": "Fonyódi Tibor Sporttelep - Nágocs",
-    "lat": 46.74675,
-    "lng": 17.54946,
-    "address": "Fonyódi Tibor Sporttelep - Nágocs (Fonyód)"
+    "lat": 46.6625,
+    "lng": 17.9667,
+    "address": "Fonyódi Tibor Sporttelep - Nágocs (Nágocs)"
   },
   "Buzsák Községi Sportegyesület Sportpálya": {
     "name": "Buzsák Községi Sportegyesület Sportpálya",
@@ -4597,15 +4597,15 @@
   },
   "\"BB\" Sport Club Balatonboglár Sportpálya": {
     "name": "\"BB\" Sport Club Balatonboglár Sportpálya",
-    "lat": 47.49935,
-    "lng": 19.0588,
-    "address": "\"BB\" Sport Club Balatonboglár Sportpálya (BB'z Bar & Grill)"
+    "lat": 46.7752,
+    "lng": 17.6441,
+    "address": "\"BB\" Sport Club Balatonboglár Sportpálya (Balatonboglár)"
   },
   "Szabadidő Sportegyesület Somogyjád": {
     "name": "Szabadidő Sportegyesület Somogyjád",
-    "lat": 47.70436,
-    "lng": 18.7004,
-    "address": "Csolnoki Szabadidő Sportegyesület"
+    "lat": 46.4904,
+    "lng": 17.7162,
+    "address": "Szabadidő Sportegyesület Somogyjád (Somogyjád)"
   },
   "Balatonszabadi Sport Egyesület": {
     "name": "Balatonszabadi Sport Egyesület",
@@ -4621,9 +4621,9 @@
   },
   "Karád Sport Club": {
     "name": "Karád Sport Club",
-    "lat": 46.17369,
-    "lng": 18.94133,
-    "address": "Bajai Spartacus Sport Club Evezősház"
+    "lat": 46.6908,
+    "lng": 17.8414,
+    "address": "Karád Sport Club (Karád)"
   },
   "Lengyeltóti Városi Sportegyesület": {
     "name": "Lengyeltóti Városi Sportegyesület",
@@ -4633,9 +4633,9 @@
   },
   "Mike Futball Club": {
     "name": "Mike Futball Club",
-    "lat": 46.9483,
-    "lng": 17.87574,
-    "address": "Balatonfüredi Futball Club"
+    "lat": 46.2431,
+    "lng": 17.5303,
+    "address": "Mike Futball Club (Mike)"
   },
   "Ötvöskónyi Sportpálya": {
     "name": "Ötvöskónyi Sportpálya",
@@ -4651,27 +4651,27 @@
   },
   "Iharosberényi Sportpálya": {
     "name": "Iharosberényi Sportpálya",
-    "lat": 46.36529,
-    "lng": 17.65947,
-    "address": "Sportpálya"
+    "lat": 46.3634,
+    "lng": 17.1123,
+    "address": "Iharosberényi Sportpálya (Iharosberény)"
   },
   "Szabási Sportegyesület": {
     "name": "Szabási Sportegyesület",
-    "lat": 46.90722,
-    "lng": 18.11796,
-    "address": "G.S. Gladiator Ökölvívó Sportegyesület"
+    "lat": 46.2892,
+    "lng": 17.4482,
+    "address": "Szabási Sportegyesület (Szabás)"
   },
   "Segesdi Sportpálya": {
     "name": "Segesdi Sportpálya",
-    "lat": 46.36529,
-    "lng": 17.65947,
-    "address": "Sportpálya"
+    "lat": 46.3414,
+    "lng": 17.3513,
+    "address": "Segesdi Sportpálya (Segesd)"
   },
   "Berzence Sportegyesület Sportpálya": {
     "name": "Berzence Sportegyesület Sportpálya",
-    "lat": 47.38951,
-    "lng": 19.21642,
-    "address": "Gyáli Baráti Kör Sportegyesület Sportpálya"
+    "lat": 46.2091,
+    "lng": 17.1481,
+    "address": "Sportpálya, Berzence"
   },
   "Homokszentgyörgyi Sportegyesület": {
     "name": "Homokszentgyörgyi Sportegyesület",
@@ -4735,15 +4735,15 @@
   },
   "Visz Községi Sportpálya": {
     "name": "Visz Községi Sportpálya",
-    "lat": 47.21406,
-    "lng": 21.23081,
-    "address": "Községi Sportpálya"
+    "lat": 46.7261,
+    "lng": 17.782,
+    "address": "Községi Sportpálya, Visz"
   },
   "Kaposújlaki Sport Club": {
     "name": "Kaposújlaki Sport Club",
-    "lat": 46.17369,
-    "lng": 18.94133,
-    "address": "Bajai Spartacus Sport Club Evezősház"
+    "lat": 46.3604,
+    "lng": 17.7323,
+    "address": "Kaposújlaki Sport Club (Kaposújlak)"
   },
   "Batéi Sportegyesület Közhasznú Szervezet": {
     "name": "Batéi Sportegyesület Közhasznú Szervezet",
@@ -4789,9 +4789,9 @@
   },
   "Futbal Club Sántos Község Sportegyesület": {
     "name": "Futbal Club Sántos Község Sportegyesület",
-    "lat": 47.72793,
-    "lng": 18.98156,
-    "address": "Futbal Club Sántos Község Sportegyesület (Futbal öltöző)"
+    "lat": 46.3424,
+    "lng": 17.8787,
+    "address": "Futbal Club Sántos Község Sportegyesület (Sántos)"
   },
   "Bárdudvarnok Sportkör": {
     "name": "Bárdudvarnok Sportkör",
@@ -4801,9 +4801,9 @@
   },
   "Nyírbátori LSE Sporttelep": {
     "name": "Nyírbátori LSE Sporttelep",
-    "lat": 47.75738,
-    "lng": 22.13007,
-    "address": "Nyírbátori járás"
+    "lat": 47.8333,
+    "lng": 22.1333,
+    "address": "Nyírbátori LSE Sporttelep (Nyírbátor)"
   },
   "Nyíregyháza Czuczor Gergely Sporttelep": {
     "name": "Nyíregyháza Czuczor Gergely Sporttelep",
@@ -4879,9 +4879,9 @@
   },
   "Gergelyiugornyai SE Sportpálya": {
     "name": "Gergelyiugornyai SE Sportpálya",
-    "lat": 48.12788,
-    "lng": 22.34585,
-    "address": "Gergelyiugornyai SE Sportpálya (Gergelyiugornya)"
+    "lat": 48.128,
+    "lng": 22.346,
+    "address": "Gergelyiugornyai SE Sportpálya, Vásárosnamény"
   },
   "Kótaj Sportpálya": {
     "name": "Kótaj Sportpálya",
@@ -4921,9 +4921,9 @@
   },
   "Bogát 2000 TC Sportpálya": {
     "name": "Bogát 2000 TC Sportpálya",
-    "lat": 47.21427,
-    "lng": 16.67738,
-    "address": "Bogát 2000 TC Sportpálya (Bogát)"
+    "lat": 47.8167,
+    "lng": 22.0333,
+    "address": "Bogát 2000 TC Sportpálya, Nyírbogát"
   },
   "Levelek SE Sportpálya": {
     "name": "Levelek SE Sportpálya",
@@ -5137,9 +5137,9 @@
   },
   "Solymos László Sportpálya": {
     "name": "Solymos László Sportpálya",
-    "lat": 47.98218,
-    "lng": 21.79453,
-    "address": "Nyírpazony, sportpálya"
+    "lat": 48.2333,
+    "lng": 22.4333,
+    "address": "Solymos László Sportpálya (Barabás)"
   },
   "Dombrád Sportpálya": {
     "name": "Dombrád Sportpálya",
@@ -5203,9 +5203,9 @@
   },
   "Vitka SE Sportpálya": {
     "name": "Vitka SE Sportpálya",
-    "lat": 48.0854,
-    "lng": 22.32679,
-    "address": "Olcsva, sportpálya"
+    "lat": 48.135,
+    "lng": 22.325,
+    "address": "Vitka SE Sportpálya, Vásárosnamény-Vitka"
   },
   "Beregdaróc Községi Sportpálya": {
     "name": "Beregdaróc Községi Sportpálya",
@@ -5293,9 +5293,9 @@
   },
   "Tolna VFC Sporttelepe": {
     "name": "Tolna VFC Sporttelepe",
-    "lat": 46.37233,
-    "lng": 18.13556,
-    "address": "Ujvári Kálmán Sporttelep"
+    "lat": 46.4268,
+    "lng": 18.7825,
+    "address": "Tolna VFC Sporttelepe (Tolna)"
   },
   "Bölcskei SE Sporttelep": {
     "name": "Bölcskei SE Sporttelep",
@@ -5341,15 +5341,15 @@
   },
   "Vicze János Városi Sporttelep": {
     "name": "Vicze János Városi Sporttelep",
-    "lat": 46.18449,
-    "lng": 18.72219,
-    "address": "Vicze János Városi Sportpáya"
+    "lat": 46.1937,
+    "lng": 18.7231,
+    "address": "Vicze János Városi Sporttelep (Bátaszék)"
   },
   "Gerjeni SK Sporttelep": {
     "name": "Gerjeni SK Sporttelep",
-    "lat": 47.40671,
-    "lng": 19.17488,
-    "address": "Pestszentimre SK Sporttelep"
+    "lat": 46.493,
+    "lng": 18.9038,
+    "address": "Gerjeni SK Sporttelep (Gerjen)"
   },
   "Madocsa Sportegyesület Sporttelepe": {
     "name": "Madocsa Sportegyesület Sporttelepe",
@@ -5377,9 +5377,9 @@
   },
   "Szedresi Sportegyesület Sporttelepe": {
     "name": "Szedresi Sportegyesület Sporttelepe",
-    "lat": 46.67615,
-    "lng": 20.45231,
-    "address": "Dózsa úti sporttelep"
+    "lat": 46.4755,
+    "lng": 18.6831,
+    "address": "Szedresi Sportegyesület Sporttelepe (Szedres)"
   },
   "Németkéri Sportegyesület Sporttelepe": {
     "name": "Németkéri Sportegyesület Sporttelepe",
@@ -5389,9 +5389,9 @@
   },
   "Dunakömlődi Sportegyesület Sporttelepe": {
     "name": "Dunakömlődi Sportegyesület Sporttelepe",
-    "lat": 46.66246,
-    "lng": 18.87907,
-    "address": "Dunakömlődi Sportegyesület Sporttelepe (Dunakömlőd)"
+    "lat": 46.662,
+    "lng": 18.879,
+    "address": "Dunakömlődi Sporttelep, Paks-Dunakömlőd"
   },
   "Dunaszentgyörgyi Sportegyesület Sporttelepe": {
     "name": "Dunaszentgyörgyi Sportegyesület Sporttelepe",
@@ -5401,15 +5401,15 @@
   },
   "Tamási 2009 FC Sporttelepe": {
     "name": "Tamási 2009 FC Sporttelepe",
-    "lat": 47.64387,
-    "lng": 18.97212,
-    "address": "Tamási 2009 FC Sporttelepe (Kis Tamás-lik)"
+    "lat": 46.6333,
+    "lng": 18.2833,
+    "address": "Tamási 2009 FC Sporttelepe (Tamási)"
   },
   "Wéber Ferenc Stadion Nagymányok": {
     "name": "Wéber Ferenc Stadion Nagymányok",
-    "lat": 47.4687,
-    "lng": 19.22394,
-    "address": "Wéber Ferenc Stadion Nagymányok (Wéber Károly utca)"
+    "lat": 46.2791,
+    "lng": 18.4549,
+    "address": "Wéber Ferenc Stadion Nagymányok (Nagymányok)"
   },
   "Bonyhád-Börzsönyi Sportegyesület Sporttelepe": {
     "name": "Bonyhád-Börzsönyi Sportegyesület Sporttelepe",
@@ -5455,9 +5455,9 @@
   },
   "Dombóvári Szuhay Sportcentrum": {
     "name": "Dombóvári Szuhay Sportcentrum",
-    "lat": 46.36441,
-    "lng": 18.14028,
-    "address": "Szuhay Sportcentrum"
+    "lat": 46.3768,
+    "lng": 18.138,
+    "address": "Szuhay Sportcentrum, Földvár utca, Dombóvár"
   },
   "Szentgotthárd VSE Sportpálya": {
     "name": "Szentgotthárd VSE Sportpálya",
@@ -5473,9 +5473,9 @@
   },
   "Lóránt Gyula Sporttelep": {
     "name": "Lóránt Gyula Sporttelep",
-    "lat": 47.50234,
-    "lng": 18.99818,
-    "address": "Lóránt Gyula Sporttelep (Lóránt úti korai juhar)"
+    "lat": 47.387,
+    "lng": 16.54,
+    "address": "Lóránt Gyula Sporttelep, Kőszeg"
   },
   "Szarvaskend Sporttelep": {
     "name": "Szarvaskend Sporttelep",
@@ -5497,9 +5497,9 @@
   },
   "Sárvár FC Sporttelep": {
     "name": "Sárvár FC Sporttelep",
-    "lat": 47.55653,
-    "lng": 18.41776,
-    "address": "Grosics Gyula stadion"
+    "lat": 47.254,
+    "lng": 16.9353,
+    "address": "Sárvár FC Sporttelep (Sárvár)"
   },
   "Söpte Sporttelep": {
     "name": "Söpte Sporttelep",
@@ -5539,15 +5539,15 @@
   },
   "Kolozsvár úti sporttelep": {
     "name": "Kolozsvár úti sporttelep",
-    "lat": 46.67615,
-    "lng": 20.45231,
-    "address": "Dózsa úti sporttelep"
+    "lat": 47.228,
+    "lng": 16.635,
+    "address": "Kolozsvár úti sporttelep, Szombathely"
   },
   "Sportcentrum Bük": {
     "name": "Sportcentrum Bük",
-    "lat": 47.21013,
-    "lng": 16.59968,
-    "address": "Király Sportcentrum"
+    "lat": 47.3849,
+    "lng": 16.7507,
+    "address": "Sportcentrum Bük (Bük)"
   },
   "Gencsapáti Sportpálya": {
     "name": "Gencsapáti Sportpálya",
@@ -5571,13 +5571,13 @@
     "name": "Gyöngyöshermán-Szentkirály Sportpálya",
     "lat": 47.20465,
     "lng": 16.64578,
-    "address": "Gyöngyöshermán-Szentkirály"
+    "address": "Sportpálya, Gyöngyöshermán, Szombathely"
   },
   "Király Sportlétesítmény ( régi )": {
     "name": "Király Sportlétesítmény ( régi )",
-    "lat": 46.08426,
-    "lng": 18.77054,
-    "address": "Király Sportlétesítmény ( régi ) (Szent István király templom)"
+    "lat": 47.2185,
+    "lng": 16.5982,
+    "address": "Király Sportlétesítmény, Temesvár utca, Szombathely"
   },
   "Bajánsenye Sportpálya": {
     "name": "Bajánsenye Sportpálya",
@@ -5617,15 +5617,15 @@
   },
   "Rábatótfalu Sporttelep": {
     "name": "Rábatótfalu Sporttelep",
-    "lat": 46.94217,
-    "lng": 16.24818,
-    "address": "Rábatótfalu"
+    "lat": 46.942,
+    "lng": 16.248,
+    "address": "Sportpálya, Szentgotthárd-Rábatótfalu"
   },
   "Németh István Sporttelep Egyházasrádóc": {
     "name": "Németh István Sporttelep Egyházasrádóc",
-    "lat": 47.34312,
-    "lng": 17.43571,
-    "address": "Németh István Sporttelep Egyházasrádóc (Németh tanya)"
+    "lat": 47.0891,
+    "lng": 16.6174,
+    "address": "Németh István Sporttelep Egyházasrádóc (Egyházasrádóc)"
   },
   "Körmendi VSE Sporttelep": {
     "name": "Körmendi VSE Sporttelep",
@@ -5641,9 +5641,9 @@
   },
   "Tóth Zoltán Városi Sporttelep Jánosháza": {
     "name": "Tóth Zoltán Városi Sporttelep Jánosháza",
-    "lat": 47.49949,
-    "lng": 19.0338,
-    "address": "Tóth Zoltán Városi Sporttelep Jánosháza (Tóth Árpád sétány)"
+    "lat": 47.1194,
+    "lng": 17.165,
+    "address": "Tóth Zoltán Városi Sporttelep Jánosháza (Jánosháza)"
   },
   "Szeleste Sportpálya": {
     "name": "Szeleste Sportpálya",
@@ -5665,9 +5665,9 @@
   },
   "Szarka Zoltán Sporttelep Répcelak": {
     "name": "Szarka Zoltán Sporttelep Répcelak",
-    "lat": 46.67019,
-    "lng": 18.54274,
-    "address": "Szarka Zoltán Sporttelep Répcelak (Szarka-hegy)"
+    "lat": 47.4211,
+    "lng": 17.0179,
+    "address": "Szarka Zoltán Sporttelep Répcelak (Répcelak)"
   },
   "Mersevát Sportpálya": {
     "name": "Mersevát Sportpálya",
@@ -5761,9 +5761,9 @@
   },
   "Rábai Gábor Spottelep": {
     "name": "Rábai Gábor Spottelep",
-    "lat": 47.76722,
-    "lng": 19.93225,
-    "address": "VAMAV Sporttelep"
+    "lat": 47.38,
+    "lng": 16.57,
+    "address": "Rábai Gábor Sporttelep, Kőszegfalva"
   },
   "Nemeskoltai Sportelep": {
     "name": "Nemeskoltai Sportelep",
@@ -5869,15 +5869,15 @@
   },
   "Ostfyasszonyfa Sportpálya": {
     "name": "Ostfyasszonyfa Sportpálya",
-    "lat": 47.36303,
-    "lng": 17.09439,
-    "address": "Ostfyasszonyfa Sportpálya (Csönge–Ostfyasszonyfai Társult Evangélikus Egyházközség)"
+    "lat": 47.3287,
+    "lng": 17.0412,
+    "address": "Ostfyasszonyfa Sportpálya (Ostffyasszonyfa)"
   },
   "Jákfai SE": {
     "name": "Jákfai SE",
-    "lat": 47.24394,
-    "lng": 16.55425,
-    "address": "Sé"
+    "lat": 47.2405,
+    "lng": 17.0231,
+    "address": "Jákfai SE (Sitke)"
   },
   "Pecöl Sportpálya": {
     "name": "Pecöl Sportpálya",
@@ -5905,21 +5905,21 @@
   },
   "Bő Sportpálya": {
     "name": "Bő Sportpálya",
-    "lat": 46.91907,
-    "lng": 18.24932,
-    "address": "Enying, sportpálya"
+    "lat": 47.2309,
+    "lng": 16.6216,
+    "address": "Bő Sportpálya (Bő)"
   },
   "Rábasömjén Sportpálya": {
     "name": "Rábasömjén Sportpálya",
-    "lat": 47.27793,
-    "lng": 16.91616,
-    "address": "Rábasömjén"
+    "lat": 47.2405,
+    "lng": 17.0231,
+    "address": "Rábasömjén Sportpálya (Sitke)"
   },
   "Izsákfa Sportpálya": {
     "name": "Izsákfa Sportpálya",
-    "lat": 47.21442,
-    "lng": 17.13788,
-    "address": "Izsákfa-Bokodpuszta (Faüzem)"
+    "lat": 47.3287,
+    "lng": 17.0412,
+    "address": "Izsákfa Sportpálya (Ostffyasszonyfa)"
   },
   "Sitke Sportpálya": {
     "name": "Sitke Sportpálya",
@@ -5959,9 +5959,9 @@
   },
   "Péti MTE Sporttelep": {
     "name": "Péti MTE Sporttelep",
-    "lat": 47.22414,
-    "lng": 17.03638,
-    "address": "Péti MTE Sporttelep (Pet-hegy)"
+    "lat": 47.177,
+    "lng": 18.125,
+    "address": "Péti MTE Sporttelep, Pétfürdő"
   },
   "Badacsonytomaji Sportpálya": {
     "name": "Badacsonytomaji Sportpálya",
@@ -5977,9 +5977,9 @@
   },
   "Balatonarácsi Utánpótlás Centrum": {
     "name": "Balatonarácsi Utánpótlás Centrum",
-    "lat": 47.43157,
-    "lng": 19.15454,
-    "address": "Budapest Honvéd Magyar Futball Akadémia Dél-pesti Utánpótlás-nevelési Centrum"
+    "lat": 46.9619,
+    "lng": 17.8719,
+    "address": "Balatonarácsi Utánpótlás Centrum (Balatonfüred)"
   },
   "Tapolca Városi Sporttelep": {
     "name": "Tapolca Városi Sporttelep",
@@ -6001,9 +6001,9 @@
   },
   "Tihanyi Sporttelep": {
     "name": "Tihanyi Sporttelep",
-    "lat": 46.88394,
-    "lng": 17.89214,
-    "address": "Tihanyi-cső"
+    "lat": 46.915,
+    "lng": 17.885,
+    "address": "Tihanyi Sporttelep, Major utca, Tihany"
   },
   "Csetényi Sporttelep": {
     "name": "Csetényi Sporttelep",
@@ -6025,15 +6025,15 @@
   },
   "Községi SE": {
     "name": "Községi SE",
-    "lat": 46.98531,
-    "lng": 17.97984,
-    "address": "Strandfürdő"
+    "lat": 47.1695,
+    "lng": 17.5462,
+    "address": "Községi SE (Magyarpolány)"
   },
   "Váralja Sportegyesület Bakonyszentkirály sportpálya": {
     "name": "Váralja Sportegyesület Bakonyszentkirály sportpálya",
-    "lat": 46.26776,
-    "lng": 18.42854,
-    "address": "Váralja Sportegyesület Bakonyszentkirály sportpálya (Váralja)"
+    "lat": 47.3701,
+    "lng": 17.8807,
+    "address": "Váralja Sportegyesület Bakonyszentkirály sportpálya (Bakonyszentkirály)"
   },
   "Káptalanfa Sportegyesület": {
     "name": "Káptalanfa Sportegyesület",
@@ -6067,15 +6067,15 @@
   },
   "Balatonfűzfői Városi Stadion": {
     "name": "Balatonfűzfői Városi Stadion",
-    "lat": 47.08374,
-    "lng": 17.90276,
-    "address": "Veszprémi Városi Stadion"
+    "lat": 47.0667,
+    "lng": 18.05,
+    "address": "Balatonfűzfői Városi Stadion (Balatonfűzfő)"
   },
   "Gyulafirátót Sport Egyesület": {
     "name": "Gyulafirátót Sport Egyesület",
-    "lat": 47.52475,
-    "lng": 19.41993,
-    "address": "Hadak Útja Lovas Sport-egyesület"
+    "lat": 47.14,
+    "lng": 17.965,
+    "address": "Sportpálya, Gyulafirátót, Veszprém"
   },
   "Balatonalmádi Sporttelep": {
     "name": "Balatonalmádi Sporttelep",
@@ -6085,9 +6085,9 @@
   },
   "Palota-Vidék 2000 Öskü FC": {
     "name": "Palota-Vidék 2000 Öskü FC",
-    "lat": 47.49599,
-    "lng": 19.0398,
-    "address": "Palota-Vidék 2000 Öskü FC (Budavári Palota)"
+    "lat": 47.16,
+    "lng": 18.0733,
+    "address": "Palota-Vidék 2000 Öskü FC (Öskü)"
   },
   "Veszprémi Foci Centrum USE Sporttelep": {
     "name": "Veszprémi Foci Centrum USE Sporttelep",
@@ -6103,9 +6103,9 @@
   },
   "Jásdi Sportpálya": {
     "name": "Jásdi Sportpálya",
-    "lat": 47.11028,
-    "lng": 17.91089,
-    "address": "Schönherz Sportpálya"
+    "lat": 47.2894,
+    "lng": 18.0227,
+    "address": "Jásdi Sportpálya (Jásd)"
   },
   "Sportpálya Taliándörögd": {
     "name": "Sportpálya Taliándörögd",
@@ -6121,9 +6121,9 @@
   },
   "Borsosgyőri SE": {
     "name": "Borsosgyőri SE",
-    "lat": 47.31394,
-    "lng": 17.43024,
-    "address": "Borsosgyőri utca"
+    "lat": 47.315,
+    "lng": 17.435,
+    "address": "Borsosgyőri SE sportpálya, Pápa-Borsosgyőr"
   },
   "Takácsi Sporttelep": {
     "name": "Takácsi Sporttelep",
@@ -6151,15 +6151,15 @@
   },
   "Tapolcafői SE": {
     "name": "Tapolcafői SE",
-    "lat": 47.27963,
-    "lng": 17.52035,
-    "address": "Tapolcafői-forrásbarlang"
+    "lat": 47.28,
+    "lng": 17.515,
+    "address": "Tapolcafői SE sportpálya, Pápa-Tapolcafő"
   },
   "Kéttornyúlak": {
     "name": "Kéttornyúlak",
-    "lat": 47.29888,
-    "lng": 17.44927,
-    "address": "Kéttornyúlak"
+    "lat": 47.299,
+    "lng": 17.449,
+    "address": "Sportpálya, Pápa-Kéttornyúlak"
   },
   "Malomsok Sportegyesület": {
     "name": "Malomsok Sportegyesület",
@@ -6175,9 +6175,9 @@
   },
   "Nemesgörzsönyi Sportegyesület": {
     "name": "Nemesgörzsönyi Sportegyesület",
-    "lat": 47.09026,
-    "lng": 17.92534,
-    "address": "Centrum Sportegyesület Küzdősport Központ"
+    "lat": 47.3979,
+    "lng": 17.3628,
+    "address": "Nemesgörzsönyi Sportegyesület (Nemesgörzsöny)"
   },
   "Vaszar Sportpálya": {
     "name": "Vaszar Sportpálya",
@@ -6187,15 +6187,15 @@
   },
   "Csóti Sportpálya": {
     "name": "Csóti Sportpálya",
-    "lat": 47.11028,
-    "lng": 17.91089,
-    "address": "Schönherz Sportpálya"
+    "lat": 47.361,
+    "lng": 17.6087,
+    "address": "Csóti Sportpálya (Csót)"
   },
   "Pápai Spartacus Sporttelep": {
     "name": "Pápai Spartacus Sporttelep",
-    "lat": 47.25284,
-    "lng": 17.72543,
-    "address": "Sportterem"
+    "lat": 47.33,
+    "lng": 17.465,
+    "address": "Pápai Spartacus Sporttelep, Pápa"
   },
   "Felsőörsi Sportpálya": {
     "name": "Felsőörsi Sportpálya",
@@ -6241,9 +6241,9 @@
   },
   "Peremarton Sporttelep": {
     "name": "Peremarton Sporttelep",
-    "lat": 47.1158,
-    "lng": 18.10581,
-    "address": "Szent István király templom"
+    "lat": 47.116,
+    "lng": 18.106,
+    "address": "Peremarton Sporttelep, Berhida-Peremarton"
   },
   "Kolontár Községi Sportegyesület": {
     "name": "Kolontár Községi Sportegyesület",
@@ -6265,9 +6265,9 @@
   },
   "Mezőlaki SE Sportpálya": {
     "name": "Mezőlaki SE Sportpálya",
-    "lat": 47.506,
-    "lng": 18.03452,
-    "address": "Kisbéri Spartacus SE Sportpálya"
+    "lat": 47.3297,
+    "lng": 17.3711,
+    "address": "Mezőlaki SE Sportpálya (Mezőlak)"
   },
   "Somlószőlős SE": {
     "name": "Somlószőlős SE",
@@ -6325,9 +6325,9 @@
   },
   "Labdarúgó pálya Nagyvázsony": {
     "name": "Labdarúgó pálya Nagyvázsony",
-    "lat": 47.19699,
-    "lng": 20.18233,
-    "address": "Széchenyi Lakótelepi Műfüves Labdarúgó Pálya"
+    "lat": 46.983,
+    "lng": 17.6963,
+    "address": "Labdarúgó pálya, Nagyvázsony"
   },
   "Nemesvita Sportpálya": {
     "name": "Nemesvita Sportpálya",
@@ -6361,15 +6361,15 @@
   },
   "Bartók István Sportpálya": {
     "name": "Bartók István Sportpálya",
-    "lat": 47.0036,
-    "lng": 17.45021,
-    "address": "Fedett sportpálya"
+    "lat": 46.8819,
+    "lng": 17.7532,
+    "address": "Bartók István Sportpálya (Balatonakali)"
   },
   "Kiskanizsai Sportpálya": {
     "name": "Kiskanizsai Sportpálya",
-    "lat": 46.44613,
-    "lng": 16.95433,
-    "address": "Kiskanizsai Temető"
+    "lat": 46.446,
+    "lng": 16.954,
+    "address": "Kiskanizsai Sportpálya, Nagykanizsa-Kiskanizsa"
   },
   "Lenti TE Sporttelep": {
     "name": "Lenti TE Sporttelep",
@@ -6397,15 +6397,15 @@
   },
   "Hévízi Városi Sporttelep": {
     "name": "Hévízi Városi Sporttelep",
-    "lat": 46.9377,
-    "lng": 17.07912,
-    "address": "Városi sporttelep"
+    "lat": 46.7903,
+    "lng": 17.1841,
+    "address": "Hévízi Városi Sporttelep (Hévíz)"
   },
   "Andráshidai Sportcentrum": {
     "name": "Andráshidai Sportcentrum",
-    "lat": 46.86464,
-    "lng": 16.79809,
-    "address": "Andráshidai Óvoda"
+    "lat": 46.865,
+    "lng": 16.798,
+    "address": "Andráshidai Sportcentrum, Novák Mihály utca, Zalaegerszeg"
   },
   "Zalakomár Sportpálya": {
     "name": "Zalakomár Sportpálya",
@@ -6415,15 +6415,15 @@
   },
   "Letenye Sportpálya": {
     "name": "Letenye Sportpálya",
-    "lat": 46.50738,
-    "lng": 16.78144,
-    "address": "Borsfa, sportpálya"
+    "lat": 46.433,
+    "lng": 16.7258,
+    "address": "Letenye Sportpálya (Letenye)"
   },
   "Harmat János Sporttelep": {
     "name": "Harmat János Sporttelep",
-    "lat": 46.51748,
-    "lng": 19.99515,
-    "address": "Harmat János Sporttelep (Harmat tanya)"
+    "lat": 46.4337,
+    "lng": 16.903,
+    "address": "Harmat János Sporttelep, Szepetnek"
   },
   "Csesztreg Sporttelep": {
     "name": "Csesztreg Sporttelep",
@@ -6445,9 +6445,9 @@
   },
   "WINDOOR Sport Szabadidőközpont": {
     "name": "WINDOOR Sport Szabadidőközpont",
-    "lat": 47.61116,
-    "lng": 19.33608,
-    "address": "HS Sport-és Szabadidőközpont"
+    "lat": 46.835,
+    "lng": 16.85,
+    "address": "WINDOOR Sportközpont, Páterdomb, Zalaegerszeg"
   },
   "Németfalu Sportpálya": {
     "name": "Németfalu Sportpálya",
@@ -6469,21 +6469,21 @@
   },
   "Bödei Sporttelep": {
     "name": "Bödei Sporttelep",
-    "lat": 46.93851,
-    "lng": 17.07717,
-    "address": "Zalaszentgróti Városi Sporttelep"
+    "lat": 46.8382,
+    "lng": 16.719,
+    "address": "Bödei Sporttelep (Böde)"
   },
   "Botfai Sportcentrum": {
     "name": "Botfai Sportcentrum",
-    "lat": 46.80054,
-    "lng": 16.86456,
-    "address": "Szűz Mária neve-templom"
+    "lat": 46.801,
+    "lng": 16.865,
+    "address": "Botfai Sportcentrum, Zalaegerszeg-Botfa"
   },
   "Miklósfa Sportpálya": {
     "name": "Miklósfa Sportpálya",
-    "lat": 46.41456,
-    "lng": 16.9915,
-    "address": "Miklósfa"
+    "lat": 46.415,
+    "lng": 16.992,
+    "address": "Miklósfa Sportpálya, Nagykanizsa-Miklósfa"
   },
   "Gyenesdiás FC sporttelep": {
     "name": "Gyenesdiás FC sporttelep",
@@ -6517,9 +6517,9 @@
   },
   "Keszthelyi Sportpálya": {
     "name": "Keszthelyi Sportpálya",
-    "lat": 46.73886,
-    "lng": 17.10899,
-    "address": "Sportpálya utca"
+    "lat": 46.7681,
+    "lng": 17.2432,
+    "address": "Keszthelyi Sportpálya (Keszthely)"
   },
   "Gyenesdiási Sportpálya": {
     "name": "Gyenesdiási Sportpálya",
@@ -6577,9 +6577,9 @@
   },
   "Zalaegerszegi Ifjúsági Sportcentrum": {
     "name": "Zalaegerszegi Ifjúsági Sportcentrum",
-    "lat": 46.85386,
-    "lng": 16.57108,
-    "address": "Salla DSE Ifjúsági Tábor"
+    "lat": 46.84,
+    "lng": 16.8439,
+    "address": "Zalaegerszegi Ifjúsági Sportcentrum (Zalaegerszeg)"
   },
   "Sandi Sportpálya": {
     "name": "Sandi Sportpálya",
@@ -6667,9 +6667,9 @@
   },
   "Várvölgyi Sportpálya": {
     "name": "Várvölgyi Sportpálya",
-    "lat": 46.78624,
-    "lng": 17.25539,
-    "address": "Várvölgyi utca"
+    "lat": 46.8696,
+    "lng": 17.2964,
+    "address": "Várvölgyi Sportpálya (Várvölgy)"
   },
   "Zalaszentlászló Sportpálya": {
     "name": "Zalaszentlászló Sportpálya",
@@ -6679,15 +6679,15 @@
   },
   "Karmacsi Sportpálya": {
     "name": "Karmacsi Sportpálya",
-    "lat": 46.85407,
-    "lng": 16.84629,
-    "address": "Karmacsi Gumi- és Futóműszerviz"
+    "lat": 46.837,
+    "lng": 17.1737,
+    "address": "Karmacsi Sportpálya (Karmacs)"
   },
   "Zalavári Sportpálya": {
     "name": "Zalavári Sportpálya",
-    "lat": 46.84234,
-    "lng": 17.16406,
-    "address": "Zalavári-hát"
+    "lat": 46.6684,
+    "lng": 17.156,
+    "address": "Zalavári Sportpálya (Zalavár)"
   },
   "Sümegcsehi Sportpálya": {
     "name": "Sümegcsehi Sportpálya",
@@ -6739,15 +6739,15 @@
   },
   "Bárszentmihályfa Sportpálya": {
     "name": "Bárszentmihályfa Sportpálya",
-    "lat": 46.6615,
-    "lng": 16.58081,
-    "address": "Lenti (Bárszentmihályfa), sportpálya"
+    "lat": 46.662,
+    "lng": 16.581,
+    "address": "Bárszentmihályfa Sportpálya, Lenti"
   },
   "Léránt Lajos Sportcentrum": {
     "name": "Léránt Lajos Sportcentrum",
-    "lat": 47.59831,
-    "lng": 19.3348,
-    "address": "Szűcs Lajos sportcentrum"
+    "lat": 46.6872,
+    "lng": 16.6806,
+    "address": "Léránt Lajos Sportcentrum, Nova"
   },
   "Tófeji Sportpálya": {
     "name": "Tófeji Sportpálya",
@@ -6799,15 +6799,15 @@
   },
   "Tokod SE Sporttelep": {
     "name": "Tokod SE Sporttelep",
-    "lat": 47.59866,
-    "lng": 21.58482,
-    "address": "Józsa SE Sporttelep"
+    "lat": 47.7228,
+    "lng": 18.6589,
+    "address": "Tokod SE Sporttelep, Tokod"
   },
   "Környe Sport Egyesület": {
     "name": "Környe Sport Egyesület",
-    "lat": 47.65307,
-    "lng": 18.33355,
-    "address": "Tatai Sporthorgász és Környezetvédő Egyesület"
+    "lat": 47.5467,
+    "lng": 18.3208,
+    "address": "Környe Sport Egyesület (Környe)"
   },
   "FC Esztergom Sporttelep": {
     "name": "FC Esztergom Sporttelep",
@@ -6817,9 +6817,9 @@
   },
   "Bábolnai SE Sporttelep": {
     "name": "Bábolnai SE Sporttelep",
-    "lat": 47.59866,
-    "lng": 21.58482,
-    "address": "Józsa SE Sporttelep"
+    "lat": 47.643,
+    "lng": 17.975,
+    "address": "Bábolnai SE Sporttelep, Bábolna"
   },
   "Hajnal Tamás Sportcentrum Nyergesújfalu": {
     "name": "Hajnal Tamás Sportcentrum Nyergesújfalu",
@@ -6835,9 +6835,9 @@
   },
   "Wati-Kecskéd KSK": {
     "name": "Wati-Kecskéd KSK",
-    "lat": 46.91467,
-    "lng": 19.68193,
-    "address": "KSH"
+    "lat": 47.523,
+    "lng": 18.3094,
+    "address": "Wati-Kecskéd KSK (Kecskéd)"
   },
   "Berecz Dezső Sporttelep Koppánymonostor": {
     "name": "Berecz Dezső Sporttelep Koppánymonostor",
@@ -6847,39 +6847,39 @@
   },
   "Zsámbéki sporttelep": {
     "name": "Zsámbéki sporttelep",
-    "lat": 47.58916,
-    "lng": 18.66606,
-    "address": "Zsámbéki utca"
+    "lat": 47.5481,
+    "lng": 18.7201,
+    "address": "Zsámbéki sporttelep (Zsámbék)"
   },
   "Zsámbéki SK Sporttelep": {
     "name": "Zsámbéki SK Sporttelep",
-    "lat": 47.40671,
-    "lng": 19.17488,
-    "address": "Pestszentimre SK Sporttelep"
+    "lat": 47.5481,
+    "lng": 18.7201,
+    "address": "Zsámbéki SK Sporttelep (Zsámbék)"
   },
   "Dunaszentmiklósi Sport Egyesület": {
     "name": "Dunaszentmiklósi Sport Egyesület",
-    "lat": 47.65307,
-    "lng": 18.33355,
-    "address": "Tatai Sporthorgász és Környezetvédő Egyesület"
+    "lat": 47.7039,
+    "lng": 18.3818,
+    "address": "Dunaszentmiklósi Sport Egyesület (Dunaszentmiklós)"
   },
   "VÍGH GÁBOR Sporttelep Csolnok": {
     "name": "VÍGH GÁBOR Sporttelep Csolnok",
-    "lat": 47.74461,
-    "lng": 18.66946,
-    "address": "Botlik-Trans Kft. Logisztikai csarnok épület"
+    "lat": 47.6912,
+    "lng": 18.7161,
+    "address": "VÍGH GÁBOR Sporttelep Csolnok (Csolnok)"
   },
   "Bakonysárkányi Sport Egyesület": {
     "name": "Bakonysárkányi Sport Egyesület",
-    "lat": 47.65307,
-    "lng": 18.33355,
-    "address": "Tatai Sporthorgász és Környezetvédő Egyesület"
+    "lat": 47.4479,
+    "lng": 18.1022,
+    "address": "Bakonysárkányi Sport Egyesület (Bakonysárkány)"
   },
   "Vértesi Erőmű Sporttelep Tatabánya": {
     "name": "Vértesi Erőmű Sporttelep Tatabánya",
-    "lat": 47.50142,
-    "lng": 18.26992,
-    "address": "Vértesi Erőmű"
+    "lat": 47.5849,
+    "lng": 18.3933,
+    "address": "Vértesi Erőmű Sporttelep Tatabánya (Tatabánya)"
   },
   "Dunaalmási Munkás Atlétikai Club": {
     "name": "Dunaalmási Munkás Atlétikai Club",
@@ -6889,15 +6889,15 @@
   },
   "Ácsi Kinizsi SC": {
     "name": "Ácsi Kinizsi SC",
-    "lat": 46.37247,
-    "lng": 17.78051,
-    "address": "Kinizsi-lakótelep"
+    "lat": 47.7123,
+    "lng": 18.0113,
+    "address": "Ácsi Kinizsi SC (Ács)"
   },
   "Piliscsévi Sport Egyesület": {
     "name": "Piliscsévi Sport Egyesület",
-    "lat": 47.65307,
-    "lng": 18.33355,
-    "address": "Tatai Sporthorgász és Környezetvédő Egyesület"
+    "lat": 47.6792,
+    "lng": 18.8187,
+    "address": "Piliscsévi Sport Egyesület (Piliscsév)"
   },
   "Mocsa Községi Sport Egyesület": {
     "name": "Mocsa Községi Sport Egyesület",
@@ -6937,9 +6937,9 @@
   },
   "Ászár Községi Sport Egyesület": {
     "name": "Ászár Községi Sport Egyesület",
-    "lat": 47.64402,
-    "lng": 18.31413,
-    "address": "Neszmély–Tata–Ászár Borút Egyesület települései"
+    "lat": 47.5117,
+    "lng": 18.0015,
+    "address": "Ászár Községi Sport Egyesület (Ászár)"
   },
   "Lábatlani ESE Sporttelep": {
     "name": "Lábatlani ESE Sporttelep",
@@ -6949,15 +6949,15 @@
   },
   "Ete Sport Egyesület": {
     "name": "Ete Sport Egyesület",
-    "lat": 47.65307,
-    "lng": 18.33355,
-    "address": "Tatai Sporthorgász és Környezetvédő Egyesület"
+    "lat": 47.5308,
+    "lng": 18.0753,
+    "address": "Ete Sport Egyesület (Ete)"
   },
   "Dad Sport Egyesület": {
     "name": "Dad Sport Egyesület",
-    "lat": 47.65307,
-    "lng": 18.33355,
-    "address": "Tatai Sporthorgász és Környezetvédő Egyesület"
+    "lat": 47.5191,
+    "lng": 18.2263,
+    "address": "Dad Sport Egyesület (Dad)"
   },
   "Nagyigmándi Községi Sport Kör": {
     "name": "Nagyigmándi Községi Sport Kör",
@@ -6967,9 +6967,9 @@
   },
   "Rédei Községi Sport Egyesület": {
     "name": "Rédei Községi Sport Egyesület",
-    "lat": 47.51514,
-    "lng": 18.22241,
-    "address": "Dad községi SE"
+    "lat": 47.4298,
+    "lng": 17.9138,
+    "address": "Rédei Községi Sport Egyesület (Réde)"
   },
   "Bokod Futball Club Egyesület": {
     "name": "Bokod Futball Club Egyesület",
@@ -6991,15 +6991,15 @@
   },
   "Csémi Sporttelep": {
     "name": "Csémi Sporttelep",
-    "lat": 47.61329,
-    "lng": 18.38194,
-    "address": "Vértesszőlős, Sporttelep"
+    "lat": 47.6812,
+    "lng": 18.0872,
+    "address": "Csémi Sporttelep (Csém)"
   },
   "Bakonyszombathelyi Községi Sport Egyesület": {
     "name": "Bakonyszombathelyi Községi Sport Egyesület",
-    "lat": 47.51514,
-    "lng": 18.22241,
-    "address": "Dad községi SE"
+    "lat": 47.4717,
+    "lng": 17.9652,
+    "address": "Bakonyszombathelyi Községi Sport Egyesület (Bakonyszombathely)"
   },
   "Banai Kinizsi Sportbarátok Köre": {
     "name": "Banai Kinizsi Sportbarátok Köre",
@@ -7009,15 +7009,15 @@
   },
   "Császári Sport Egyesület": {
     "name": "Császári Sport Egyesület",
-    "lat": 47.65307,
-    "lng": 18.33355,
-    "address": "Tatai Sporthorgász és Környezetvédő Egyesület"
+    "lat": 47.498,
+    "lng": 18.1427,
+    "address": "Császári Sport Egyesület (Császár)"
   },
   "Naszály Sport Egyesület": {
     "name": "Naszály Sport Egyesület",
-    "lat": 47.65307,
-    "lng": 18.33355,
-    "address": "Tatai Sporthorgász és Környezetvédő Egyesület"
+    "lat": 47.7033,
+    "lng": 18.2575,
+    "address": "Naszály Sport Egyesület (Naszály)"
   },
   "Annavölgyi Bányász Sport Egyesület": {
     "name": "Annavölgyi Bányász Sport Egyesület",
@@ -7027,15 +7027,15 @@
   },
   "Kocs Községi Sport Egyesület": {
     "name": "Kocs Községi Sport Egyesület",
-    "lat": 47.51514,
-    "lng": 18.22241,
-    "address": "Dad községi SE"
+    "lat": 47.6075,
+    "lng": 18.2152,
+    "address": "Kocs Községi Sport Egyesület (Kocs)"
   },
   "Chudik Lajos Városi Sporttelep Oroszlány": {
     "name": "Chudik Lajos Városi Sporttelep Oroszlány",
-    "lat": 47.65116,
-    "lng": 18.25519,
-    "address": "Komárom-Esztergom vármegye"
+    "lat": 47.4867,
+    "lng": 18.3122,
+    "address": "Chudik Lajos Városi Sporttelep Oroszlány (Oroszlány)"
   },
   "Almásfüzitői Sport Club": {
     "name": "Almásfüzitői Sport Club",
@@ -7069,15 +7069,15 @@
   },
   "Süttői Sport Club": {
     "name": "Süttői Sport Club",
-    "lat": 46.17369,
-    "lng": 18.94133,
-    "address": "Bajai Spartacus Sport Club Evezősház"
+    "lat": 47.7589,
+    "lng": 18.4487,
+    "address": "Süttői Sport Club (Süttő)"
   },
   "KSE Karancslapujtő Sporttelep": {
     "name": "KSE Karancslapujtő Sporttelep",
-    "lat": 48.31885,
-    "lng": 20.61551,
-    "address": "KSC Sporttelep"
+    "lat": 48.15,
+    "lng": 19.7333,
+    "address": "KSE Karancslapujtő Sporttelep (Karancslapujtő)"
   },
   "Mohora SE Sporttelep": {
     "name": "Mohora SE Sporttelep",
@@ -7117,9 +7117,9 @@
   },
   "Pásztó Hajós Alfréd úti Sporttelep": {
     "name": "Pásztó Hajós Alfréd úti Sporttelep",
-    "lat": 47.91508,
-    "lng": 19.69125,
-    "address": "Hajós Alfréd utca"
+    "lat": 47.9202,
+    "lng": 19.6983,
+    "address": "Pásztó Hajós Alfréd úti Sporttelep (Pásztó)"
   },
   "Szécsény VSE sportpálya": {
     "name": "Szécsény VSE sportpálya",
@@ -7129,9 +7129,9 @@
   },
   "Bátonyterenyei TC Sporttelep": {
     "name": "Bátonyterenyei TC Sporttelep",
-    "lat": 47.99555,
-    "lng": 19.82721,
-    "address": "Bátonyterenye"
+    "lat": 47.9202,
+    "lng": 19.6983,
+    "address": "Bátonyterenyei TC Sporttelep (Pásztó)"
   },
   "Berkenye SE Sporttelep": {
     "name": "Berkenye SE Sporttelep",
@@ -7213,15 +7213,15 @@
   },
   "Kazár KSE sportpálya": {
     "name": "Kazár KSE sportpálya",
-    "lat": 47.6824,
-    "lng": 17.51128,
-    "address": "Börcs KSE Sportpálya"
+    "lat": 48.0495,
+    "lng": 19.8614,
+    "address": "Kazár KSE sportpálya (Kazár)"
   },
   "Egyházasdengeleg FE sportpálya": {
     "name": "Egyházasdengeleg FE sportpálya",
-    "lat": 47.89083,
-    "lng": 19.19916,
-    "address": "Felsőpetény, sportpálya"
+    "lat": 47.8003,
+    "lng": 19.5503,
+    "address": "Egyházasdengeleg FE sportpálya (Egyházasdengeleg)"
   },
   "Ságújfalu Községi SE sportpálya": {
     "name": "Ságújfalu Községi SE sportpálya",
@@ -7243,9 +7243,9 @@
   },
   "Cserhát TSE Felsőtold sportpálya": {
     "name": "Cserhát TSE Felsőtold sportpálya",
-    "lat": 47.89115,
-    "lng": 19.24828,
-    "address": "Cserhát"
+    "lat": 47.9715,
+    "lng": 19.6105,
+    "address": "Cserhát TSE Felsőtold sportpálya (Felsőtold)"
   },
   "Zagyvaróna SE sportpálya": {
     "name": "Zagyvaróna SE sportpálya",
@@ -7267,9 +7267,9 @@
   },
   "Érsekvadkerti SE sportpályák": {
     "name": "Érsekvadkerti SE sportpályák",
-    "lat": 47.95858,
-    "lng": 19.06985,
-    "address": "Érsekvadkerti espereskerület"
+    "lat": 47.9962,
+    "lng": 19.2023,
+    "address": "Érsekvadkerti SE sportpályák (Érsekvadkert)"
   },
   "Kétbodony SE sportpálya": {
     "name": "Kétbodony SE sportpálya",
@@ -7279,9 +7279,9 @@
   },
   "Patak FC Sporttelep": {
     "name": "Patak FC Sporttelep",
-    "lat": 47.4703,
-    "lng": 19.24197,
-    "address": "Grund 1986 FC sporttelep"
+    "lat": 48.0229,
+    "lng": 19.1452,
+    "address": "Patak FC Sporttelep (Patak)"
   },
   "Rétság sportpálya": {
     "name": "Rétság sportpálya",
@@ -7303,9 +7303,9 @@
   },
   "Biatorbágy Iharos dűlői Sporttelep": {
     "name": "Biatorbágy Iharos dűlői Sporttelep",
-    "lat": 47.47394,
-    "lng": 18.82329,
-    "address": "Biatorbágy"
+    "lat": 47.4706,
+    "lng": 18.8189,
+    "address": "Biatorbágy Iharos dűlői Sporttelep (Biatorbágy)"
   },
   "Vác Városi Stadion": {
     "name": "Vác Városi Stadion",
@@ -7321,15 +7321,15 @@
   },
   "Bugyi SE Sporttelep": {
     "name": "Bugyi SE Sporttelep",
-    "lat": 47.68422,
-    "lng": 19.13952,
-    "address": "Göd SE"
+    "lat": 47.2275,
+    "lng": 19.1466,
+    "address": "Bugyi SE Sporttelep (Bugyi)"
   },
   "Zsengellér Gyula Sportcentrum (Cegléd)": {
     "name": "Zsengellér Gyula Sportcentrum (Cegléd)",
-    "lat": 47.12482,
-    "lng": 19.75397,
-    "address": "Zsengellér dűlő"
+    "lat": 47.1727,
+    "lng": 19.7995,
+    "address": "Zsengellér Gyula Sportcentrum (Cegléd) (Cegléd)"
   },
   "Dunakeszi Város Kinizsi Sportközpont": {
     "name": "Dunakeszi Város Kinizsi Sportközpont",
@@ -7339,9 +7339,9 @@
   },
   "Felsőpakonyi SE Sporttelep": {
     "name": "Felsőpakonyi SE Sporttelep",
-    "lat": 47.68422,
-    "lng": 19.13952,
-    "address": "Göd SE"
+    "lat": 47.3433,
+    "lng": 19.237,
+    "address": "Felsőpakonyi SE Sporttelep (Felsőpakony)"
   },
   "Dunavarsányi TE Sporttelep": {
     "name": "Dunavarsányi TE Sporttelep",
@@ -7375,9 +7375,9 @@
   },
   "Leányfalui sportpálya": {
     "name": "Leányfalui sportpálya",
-    "lat": 47.48713,
-    "lng": 19.34676,
-    "address": "Péceli Sportpálya"
+    "lat": 47.7178,
+    "lng": 19.0858,
+    "address": "Leányfalui sportpálya (Leányfalu)"
   },
   "Pilisvörösvári UFC Sporttelep": {
     "name": "Pilisvörösvári UFC Sporttelep",
@@ -7387,9 +7387,9 @@
   },
   "Bagi Sporttelep": {
     "name": "Bagi Sporttelep",
-    "lat": 47.68454,
-    "lng": 19.13818,
-    "address": "Sporttelep köz"
+    "lat": 47.6333,
+    "lng": 19.4833,
+    "address": "Bagi Sporttelep (Bag)"
   },
   "Vác-Deákvár SE Sporttelep": {
     "name": "Vác-Deákvár SE Sporttelep",
@@ -7399,9 +7399,9 @@
   },
   "Péceli Sporttelep": {
     "name": "Péceli Sporttelep",
-    "lat": 47.68454,
-    "lng": 19.13818,
-    "address": "Sporttelep köz"
+    "lat": 47.4896,
+    "lng": 19.3416,
+    "address": "Péceli Sporttelep (Pécel)"
   },
   "Balogh Sándor Sportcentrum (Fót)": {
     "name": "Balogh Sándor Sportcentrum (Fót)",
@@ -7411,9 +7411,9 @@
   },
   "Kartal SE Sporttelep": {
     "name": "Kartal SE Sporttelep",
-    "lat": 47.68422,
-    "lng": 19.13952,
-    "address": "Göd SE"
+    "lat": 47.6713,
+    "lng": 19.542,
+    "address": "Kartal SE Sporttelep (Kartal)"
   },
   "Ecseri sportpálya": {
     "name": "Ecseri sportpálya",
@@ -7429,9 +7429,9 @@
   },
   "Pátyi SE Sporttelep": {
     "name": "Pátyi SE Sporttelep",
-    "lat": 47.68422,
-    "lng": 19.13952,
-    "address": "Göd SE"
+    "lat": 47.5171,
+    "lng": 18.8285,
+    "address": "Pátyi SE Sporttelep (Páty)"
   },
   "Felsőgödi Sportpálya (Göd)": {
     "name": "Felsőgödi Sportpálya (Göd)",
@@ -7465,15 +7465,15 @@
   },
   "Fóti Műfüves Nagypálya": {
     "name": "Fóti Műfüves Nagypálya",
-    "lat": 47.41725,
-    "lng": 18.895,
-    "address": "műfüves focipálya"
+    "lat": 47.6177,
+    "lng": 19.1887,
+    "address": "Fóti Műfüves Nagypálya (Fót)"
   },
   "Csuka János Sportpark (Inárcs)": {
     "name": "Csuka János Sportpark (Inárcs)",
-    "lat": 47.31112,
-    "lng": 19.02875,
-    "address": "Csuka köz"
+    "lat": 47.262,
+    "lng": 19.327,
+    "address": "Csuka János Sportpark (Inárcs) (Inárcs)"
   },
   "MozGo-Nagykőrös SE Sporttelep": {
     "name": "MozGo-Nagykőrös SE Sporttelep",
@@ -7509,31 +7509,31 @@
     "name": "Dunaharaszti MTK műfüves sportpályája",
     "lat": 47.35415,
     "lng": 19.09122,
-    "address": "Dunaharaszti"
+    "address": "Dunaharaszti MTK Sporttelep, Dunaharaszti"
   },
   "Tóth Ernő Sportpálya (Abony)": {
     "name": "Tóth Ernő Sportpálya (Abony)",
-    "lat": 47.3381,
-    "lng": 18.93111,
-    "address": "Tóth tanya"
+    "lat": 47.1899,
+    "lng": 20.0048,
+    "address": "Tóth Ernő Sportpálya (Abony) (Abony)"
   },
   "Sipos Ferenc Sporttelep (Ráckeve)": {
     "name": "Sipos Ferenc Sporttelep (Ráckeve)",
-    "lat": 47.61812,
-    "lng": 19.18217,
-    "address": "Sipos Pál tér"
+    "lat": 47.161,
+    "lng": 18.9448,
+    "address": "Sipos Ferenc Sporttelep (Ráckeve) (Ráckeve)"
   },
   "Tápiószecső FC Sporttelep": {
     "name": "Tápiószecső FC Sporttelep",
-    "lat": 47.4703,
-    "lng": 19.24197,
-    "address": "Grund 1986 FC sporttelep"
+    "lat": 47.45,
+    "lng": 19.6092,
+    "address": "Tápiószecső FC Sporttelep (Tápiószecső)"
   },
   "Hernádi sportpálya": {
     "name": "Hernádi sportpálya",
-    "lat": 47.21563,
-    "lng": 19.37989,
-    "address": "Hernádi (U.I.)-csatorna"
+    "lat": 47.1624,
+    "lng": 19.433,
+    "address": "Hernádi sportpálya (Hernád)"
   },
   "Kertész Károly Stadion (Maglód)": {
     "name": "Kertész Károly Stadion (Maglód)",
@@ -7597,9 +7597,9 @@
   },
   "Ürömi sportpálya": {
     "name": "Ürömi sportpálya",
-    "lat": 47.48713,
-    "lng": 19.34676,
-    "address": "Péceli Sportpálya"
+    "lat": 47.5967,
+    "lng": 19.0158,
+    "address": "Ürömi sportpálya (Üröm)"
   },
   "Visegrádi sportpálya": {
     "name": "Visegrádi sportpálya",
@@ -7633,9 +7633,9 @@
   },
   "Táborfalva KSE Sporttelep": {
     "name": "Táborfalva KSE Sporttelep",
-    "lat": 48.31885,
-    "lng": 20.61551,
-    "address": "KSC Sporttelep"
+    "lat": 47.0994,
+    "lng": 19.4784,
+    "address": "Táborfalva KSE Sporttelep (Táborfalva)"
   },
   "Szigethalmi Sporttelep": {
     "name": "Szigethalmi Sporttelep",
@@ -7645,9 +7645,9 @@
   },
   "Sóskúti sportpálya": {
     "name": "Sóskúti sportpálya",
-    "lat": 48.01353,
-    "lng": 21.64824,
-    "address": "Dózsaszőlői sportpálya"
+    "lat": 47.4066,
+    "lng": 18.8225,
+    "address": "Sportpálya, Sóskút"
   },
   "Törökbálinti Sporttelep": {
     "name": "Törökbálinti Sporttelep",
@@ -7663,15 +7663,15 @@
   },
   "Kerepesi VSE Sporttelep": {
     "name": "Kerepesi VSE Sporttelep",
-    "lat": 47.49712,
-    "lng": 19.09766,
-    "address": "MTK Sportpark"
+    "lat": 47.5601,
+    "lng": 19.2829,
+    "address": "Kerepesi VSE Sporttelep (Kerepes)"
   },
   "Dömsödi Sporttelep": {
     "name": "Dömsödi Sporttelep",
-    "lat": 47.20299,
-    "lng": 19.21647,
-    "address": "Dömsödi-árapasztó-csatorna"
+    "lat": 47.09,
+    "lng": 19.0111,
+    "address": "Dömsödi Sporttelep (Dömsöd)"
   },
   "Végh István Utánpótlás Központ (Taksony)": {
     "name": "Végh István Utánpótlás Központ (Taksony)",
@@ -7687,15 +7687,15 @@
   },
   "Örkény SE Sporttelep": {
     "name": "Örkény SE Sporttelep",
-    "lat": 47.68422,
-    "lng": 19.13952,
-    "address": "Göd SE"
+    "lat": 47.1299,
+    "lng": 19.4332,
+    "address": "Örkény SE Sporttelep (Örkény)"
   },
   "Tápiószőlős KSE Sporttelep": {
     "name": "Tápiószőlős KSE Sporttelep",
-    "lat": 48.31885,
-    "lng": 20.61551,
-    "address": "KSC Sporttelep"
+    "lat": 47.3025,
+    "lng": 19.8513,
+    "address": "Tápiószőlős KSE Sporttelep (Tápiószőlős)"
   },
   "Tápiószelei sportpálya": {
     "name": "Tápiószelei sportpálya",
@@ -7705,9 +7705,9 @@
   },
   "Ikladi KFC Sporttelep": {
     "name": "Ikladi KFC Sporttelep",
-    "lat": 47.48606,
-    "lng": 18.95271,
-    "address": "KFKI Sporttelep"
+    "lat": 47.6653,
+    "lng": 19.4361,
+    "address": "Ikladi KFC Sporttelep (Iklad)"
   },
   "Tura VSK Sporttelep": {
     "name": "Tura VSK Sporttelep",
@@ -7747,15 +7747,15 @@
   },
   "Hévízgyörk SC Sporttelep": {
     "name": "Hévízgyörk SC Sporttelep",
-    "lat": 47.5974,
-    "lng": 18.9347,
-    "address": "PEMŰ Sporttelep"
+    "lat": 47.6333,
+    "lng": 19.5167,
+    "address": "Hévízgyörk SC Sporttelep (Hévízgyörk)"
   },
   "Szadai SE Sporttelep": {
     "name": "Szadai SE Sporttelep",
-    "lat": 47.68422,
-    "lng": 19.13952,
-    "address": "Göd SE"
+    "lat": 47.633,
+    "lng": 19.317,
+    "address": "Szadai SE Sporttelep, Szada"
   },
   "Galgagyörki sportpálya": {
     "name": "Galgagyörki sportpálya",
@@ -7783,15 +7783,15 @@
   },
   "Püspökszilágy SE Sporttelep": {
     "name": "Püspökszilágy SE Sporttelep",
-    "lat": 47.68422,
-    "lng": 19.13952,
-    "address": "Göd SE"
+    "lat": 47.7404,
+    "lng": 19.3142,
+    "address": "Püspökszilágy SE Sporttelep (Püspökszilágy)"
   },
   "Vácrátóti Sport- és Szabadidőközpont": {
     "name": "Vácrátóti Sport- és Szabadidőközpont",
-    "lat": 47.61116,
-    "lng": 19.33608,
-    "address": "HS Sport-és Szabadidőközpont"
+    "lat": 47.7099,
+    "lng": 19.2346,
+    "address": "Vácrátóti Sport- és Szabadidőközpont (Vácrátót)"
   },
   "Penci sportpálya": {
     "name": "Penci sportpálya",
@@ -7807,15 +7807,15 @@
   },
   "Püspökhatvani sportpálya": {
     "name": "Püspökhatvani sportpálya",
-    "lat": 47.48713,
-    "lng": 19.34676,
-    "address": "Péceli Sportpálya"
+    "lat": 47.7758,
+    "lng": 19.3628,
+    "address": "Püspökhatvani sportpálya (Püspökhatvan)"
   },
   "Acsai sporttelep": {
     "name": "Acsai sporttelep",
-    "lat": 47.68454,
-    "lng": 19.13818,
-    "address": "Sporttelep köz"
+    "lat": 47.798,
+    "lng": 19.388,
+    "address": "Sporttelep, Acsa"
   },
   "Nagymarosi sportpálya": {
     "name": "Nagymarosi sportpálya",
@@ -7837,15 +7837,15 @@
   },
   "Újszilvás KSE Sporttelep": {
     "name": "Újszilvás KSE Sporttelep",
-    "lat": 48.31885,
-    "lng": 20.61551,
-    "address": "KSC Sporttelep"
+    "lat": 47.2748,
+    "lng": 19.9248,
+    "address": "Újszilvás KSE Sporttelep (Újszilvás)"
   },
   "Ócsa VSE Sporttelep": {
     "name": "Ócsa VSE Sporttelep",
-    "lat": 47.3902,
-    "lng": 19.11244,
-    "address": "Szamosi Mihály Sporttelep"
+    "lat": 47.2999,
+    "lng": 19.2306,
+    "address": "Ócsa VSE Sporttelep (Ócsa)"
   },
   "Ekrik István Sportpálya (Kakucs)": {
     "name": "Ekrik István Sportpálya (Kakucs)",
@@ -7861,15 +7861,15 @@
   },
   "Pándi sportpálya": {
     "name": "Pándi sportpálya",
-    "lat": 47.48713,
-    "lng": 19.34676,
-    "address": "Péceli Sportpálya"
+    "lat": 47.3533,
+    "lng": 19.6357,
+    "address": "Pándi sportpálya (Pánd)"
   },
   "Vasadi sportpálya": {
     "name": "Vasadi sportpálya",
-    "lat": 47.3844,
-    "lng": 19.27043,
-    "address": "Vasadi-csatorna"
+    "lat": 47.324,
+    "lng": 19.4037,
+    "address": "Vasadi sportpálya (Vasad)"
   },
   "Pándi pálya": {
     "name": "Pándi pálya",
@@ -7879,21 +7879,21 @@
   },
   "Úri sportpálya": {
     "name": "Úri sportpálya",
-    "lat": 47.61778,
-    "lng": 18.95936,
-    "address": "Sportpálya, 150m futókör"
+    "lat": 47.4143,
+    "lng": 19.5276,
+    "address": "Úri sportpálya (Úri)"
   },
   "Kisalag SC Sporttelep": {
     "name": "Kisalag SC Sporttelep",
-    "lat": 47.5974,
-    "lng": 18.9347,
-    "address": "PEMŰ Sporttelep"
+    "lat": 47.595,
+    "lng": 19.205,
+    "address": "Kisalag SC Sporttelep, Fót-Kisalag"
   },
   "Erdőkertesi SE Sporttelep": {
     "name": "Erdőkertesi SE Sporttelep",
-    "lat": 47.68422,
-    "lng": 19.13952,
-    "address": "Göd SE"
+    "lat": 47.6726,
+    "lng": 19.3079,
+    "address": "Erdőkertesi SE Sporttelep (Erdőkertes)"
   },
   "Aszódi sportpálya": {
     "name": "Aszódi sportpálya",
@@ -7948,5 +7948,539 @@
     "lat": 47.65299,
     "lng": 18.7875,
     "address": "Tinnyei út"
+  },
+  "Görcsönydoboka": {
+    "name": "Görcsönydoboka",
+    "lat": 46.071,
+    "lng": 18.627,
+    "address": "Görcsönydoboka (Görcsönydoboka)"
+  },
+  "Várkői Ferenc Diák- és Szabadidőpont Központ": {
+    "name": "Várkői Ferenc Diák- és Szabadidőpont Központ",
+    "lat": 46.04028,
+    "lng": 18.21835,
+    "address": "Várkonyi Nándor utca"
+  },
+  "Szigetvár": {
+    "name": "Szigetvár",
+    "lat": 46.0487,
+    "lng": 17.8055,
+    "address": "Szigetvár (Szigetvár)"
+  },
+  "PVSK Sportkomplexum": {
+    "name": "PVSK Sportkomplexum",
+    "lat": 46.06498,
+    "lng": 18.2247,
+    "address": "PVSK"
+  },
+  "PMFC Kovácstelep Sporttelep": {
+    "name": "PMFC Kovácstelep Sporttelep",
+    "lat": 46.0683,
+    "lng": 18.19504,
+    "address": "PMFC-PEAC sporttelep"
+  },
+  "Székelyhidi Sporttelep": {
+    "name": "Székelyhidi Sporttelep",
+    "lat": 46.08841,
+    "lng": 18.26476,
+    "address": "Székelyhidi SE"
+  },
+  "Drávaszabolcs SE labdarúgó pálya": {
+    "name": "Drávaszabolcs SE labdarúgó pálya",
+    "lat": 45.8068,
+    "lng": 18.2105,
+    "address": "Drávaszabolcs SE labdarúgó pálya (Drávaszabolcs)"
+  },
+  "Körösladányi MSK Sporttelep": {
+    "name": "Körösladányi MSK Sporttelep",
+    "lat": 46.9667,
+    "lng": 21.0833,
+    "address": "Körösladányi MSK Sporttelep (Körösladány)"
+  },
+  "Kétsoprony Sportpálya": {
+    "name": "Kétsoprony Sportpálya",
+    "lat": 46.7167,
+    "lng": 20.8667,
+    "address": "Kétsoprony Sportpálya (Kétsoprony)"
+  },
+  "Gyomaendrőd - Népligeti Sporttelep": {
+    "name": "Gyomaendrőd - Népligeti Sporttelep",
+    "lat": 46.9333,
+    "lng": 20.8333,
+    "address": "Gyomaendrőd - Népligeti Sporttelep (Gyomaendrőd)"
+  },
+  "Mudin Fivérek Sportpálya": {
+    "name": "Mudin Fivérek Sportpálya",
+    "lat": 46.77174,
+    "lng": 21.13259,
+    "address": "Békés"
+  },
+  "Mezőhegyesi Sportpálya": {
+    "name": "Mezőhegyesi Sportpálya",
+    "lat": 46.3167,
+    "lng": 20.8167,
+    "address": "Mezőhegyesi Sportpálya (Mezőhegyes)"
+  },
+  "Ózdi Városi Stadion - II- sz. edzőpálya": {
+    "name": "Ózdi Városi Stadion - II- sz. edzőpálya",
+    "lat": 48.2167,
+    "lng": 20.3,
+    "address": "Ózdi Városi Stadion - II- sz. edzőpálya (Ózd)"
+  },
+  "Encs Tartalékpálya I.": {
+    "name": "Encs Tartalékpálya I.",
+    "lat": 48.3333,
+    "lng": 21.1333,
+    "address": "Encs Tartalékpálya I. (Encs)"
+  },
+  "Borsodnádasd Sportpálya": {
+    "name": "Borsodnádasd Sportpálya",
+    "lat": 48.1167,
+    "lng": 20.25,
+    "address": "Borsodnádasd Sportpálya (Borsodnádasd)"
+  },
+  "MVSC-Miskolc Sporttelep": {
+    "name": "MVSC-Miskolc Sporttelep",
+    "lat": 48.09692,
+    "lng": 20.80403,
+    "address": "MVSC Stadion és Sporttelep"
+  },
+  "Boldva Sportpálya": {
+    "name": "Boldva Sportpálya",
+    "lat": 48.2167,
+    "lng": 20.8,
+    "address": "Boldva Sportpálya (Boldva)"
+  },
+  "Sajószentpéter Sportpálya": {
+    "name": "Sajószentpéter Sportpálya",
+    "lat": 48.2167,
+    "lng": 20.7167,
+    "address": "Sajószentpéter Sportpálya (Sajószentpéter)"
+  },
+  "Encs Tartalékpálya II.": {
+    "name": "Encs Tartalékpálya II.",
+    "lat": 48.3333,
+    "lng": 21.1333,
+    "address": "Encs Tartalékpálya II. (Encs)"
+  },
+  "Tiszalúc Sportpálya": {
+    "name": "Tiszalúc Sportpálya",
+    "lat": 48.0377,
+    "lng": 21.0726,
+    "address": "Tiszalúc Sportpálya (Tiszalúc)"
+  },
+  "Karcsa Sportpálya": {
+    "name": "Karcsa Sportpálya",
+    "lat": 48.3113,
+    "lng": 21.8054,
+    "address": "Karcsa Sportpálya (Karcsa)"
+  },
+  "Cigánd Vasút utcai Sporttelep": {
+    "name": "Cigánd Vasút utcai Sporttelep",
+    "lat": 48.2556,
+    "lng": 21.8919,
+    "address": "Cigánd Vasút utcai Sporttelep (Cigánd)"
+  },
+  "Sándor Csikar Grund": {
+    "name": "Sándor Csikar Grund",
+    "lat": 46.24711,
+    "lng": 20.12486,
+    "address": "Sándor Csikar grund"
+  },
+  "Szeged-Gyálarét Sportpálya": {
+    "name": "Szeged-Gyálarét Sportpálya",
+    "lat": 46.2956,
+    "lng": 20.0703,
+    "address": "Szeged-Gyálarét Sportpálya (Szeged)"
+  },
+  "Szőreg Sportpálya": {
+    "name": "Szőreg Sportpálya",
+    "lat": 46.21288,
+    "lng": 20.1865,
+    "address": "Szőregi Sportpálya"
+  },
+  "KÉSZ Sport Aréna": {
+    "name": "KÉSZ Sport Aréna",
+    "lat": 46.25892,
+    "lng": 20.17422,
+    "address": "Pick Aréna"
+  },
+  "SZEOL SC Sporttelep": {
+    "name": "SZEOL SC Sporttelep",
+    "lat": 47.69097,
+    "lng": 17.5518,
+    "address": "Abda SC Sporttelep"
+  },
+  "Dunaújvárosi Agrospeciál Sporttelep": {
+    "name": "Dunaújvárosi Agrospeciál Sporttelep",
+    "lat": 46.9674,
+    "lng": 18.9329,
+    "address": "Dunaújvárosi Agrospeciál Sporttelep (Dunaújváros)"
+  },
+  "Herceghalmi Sportpálya": {
+    "name": "Herceghalmi Sportpálya",
+    "lat": 47.20753,
+    "lng": 18.62204,
+    "address": "Sirály Strand Sportpálya"
+  },
+  "Vereb Sportpálya": {
+    "name": "Vereb Sportpálya",
+    "lat": 47.3139,
+    "lng": 18.6296,
+    "address": "Vereb Sportpálya (Vereb)"
+  },
+  "Ercsi Kinizsi Sporttelep": {
+    "name": "Ercsi Kinizsi Sporttelep",
+    "lat": 47.25464,
+    "lng": 18.89123,
+    "address": "Kinizsi utca"
+  },
+  "Gárdony-Agárd Sportpálya": {
+    "name": "Gárdony-Agárd Sportpálya",
+    "lat": 47.20753,
+    "lng": 18.62204,
+    "address": "Sirály Strand Sportpálya"
+  },
+  "Dunaújvárosi Radar Tömegsporttelep": {
+    "name": "Dunaújvárosi Radar Tömegsporttelep",
+    "lat": 46.9674,
+    "lng": 18.9329,
+    "address": "Dunaújvárosi Radar Tömegsporttelep (Dunaújváros)"
+  },
+  "Soponya Sportpálya": {
+    "name": "Soponya Sportpálya",
+    "lat": 47.0148,
+    "lng": 18.4534,
+    "address": "Soponya Sportpálya (Soponya)"
+  },
+  "ÜSTÖKÖS FC GYŐR Sporttelep": {
+    "name": "ÜSTÖKÖS FC GYŐR Sporttelep",
+    "lat": 47.6308,
+    "lng": 17.7295,
+    "address": "ÜSTÖKÖS FC GYŐR Sporttelep (Győr)"
+  },
+  "Bősárkány SC": {
+    "name": "Bősárkány SC",
+    "lat": 47.6882,
+    "lng": 17.25,
+    "address": "Bősárkány SC (Bősárkány)"
+  },
+  "Bőny SE Sporttelep": {
+    "name": "Bőny SE Sporttelep",
+    "lat": 47.65,
+    "lng": 17.8698,
+    "address": "Bőny SE Sporttelep (Bőny)"
+  },
+  "Szil SE": {
+    "name": "Szil SE",
+    "lat": 47.5011,
+    "lng": 17.2331,
+    "address": "Szil SE (Szil)"
+  },
+  "Debreceni Egyetem Sportinnovációs Központ": {
+    "name": "Debreceni Egyetem Sportinnovációs Központ",
+    "lat": 47.5333,
+    "lng": 21.6333,
+    "address": "Debreceni Egyetem Sportinnovációs Központ (Debrecen)"
+  },
+  "Hajdúszoboszlói Sportpálya": {
+    "name": "Hajdúszoboszlói Sportpálya",
+    "lat": 47.45,
+    "lng": 21.4,
+    "address": "Hajdúszoboszlói Sportpálya (Hajdúszoboszló)"
+  },
+  "TBG": {
+    "name": "TBG",
+    "lat": 47.46796,
+    "lng": 21.36884,
+    "address": "TBG Kállai Kft."
+  },
+  "Hajdúnánási Sporttelep (Tartalék pálya)": {
+    "name": "Hajdúnánási Sporttelep (Tartalék pálya)",
+    "lat": 47.85,
+    "lng": 21.4333,
+    "address": "Hajdúnánási Sporttelep (Tartalék pálya) (Hajdúnánás)"
+  },
+  "Pocsaji Sportpálya": {
+    "name": "Pocsaji Sportpálya",
+    "lat": 47.2833,
+    "lng": 21.8167,
+    "address": "Pocsaji Sportpálya (Pocsaj)"
+  },
+  "Esztári Sportcsarnok": {
+    "name": "Esztári Sportcsarnok",
+    "lat": 47.2833,
+    "lng": 21.7833,
+    "address": "Esztári Sportcsarnok (Esztár)"
+  },
+  "Nyíradonyi Európa park Sporttelep": {
+    "name": "Nyíradonyi Európa park Sporttelep",
+    "lat": 47.6975,
+    "lng": 21.9188,
+    "address": "Nyíradonyi Európa park Sporttelep (Nyíradony)"
+  },
+  "Pétervására Bocsi Attila Sporttelep": {
+    "name": "Pétervására Bocsi Attila Sporttelep",
+    "lat": 48.0167,
+    "lng": 20.1,
+    "address": "Pétervására Bocsi Attila Sporttelep (Pétervására)"
+  },
+  "Tarnaleleszi Meteor Sportpálya": {
+    "name": "Tarnaleleszi Meteor Sportpálya",
+    "lat": 48.05,
+    "lng": 20.1833,
+    "address": "Tarnaleleszi Meteor Sportpálya (Tarnalelesz)"
+  },
+  "Tiszanánai Sportpálya": {
+    "name": "Tiszanánai Sportpálya",
+    "lat": 47.55401,
+    "lng": 20.52113,
+    "address": "Tiszanánai temető"
+  },
+  "Túrkevei VSE tartalék pálya": {
+    "name": "Túrkevei VSE tartalék pálya",
+    "lat": 47.1,
+    "lng": 20.75,
+    "address": "Túrkevei VSE tartalék pálya (Túrkeve)"
+  },
+  "Kunmadaras KSE": {
+    "name": "Kunmadaras KSE",
+    "lat": 47.4333,
+    "lng": 20.8,
+    "address": "Kunmadaras KSE (Kunmadaras)"
+  },
+  "Tiszaföldvári VSE Sporttelep": {
+    "name": "Tiszaföldvári VSE Sporttelep",
+    "lat": 46.9833,
+    "lng": 20.25,
+    "address": "Tiszaföldvári VSE Sporttelep (Tiszaföldvár)"
+  },
+  "Tiszafüredi Nagy Műfüves Pálya": {
+    "name": "Tiszafüredi Nagy Műfüves Pálya",
+    "lat": 47.6167,
+    "lng": 20.7667,
+    "address": "Tiszafüredi Nagy Műfüves Pálya (Tiszafüred)"
+  },
+  "Karcagi SE tartalékpálya": {
+    "name": "Karcagi SE tartalékpálya",
+    "lat": 47.3167,
+    "lng": 20.9333,
+    "address": "Karcagi SE tartalékpálya (Karcag)"
+  },
+  "Jászberény Hűtőgépgyári pálya": {
+    "name": "Jászberény Hűtőgépgyári pálya",
+    "lat": 47.5,
+    "lng": 19.9167,
+    "address": "Jászberény Hűtőgépgyári pálya (Jászberény)"
+  },
+  "Karcagi Műfű": {
+    "name": "Karcagi Műfű",
+    "lat": 47.3167,
+    "lng": 20.9333,
+    "address": "Karcagi Műfű (Karcag)"
+  },
+  "Jászberényi Fc": {
+    "name": "Jászberényi Fc",
+    "lat": 47.5,
+    "lng": 19.9167,
+    "address": "Jászberényi Fc (Jászberény)"
+  },
+  "Jászberény Jász Sportsziget Csökkentett Műfű": {
+    "name": "Jászberény Jász Sportsziget Csökkentett Műfű",
+    "lat": 47.5,
+    "lng": 19.9167,
+    "address": "Jászberény Jász Sportsziget Csökkentett Műfű (Jászberény)"
+  },
+  "Balatonföldvári Sportegyesület": {
+    "name": "Balatonföldvári Sportegyesület",
+    "lat": 46.8525,
+    "lng": 17.8812,
+    "address": "Balatonföldvári Sportegyesület (Balatonföldvár)"
+  },
+  "Kadarkút Községi SK Sporttelep": {
+    "name": "Kadarkút Községi SK Sporttelep",
+    "lat": 46.2362,
+    "lng": 17.6201,
+    "address": "Kadarkút Községi SK Sporttelep (Kadarkút)"
+  },
+  "Kaposfői Kiske": {
+    "name": "Kaposfői Kiske",
+    "lat": 46.3609,
+    "lng": 17.6621,
+    "address": "Kaposfői Kiske (Kaposfő)"
+  },
+  "Pap Sportpálya": {
+    "name": "Pap Sportpálya",
+    "lat": 48.2163,
+    "lng": 22.1451,
+    "address": "Pap Sportpálya (Pap)"
+  },
+  "Záhony Sportpálya": {
+    "name": "Záhony Sportpálya",
+    "lat": 48.4091,
+    "lng": 22.1761,
+    "address": "Záhony Sportpálya (Záhony)"
+  },
+  "Győrtelek Sportpálya": {
+    "name": "Győrtelek Sportpálya",
+    "lat": 47.9367,
+    "lng": 22.4326,
+    "address": "Győrtelek Sportpálya (Győrtelek)"
+  },
+  "Kocsord Községi Sportpálya": {
+    "name": "Kocsord Községi Sportpálya",
+    "lat": 47.9391,
+    "lng": 22.3833,
+    "address": "Kocsord Községi Sportpálya (Kocsord)"
+  },
+  "Baktalórántháza Tűzoltó Pálya": {
+    "name": "Baktalórántháza Tűzoltó Pálya",
+    "lat": 48.0,
+    "lng": 22.0833,
+    "address": "Baktalórántháza Tűzoltó Pálya (Baktalórántháza)"
+  },
+  "Nyíregyháza FILO Sportpálya": {
+    "name": "Nyíregyháza FILO Sportpálya",
+    "lat": 47.9554,
+    "lng": 21.7167,
+    "address": "Nyíregyháza FILO Sportpálya (Nyíregyháza)"
+  },
+  "Újfehértói Sportklub sporttelep": {
+    "name": "Újfehértói Sportklub sporttelep",
+    "lat": 47.8,
+    "lng": 21.6833,
+    "address": "Újfehértói Sportklub sporttelep (Újfehértó)"
+  },
+  "Nagyszekeres sportpálya": {
+    "name": "Nagyszekeres sportpálya",
+    "lat": 47.9641,
+    "lng": 22.6079,
+    "address": "Nagyszekeres sportpálya (Nagyszekeres)"
+  },
+  "Kölcse Sportpálya": {
+    "name": "Kölcse Sportpálya",
+    "lat": 48.0509,
+    "lng": 22.7271,
+    "address": "Kölcse Sportpálya (Kölcse)"
+  },
+  "Kisar Községi Sportpálya": {
+    "name": "Kisar Községi Sportpálya",
+    "lat": 48.0563,
+    "lng": 22.5154,
+    "address": "Kisar Községi Sportpálya (Kisar)"
+  },
+  "Lövőpetri Sportpálya": {
+    "name": "Lövőpetri Sportpálya",
+    "lat": 48.18097,
+    "lng": 22.19827,
+    "address": "Lövőpetri"
+  },
+  "Ibrány Sportpálya": {
+    "name": "Ibrány Sportpálya",
+    "lat": 48.1233,
+    "lng": 21.7095,
+    "address": "Ibrány Sportpálya (Ibrány)"
+  },
+  "Ibrány Sporttelep": {
+    "name": "Ibrány Sporttelep",
+    "lat": 48.1233,
+    "lng": 21.7095,
+    "address": "Ibrány Sporttelep (Ibrány)"
+  },
+  "Márton József Sporttelep": {
+    "name": "Márton József Sporttelep",
+    "lat": 47.41498,
+    "lng": 19.01598,
+    "address": "Budatétény SE Porony József Sporttelep"
+  },
+  "Majosi Sportegyesület": {
+    "name": "Majosi Sportegyesület",
+    "lat": 46.38072,
+    "lng": 18.71966,
+    "address": "Kajak-Kenu sportegyesület"
+  },
+  "Simontornya TC 22 Sporttelepe": {
+    "name": "Simontornya TC 22 Sporttelepe",
+    "lat": 46.7546,
+    "lng": 18.5549,
+    "address": "Simontornya TC 22 Sporttelepe (Simontornya)"
+  },
+  "Dunaföldvár FC Sporttelep": {
+    "name": "Dunaföldvár FC Sporttelep",
+    "lat": 46.8071,
+    "lng": 18.9276,
+    "address": "Dunaföldvár FC Sporttelep (Dunaföldvár)"
+  },
+  "Celldömölki VSE Sporttelep 2.": {
+    "name": "Celldömölki VSE Sporttelep 2.",
+    "lat": 47.2571,
+    "lng": 17.1503,
+    "address": "Celldömölki VSE Sporttelep 2. (Celldömölk)"
+  },
+  "Kék Sünik ULC Sportpálya": {
+    "name": "Kék Sünik ULC Sportpálya",
+    "lat": 48.1167,
+    "lng": 21.8833,
+    "address": "Kék Sünik ULC Sportpálya (Kék)"
+  },
+  "Városligeti Pálya": {
+    "name": "Városligeti Pálya",
+    "lat": 47.51727,
+    "lng": 19.07858,
+    "address": "Városligeti-tó"
+  },
+  "VLS Sportcentrum": {
+    "name": "VLS Sportcentrum",
+    "lat": 46.8877,
+    "lng": 17.41947,
+    "address": "Bauxit Sportcentrum"
+  },
+  "Pét MTE Sportelep füvespálya": {
+    "name": "Pét MTE Sportelep füvespálya",
+    "lat": 47.03739,
+    "lng": 18.01212,
+    "address": "Lutra Állatorvosi Rendelő és Állatpatika"
+  },
+  "Bagodi Sportpálya": {
+    "name": "Bagodi Sportpálya",
+    "lat": 46.8767,
+    "lng": 16.7482,
+    "address": "Bagodi Sportpálya (Bagod)"
+  },
+  "ZTE Edzőpályák": {
+    "name": "ZTE Edzőpályák",
+    "lat": 46.84871,
+    "lng": 16.84853,
+    "address": "ZTE Aréna"
+  },
+  "Tungsram Szabadidő Központ Sportpálya": {
+    "name": "Tungsram Szabadidő Központ Sportpálya",
+    "lat": 46.9512,
+    "lng": 17.87799,
+    "address": "Balaton Szabadidő és Konferencia Központ sportpálya"
+  },
+  "Pacsa Sportpálya": {
+    "name": "Pacsa Sportpálya",
+    "lat": 46.7198,
+    "lng": 17.014,
+    "address": "Pacsa Sportpálya (Pacsa)"
+  },
+  "Rezi Sportpálya": {
+    "name": "Rezi Sportpálya",
+    "lat": 46.8418,
+    "lng": 17.2196,
+    "address": "Rezi"
+  },
+  "Vonyarcvashegyi Sportpálya": {
+    "name": "Vonyarcvashegyi Sportpálya",
+    "lat": 46.7574,
+    "lng": 17.3117,
+    "address": "Vonyarcvashegyi Sportpálya (Vonyarcvashegy)"
+  },
+  "Türjei Sportpálya": {
+    "name": "Türjei Sportpálya",
+    "lat": 46.9837,
+    "lng": 17.1074,
+    "address": "Türjei Sportpálya (Türje)"
   }
 }

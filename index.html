@@ -55,11 +55,31 @@
         <input type="date" id="date-to">
       </div>
 
+      <div class="filter-group date-presets-group">
+        <button type="button" class="preset-btn" data-preset="today" title="Mai mérkőzések">Ma</button>
+        <button type="button" class="preset-btn" data-preset="weekend" title="Hétvégi mérkőzések">Hétvége</button>
+        <button type="button" class="preset-btn" data-preset="week" title="Következő 7 nap">7 nap</button>
+        <button type="button" class="preset-btn" data-preset="all" title="Teljes szezon">Összes</button>
+      </div>
+
+      <div class="filter-group">
+        <label for="time-select">Kezdés:</label>
+        <select id="time-select">
+          <option value="ALL">Egész nap</option>
+          <option value="morning">Délelőtt (&lt; 12:00)</option>
+          <option value="afternoon">Délután (12:00 - 17:00)</option>
+          <option value="evening">Este (&gt; 17:00)</option>
+        </select>
+      </div>
+
       <div class="action-group">
         <button id="reset-filters-btn" title="Szűrők visszaállítása">Visszaállítás</button>
         <div class="match-badge">
           <span id="match-count">0</span> meccs
         </div>
+        <a href="https://buymeacoffee.com/bdbotond" target="_blank" rel="noopener noreferrer" class="bmac-badge" title="Buy Me a Coffee">
+          <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee">
+        </a>
       </div>
     </header>
 

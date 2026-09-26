@@ -1,9 +1,11 @@
 # Magyar Foci Meccstérkép 
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/bdbotond)
+
 [Kipróbálható Itt](https://bdbotond.github.io/meccs_terkep/)
 
 
-Interaktív térkép az összes magyar felnőtt labdarúgó-mérkőzés megjelenítésére (NB I, NB II, NB III, Megye/Vármegye I-IV) pontos helyszínnel, kezdési időponttal és csapatokkal.
+Interaktív térkép az összes labdarúgó-mérkőzés megjelenítésére (NB I, NB II, NB III, Megye/Vármegye I-IV, stb) pontos helyszínnel, kezdési időponttal és csapatokkal.
 
 Adatforrás: [MLSZ Adatbank](https://adatbank.mlsz.hu)
 
@@ -13,6 +15,10 @@ Adatforrás: [MLSZ Adatbank](https://adatbank.mlsz.hu)
 
 - [ ] Naptár import készítése
 - [ ] Más magyar sportokat is hozzáadni
+
+# Ismert Bugok
+- [ ] Térképen rossz lokációk
+
 
 ## Mit tud
 

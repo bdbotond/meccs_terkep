@@ -14,19 +14,35 @@
     leagueSelect: document.getElementById('league-select'),
     dateFrom: document.getElementById('date-from'),
     dateTo: document.getElementById('date-to'),
+    presetBtns: document.querySelectorAll('.preset-btn'),
+    timeSelect: document.getElementById('time-select'),
     resetBtn: document.getElementById('reset-filters-btn'),
     matchCount: document.getElementById('match-count'),
     loadingOverlay: document.getElementById('loading-overlay')
   };
 
-  // Football pin icon
-  const pitchIcon = L.divIcon({
-    className: 'custom-pitch-pin',
-    html: '<span class="pitch-pin-icon">⚽</span>',
-    iconSize: [26, 26],
-    iconAnchor: [13, 13],
-    popupAnchor: [0, -14]
-  });
+  const TIER_CLASS_MAP = {
+    'NB I': 'nbi',
+    'NB II': 'nbii',
+    'NB III': 'nbiii',
+    'Megye I': 'megyei',
+    'Megye II': 'megyeii',
+    'Megye III': 'megyeiii',
+    'Megye IV': 'megyeiv'
+  };
+
+  const TIER_PRIORITY = ['NB I', 'NB II', 'NB III', 'Megye I', 'Megye II', 'Megye III', 'Megye IV'];
+
+  function createPitchIcon(level) {
+    const tierClass = TIER_CLASS_MAP[level] || 'megyei';
+    return L.divIcon({
+      className: `custom-pitch-pin pin-${tierClass}`,
+      html: '<span class="pitch-pin-icon">⚽</span>',
+      iconSize: [26, 26],
+      iconAnchor: [13, 13],
+      popupAnchor: [0, -14]
+    });
+  }
 
   function debounce(fn, delay) {
     let timer;
@@ -34,6 +50,13 @@
       clearTimeout(timer);
       timer = setTimeout(() => fn.apply(this, args), delay);
     };
+  }
+
+  function toYMD(d) {
+    const year = d.getFullYear();
+    const month = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
   }
 
   function initMap() {
@@ -148,6 +171,54 @@
     dom.leagueSelect.value = 'ALL';
   }
 
+  function setDatePreset(preset) {
+    if (!matchesData || matchesData.length === 0) return;
+    const now = new Date();
+    const todayStr = toYMD(now);
+
+    if (preset === 'today') {
+      dom.dateFrom.value = todayStr;
+      dom.dateTo.value = todayStr;
+    } else if (preset === 'weekend') {
+      const day = now.getDay(); // 0: Sunday, 6: Saturday
+      const sat = new Date(now);
+      const sun = new Date(now);
+      if (day === 0) {
+        // Today is Sunday: cover this full weekend (Saturday to Sunday)
+        sat.setDate(now.getDate() - 1);
+        dom.dateFrom.value = toYMD(sat);
+        dom.dateTo.value = todayStr;
+      } else {
+        const daysToSat = 6 - day;
+        sat.setDate(now.getDate() + daysToSat);
+        sun.setDate(now.getDate() + daysToSat + 1);
+        dom.dateFrom.value = toYMD(sat);
+        dom.dateTo.value = toYMD(sun);
+      }
+    } else if (preset === 'week') {
+      const nextWeek = new Date(now);
+      nextWeek.setDate(now.getDate() + 7);
+      dom.dateFrom.value = todayStr;
+      dom.dateTo.value = toYMD(nextWeek);
+    } else if (preset === 'all') {
+      dom.dateFrom.value = dom.dateFrom.min || '';
+      dom.dateTo.value = dom.dateTo.max || '';
+    }
+
+    updatePresetButtons(preset);
+    applyFilters();
+  }
+
+  function updatePresetButtons(activePreset) {
+    dom.presetBtns.forEach(btn => {
+      if (activePreset && btn.dataset.preset === activePreset) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+  }
+
   function setupInitialDates() {
     if (!matchesData || matchesData.length === 0) return;
 
@@ -163,16 +234,28 @@
     dom.dateTo.min = minDate;
     dom.dateTo.max = maxDate;
 
-    // Default: full current season so all scraped matches are visible
-    dom.dateFrom.value = minDate;
-    dom.dateTo.value = maxDate;
+    const todayStr = toYMD(new Date());
+    if (todayStr >= minDate && todayStr <= maxDate) {
+      // Default to next 7 days so map opens fast with immediate upcoming matches
+      setDatePreset('week');
+    } else {
+      setDatePreset('all');
+    }
+  }
+
+  function onDateInput(e) {
+    if (dom.dateFrom.value && dom.dateTo.value && dom.dateFrom.value > dom.dateTo.value) {
+      if (e.target === dom.dateFrom) {
+        dom.dateTo.value = dom.dateFrom.value;
+      } else {
+        dom.dateFrom.value = dom.dateTo.value;
+      }
+    }
+    updatePresetButtons(null);
+    applyFilters();
   }
 
   function applyFilters() {
-    // Validate dateFrom <= dateTo
-    if (dom.dateFrom.value && dom.dateTo.value && dom.dateFrom.value > dom.dateTo.value) {
-      dom.dateTo.value = dom.dateFrom.value;
-    }
     renderMarkers();
   }
 
@@ -184,6 +267,7 @@
     const searchQuery = dom.globalSearch.value.trim().toLowerCase();
     const fromDate = dom.dateFrom.value;
     const toDate = dom.dateTo.value;
+    const timeFilter = dom.timeSelect ? dom.timeSelect.value : 'ALL';
 
     let visibleMatchCount = 0;
     // Group by unique coordinate key to prevent overlapping markers from occluding venues
@@ -204,7 +288,7 @@
         return;
       }
 
-      // 3. Date range filter: undated matches are excluded when explicit date range is active
+      // 3. Date range filter
       if (fromDate) {
         if (!match.d || match.d < fromDate) return;
       }
@@ -212,7 +296,18 @@
         if (!match.d || match.d > toDate) return;
       }
 
-      // 4. Global search filter (teams, arena, town, league)
+      // 4. Kick-off time filter
+      if (timeFilter !== 'ALL') {
+        const t = match.t;
+        if (!t) return;
+        const hr = parseInt(t.split(':')[0], 10);
+        if (isNaN(hr)) return;
+        if (timeFilter === 'morning' && hr >= 12) return;
+        if (timeFilter === 'afternoon' && (hr < 12 || hr >= 17)) return;
+        if (timeFilter === 'evening' && hr < 17) return;
+      }
+
+      // 5. Global search filter (teams, arena, town, league)
       if (searchQuery) {
         const venueInfo = venuesData[match.vid] || {};
         const haystack = (
@@ -256,9 +351,22 @@
 
     dom.matchCount.textContent = visibleMatchCount;
 
-    // Plot grouped markers
+    // Plot grouped markers with tier-specific pin colors
     locMap.forEach(locGroup => {
-      const marker = L.marker([locGroup.lat, locGroup.lng], { icon: pitchIcon });
+      let pinTier = selectedLevel !== 'ALL' ? selectedLevel : 'Megye IV';
+      if (selectedLevel === 'ALL') {
+        for (const tier of TIER_PRIORITY) {
+          if (locGroup.matches.some(m => {
+            const l = leaguesData[m.lid];
+            return l && l.level === tier;
+          })) {
+            pinTier = tier;
+            break;
+          }
+        }
+      }
+
+      const marker = L.marker([locGroup.lat, locGroup.lng], { icon: createPitchIcon(pinTier) });
       const popupHtml = buildPopupContent(locGroup);
       marker.bindPopup(popupHtml, { maxWidth: 340 });
       markersLayer.addLayer(marker);
@@ -284,6 +392,7 @@
       const league = leaguesData[m.lid];
       const leagueName = league ? league.name : 'Bajnokság';
       const leagueLevel = league && league.level ? league.level : '';
+      const tierClass = leagueLevel ? (TIER_CLASS_MAP[leagueLevel] || 'megyei') : '';
       const scoreHtml = m.s
         ? `<span class="match-score">${escapeHtml(m.s)}</span>`
         : `<span class="match-vs">vs</span>`;
@@ -291,7 +400,7 @@
       return `
         <div class="match-item">
           <div class="match-league-row">
-            ${leagueLevel ? `<span class="match-level-badge">${escapeHtml(leagueLevel)}</span>` : ''}
+            ${leagueLevel ? `<span class="match-level-badge badge-${tierClass}">${escapeHtml(leagueLevel)}</span>` : ''}
             <span class="match-league-tag">${escapeHtml(leagueName)}</span>
             ${isMultiVenue && m.vid ? `<span class="match-arena-tag">${escapeHtml(m.vid)}</span>` : ''}
           </div>
@@ -339,6 +448,7 @@
   function resetFilters() {
     dom.globalSearch.value = '';
     dom.levelSelect.value = 'ALL';
+    if (dom.timeSelect) dom.timeSelect.value = 'ALL';
     updateLeagueDropdown();
     setupInitialDates();
     renderMarkers();
@@ -354,8 +464,22 @@
 
     dom.globalSearch.addEventListener('input', debouncedFilter);
     dom.leagueSelect.addEventListener('change', applyFilters);
-    dom.dateFrom.addEventListener('change', applyFilters);
-    dom.dateTo.addEventListener('change', applyFilters);
+
+    dom.presetBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        setDatePreset(btn.dataset.preset);
+      });
+    });
+
+    if (dom.timeSelect) {
+      dom.timeSelect.addEventListener('change', applyFilters);
+    }
+
+    dom.dateFrom.addEventListener('input', onDateInput);
+    dom.dateFrom.addEventListener('change', onDateInput);
+    dom.dateTo.addEventListener('input', onDateInput);
+    dom.dateTo.addEventListener('change', onDateInput);
+
     dom.resetBtn.addEventListener('click', resetFilters);
   }
 

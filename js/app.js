@@ -22,17 +22,26 @@
   // Football pin icon
   const pitchIcon = L.divIcon({
     className: 'custom-pitch-pin',
-    html: '⚽',
+    html: '<span class="pitch-pin-icon">⚽</span>',
     iconSize: [26, 26],
     iconAnchor: [13, 13],
     popupAnchor: [0, -14]
   });
+
+  function debounce(fn, delay) {
+    let timer;
+    return function (...args) {
+      clearTimeout(timer);
+      timer = setTimeout(() => fn.apply(this, args), delay);
+    };
+  }
 
   function initMap() {
     // Hungary center
     map = L.map('map', {
       center: [47.1625, 19.5033],
       zoom: 7.5,
+      zoomSnap: 0.5,
       minZoom: 6,
       maxZoom: 18
     });
@@ -101,7 +110,7 @@
         matchesData = Array.isArray(matchesRes) ? matchesRes : [];
       }
 
-      populateLeagues();
+      updateLeagueDropdown();
       setupInitialDates();
       renderMarkers();
     } catch (err) {
@@ -118,25 +127,10 @@
     }
   }
 
-  function populateLeagues() {
-    updateLeagueDropdown();
-
-    // Event: level selection change
-    dom.levelSelect.addEventListener('change', () => {
-      updateLeagueDropdown();
-      applyFilters();
-    });
-
-    // Event: live search typing
-    dom.globalSearch.addEventListener('input', () => {
-      applyFilters();
-    });
-  }
-
   function updateLeagueDropdown() {
     const selectedLevel = dom.levelSelect.value;
     const leaguesArray = Object.values(leaguesData);
-    leaguesArray.sort((a, b) => a.name.localeCompare(b.name, 'hu'));
+    leaguesArray.sort((a, b) => (a.name || '').localeCompare(b.name || '', 'hu'));
 
     const filtered = selectedLevel === 'ALL'
       ? leaguesArray
@@ -175,6 +169,10 @@
   }
 
   function applyFilters() {
+    // Validate dateFrom <= dateTo
+    if (dom.dateFrom.value && dom.dateTo.value && dom.dateFrom.value > dom.dateTo.value) {
+      dom.dateTo.value = dom.dateFrom.value;
+    }
     renderMarkers();
   }
 
@@ -188,7 +186,8 @@
     const toDate = dom.dateTo.value;
 
     let visibleMatchCount = 0;
-    const venueMatchesMap = new Map();
+    // Group by unique coordinate key to prevent overlapping markers from occluding venues
+    const locMap = new Map();
 
     matchesData.forEach(match => {
       const league = leaguesData[match.lid];
@@ -205,12 +204,12 @@
         return;
       }
 
-      // 3. Date range filter
-      if (fromDate && match.d && match.d < fromDate) {
-        return;
+      // 3. Date range filter: undated matches are excluded when explicit date range is active
+      if (fromDate) {
+        if (!match.d || match.d < fromDate) return;
       }
-      if (toDate && match.d && match.d > toDate) {
-        return;
+      if (toDate) {
+        if (!match.d || match.d > toDate) return;
       }
 
       // 4. Global search filter (teams, arena, town, league)
@@ -240,33 +239,46 @@
 
       visibleMatchCount++;
 
-      if (!venueMatchesMap.has(venueKey)) {
-        venueMatchesMap.set(venueKey, {
-          venue: venueInfo,
+      // Coordinate location key (rounded to 5 decimals ~1m)
+      const locKey = `${venueInfo.lat.toFixed(5)},${venueInfo.lng.toFixed(5)}`;
+      if (!locMap.has(locKey)) {
+        locMap.set(locKey, {
+          lat: venueInfo.lat,
+          lng: venueInfo.lng,
+          venues: new Map([[venueKey, venueInfo]]),
           matches: []
         });
+      } else {
+        locMap.get(locKey).venues.set(venueKey, venueInfo);
       }
-      venueMatchesMap.get(venueKey).matches.push(match);
+      locMap.get(locKey).matches.push(match);
     });
 
     dom.matchCount.textContent = visibleMatchCount;
 
-    // Plot markers
-    venueMatchesMap.forEach(({ venue, matches }) => {
-      const marker = L.marker([venue.lat, venue.lng], { icon: pitchIcon });
-      const popupHtml = buildPopupContent(venue, matches);
-      marker.bindPopup(popupHtml, { maxWidth: 330 });
+    // Plot grouped markers
+    locMap.forEach(locGroup => {
+      const marker = L.marker([locGroup.lat, locGroup.lng], { icon: pitchIcon });
+      const popupHtml = buildPopupContent(locGroup);
+      marker.bindPopup(popupHtml, { maxWidth: 340 });
       markersLayer.addLayer(marker);
     });
   }
 
-  function buildPopupContent(venue, matches) {
+  function buildPopupContent(locGroup) {
+    const venuesList = Array.from(locGroup.venues.values());
+    const matches = locGroup.matches;
+
     // Sort matches chronologically
     matches.sort((a, b) => {
       const da = (a.d || '') + (a.t || '');
       const db = (b.d || '') + (b.t || '');
       return da.localeCompare(db);
     });
+
+    const isMultiVenue = venuesList.length > 1;
+    const venueTitle = venuesList.map(v => escapeHtml(v.name)).join(' / ');
+    const venueAddress = venuesList[0].address ? escapeHtml(venuesList[0].address) : '';
 
     const matchesListHtml = matches.map(m => {
       const league = leaguesData[m.lid];
@@ -281,10 +293,11 @@
           <div class="match-league-row">
             ${leagueLevel ? `<span class="match-level-badge">${escapeHtml(leagueLevel)}</span>` : ''}
             <span class="match-league-tag">${escapeHtml(leagueName)}</span>
+            ${isMultiVenue && m.vid ? `<span class="match-arena-tag">${escapeHtml(m.vid)}</span>` : ''}
           </div>
           <div class="match-time-row">
-            <span>📅 ${m.d || 'Időpont nélkül'}</span>
-            <span>⏰ ${m.t ? m.t : 'TBD'}</span>
+            <span>📅 ${escapeHtml(m.d || 'Időpont nélkül')}</span>
+            <span>⏰ ${escapeHtml(m.t ? m.t : 'TBD')}</span>
           </div>
           <div class="match-teams-row">
             <span class="match-team home">${escapeHtml(m.h)}</span>
@@ -295,13 +308,13 @@
       `;
     }).join('');
 
-    const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${venue.lat},${venue.lng}`;
+    const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${locGroup.lat},${locGroup.lng}`;
 
     return `
       <div class="popup-card">
         <div class="popup-header">
-          <div class="popup-venue-name">${escapeHtml(venue.name)}</div>
-          <div class="popup-venue-address">${escapeHtml(venue.address || '')}</div>
+          <div class="popup-venue-name">${venueTitle}</div>
+          ${venueAddress ? `<div class="popup-venue-address">${venueAddress}</div>` : ''}
         </div>
         <div class="popup-matches-list">
           ${matchesListHtml}
@@ -314,8 +327,8 @@
   }
 
   function escapeHtml(str) {
-    if (!str) return '';
-    return str
+    if (str === null || str === undefined) return '';
+    return String(str)
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
@@ -331,13 +344,23 @@
     renderMarkers();
   }
 
-  // Event Listeners
-  dom.leagueSelect.addEventListener('change', applyFilters);
-  dom.dateFrom.addEventListener('change', applyFilters);
-  dom.dateTo.addEventListener('change', applyFilters);
-  dom.resetBtn.addEventListener('click', resetFilters);
+  function initEvents() {
+    const debouncedFilter = debounce(applyFilters, 200);
+
+    dom.levelSelect.addEventListener('change', () => {
+      updateLeagueDropdown();
+      applyFilters();
+    });
+
+    dom.globalSearch.addEventListener('input', debouncedFilter);
+    dom.leagueSelect.addEventListener('change', applyFilters);
+    dom.dateFrom.addEventListener('change', applyFilters);
+    dom.dateTo.addEventListener('change', applyFilters);
+    dom.resetBtn.addEventListener('click', resetFilters);
+  }
 
   // Initialize
   initMap();
+  initEvents();
   loadData();
 })();

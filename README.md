@@ -12,14 +12,14 @@ Adatforrás: [MLSZ Adatbank](https://adatbank.mlsz.hu)
 ## TODO
 
 - [ ] Naptár import készítése
-- [ ] Más magyar spotokat is hozzáadni
+- [ ] Más magyar sportokat is hozzáadni
 
 ## Mit tud
 
 - **Interaktív térkép**: Magyarország térképén megjelenő meccshelyszínek és stadionok (előre letöltött offline vektoros térkép + opcionális Esri utcatérkép).
 - **Bajnokság szerinti szűrés**: Külön választó az osztályokhoz: NB I, NB II, NB III, Megye I, Megye II, Megye III, Megye IV.
 - **Csapat keresés**: Keresés csapatok és ligák szerint.
-- **Dátum intervallum szűrő**:  `Kezdő dátum` és `Utolsó dátum`-mal idopontra szürés
+- **Dátum intervallum szűrő**:  `Kezdő dátum` és `Utolsó dátum`-mal időpontra szűrés
 - **Részletes meccsleírás**:
   - Osztály és bajnokság
   - Dátum és kezdési időpont

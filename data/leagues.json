@@ -712,5 +712,11 @@
     "name": "IV. osztályú felnőttbajnokság, Nyugati csoport",
     "level": "Megye IV",
     "federation": "Pest"
+  },
+  "34777": {
+    "id": "34777",
+    "name": "Alba Liga I. osztály",
+    "level": "Megye I",
+    "federation": "Fejér"
   }
 }

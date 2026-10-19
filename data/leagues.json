@@ -79,25 +79,25 @@
   },
   "33837": {
     "id": "33837",
-    "name": "Baranya vármegyei I. osztályú nagypályás férfi felnőtt",
+    "name": "AutóCity Volkswagen Baranya vármegyei I. osztályú nagypályás férfi fel",
     "level": "Megye I",
     "federation": "Baranya"
   },
   "33838": {
     "id": "33838",
-    "name": "Baranya vármegyei II. osztályú nagypályás férfi felnőtt",
+    "name": "AutóCity Volkswagen Baranya vármegyei II. osztályú nagypályás férfi fe",
     "level": "Megye II",
     "federation": "Baranya"
   },
   "34398": {
     "id": "34398",
-    "name": "Baranya vármegyei III.o. nagypályás férfi felnőtt A csoport",
+    "name": "AutóCity Volkswagen Baranya vármegyei III.o. nagypályás férfi felnőtt",
     "level": "Megye III",
     "federation": "Baranya"
   },
   "34399": {
     "id": "34399",
-    "name": "Baranya vármegyei III.o. nagypályás férfi felnőtt B csoport",
+    "name": "AutóCity Volkswagen Baranya vármegyei III.o. nagypályás férfi felnőtt",
     "level": "Megye III",
     "federation": "Baranya"
   },
@@ -718,5 +718,11 @@
     "name": "Alba Liga I. osztály",
     "level": "Megye I",
     "federation": "Fejér"
+  },
+  "34859": {
+    "id": "34859",
+    "name": "Zala Vármegyei III. osztály Észak-Kelet A csoport",
+    "level": "Megye III",
+    "federation": "Zala"
   }
 }

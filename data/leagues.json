@@ -724,5 +724,29 @@
     "name": "Zala Vármegyei III. osztály Észak-Kelet A csoport",
     "level": "Megye III",
     "federation": "Zala"
+  },
+  "34896": {
+    "id": "34896",
+    "name": "Vas Vármegyei Műfüves Bajnokság",
+    "level": "Megye I",
+    "federation": "Vas"
+  },
+  "34860": {
+    "id": "34860",
+    "name": "Zala Vármegyei III. osztály Észak-Kelet B csoport",
+    "level": "Megye III",
+    "federation": "Zala"
+  },
+  "34861": {
+    "id": "34861",
+    "name": "Zala Vármegyei III. osztály Közép-Nyugat A csoport",
+    "level": "Megye III",
+    "federation": "Zala"
+  },
+  "34862": {
+    "id": "34862",
+    "name": "Zala Vármegyei III. osztály Közép-Nyugat B csoport",
+    "level": "Megye III",
+    "federation": "Zala"
   }
 }

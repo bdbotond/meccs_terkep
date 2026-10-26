@@ -8494,5 +8494,17 @@
     "lat": 47.7228,
     "lng": 18.6589,
     "address": "Tokodaltárói Bányász Atlétikai Club (Tokod)"
+  },
+  "Sajóvölgye Focisuli - Elek Ákos Utánpótlás Központ - Centerpálya": {
+    "name": "Sajóvölgye Focisuli - Elek Ákos Utánpótlás Központ - Centerpálya",
+    "lat": 48.3,
+    "lng": 20.4333,
+    "address": "Sajóvölgye Focisuli - Elek Ákos Utánpótlás Központ - Centerpálya (Putnok)"
+  },
+  "Ócsai sportpálya": {
+    "name": "Ócsai sportpálya",
+    "lat": 47.2999,
+    "lng": 19.2306,
+    "address": "Ócsai sportpálya (Ócsa)"
   }
 }

@@ -8524,5 +8524,47 @@
     "lat": 48.29843,
     "lng": 20.41117,
     "address": "Sajóvölgye focisuli - Elek Ákos központ"
+  },
+  "Bajai Petőfi-szigeti Sporttelep": {
+    "name": "Bajai Petőfi-szigeti Sporttelep",
+    "lat": 46.17296,
+    "lng": 18.94434,
+    "address": "Petőfi-szigeti játszótér és park"
+  },
+  "Fülöpháza Sporttelep": {
+    "name": "Fülöpháza Sporttelep",
+    "lat": 46.8833,
+    "lng": 19.4167,
+    "address": "Fülöpháza Sporttelep (Fülöpháza)"
+  },
+  "Vasas Sporttelep": {
+    "name": "Vasas Sporttelep",
+    "lat": 47.50618,
+    "lng": 19.09478,
+    "address": "Millenáris Sporttelep"
+  },
+  "Létavértesi Sportpálya": {
+    "name": "Létavértesi Sportpálya",
+    "lat": 47.3833,
+    "lng": 21.9,
+    "address": "Létavértesi Sportpálya (Létavértes)"
+  },
+  "Törökszentmiklósi FC nagy műfüves pálya": {
+    "name": "Törökszentmiklósi FC nagy műfüves pálya",
+    "lat": 47.1833,
+    "lng": 20.4167,
+    "address": "Törökszentmiklósi FC nagy műfüves pálya (Törökszentmiklós)"
+  },
+  "Monostori Tivadar Utánpótlás Nevelő Centrum Tokod / Dorog UP /": {
+    "name": "Monostori Tivadar Utánpótlás Nevelő Centrum Tokod / Dorog UP /",
+    "lat": 47.677,
+    "lng": 18.6793,
+    "address": "Monostori Tivadar Utánpótlás Nevelő Centrum Tokod / Dorog UP / (Sárisáp)"
+  },
+  "Magyarság Dunakeszi Városi Sporttelep": {
+    "name": "Magyarság Dunakeszi Városi Sporttelep",
+    "lat": 47.6433,
+    "lng": 19.13042,
+    "address": "Magyarság sétány"
   }
 }

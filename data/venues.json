@@ -8566,5 +8566,23 @@
     "lat": 47.6433,
     "lng": 19.13042,
     "address": "Magyarság sétány"
+  },
+  "Ináncsi Közösségi Sportegyesület": {
+    "name": "Ináncsi Közösségi Sportegyesület",
+    "lat": 48.2833,
+    "lng": 21.0667,
+    "address": "Ináncsi Közösségi Sportegyesület (Ináncs)"
+  },
+  "Szabó Gyula Sporttelep": {
+    "name": "Szabó Gyula Sporttelep",
+    "lat": 47.7416,
+    "lng": 19.9288,
+    "address": "Szabó Gyula Sporttelep (Gyöngyöshalász)"
+  },
+  "Örményes nagy műfüves pálya": {
+    "name": "Örményes nagy műfüves pálya",
+    "lat": 47.2,
+    "lng": 20.5833,
+    "address": "Örményes nagy műfüves pálya (Örményes)"
   }
 }
